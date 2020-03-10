@@ -1,0 +1,30 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "attachToBelow": true,
+  "categories": [
+    "Mod Bucket",
+	"Easter",
+	"EasterFest"
+	"station",
+    "egg painter"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.machine.EggPainter",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "descriptionImage": "mods/EasterFest/icons/EggPaint.png",
+  "dockDefinition": "mods.mb.EasterFest.lydocia.machine.EggPainter.dock",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 5,
+    "value": 1000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/eggpainting/EggPainter.qb"
+}

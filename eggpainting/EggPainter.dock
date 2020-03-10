@@ -1,0 +1,119 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.machine.EggPainter.dock",
+  "craftingKeyword": "Paint Egg",
+  "approximateSites": true,
+  "nameTagOffset": {
+    "x": 0.0,
+    "y": 0.6,
+    "z": 0.0
+  },
+  "resultSite": "results",
+  "effectSite": "results",
+  "sites": [
+    {
+      "allowStacks": true,
+      "siteName": "egg",
+      "location": {
+        "x": -0.8,
+        "y": 1.0675,
+        "z": 0.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "compact": true,
+      "craftSite": true
+    },
+    {
+      "allowStacks": true,
+      "siteName": "colour1",
+      "location": {
+        "x": -0.8,
+        "y": 1.0675,
+        "z": -0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "compact": true,
+      "craftSite": true
+    },
+    {
+      "allowStacks": true,
+      "siteName": "colour2",
+      "location": {
+        "x": -0.2,
+        "y": 1.0675,
+        "z": 0.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "compact": true,
+      "craftSite": true
+    },
+    {
+      "allowStacks": true,
+      "siteName": "colour3",
+      "location": {
+        "x": -0.2,
+        "y": 1.0675,
+        "z": 0.25
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "compact": true,
+      "craftSite": true
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "egg",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "egg"
+      ]
+    },
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "results",
+        "colour1",
+        "colour2",
+        "colour3"
+      ]
+    }
+  ]
+}

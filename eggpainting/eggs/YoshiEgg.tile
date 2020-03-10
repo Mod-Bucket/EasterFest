@@ -1,0 +1,18 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "decoration",
+	"easter",
+	"easterfest",
+	"mod bucket"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.egg.YoshiEgg",
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 400,
+    "value": 1000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/eggpainting/eggs/YoshiEgg.qb"
+}
