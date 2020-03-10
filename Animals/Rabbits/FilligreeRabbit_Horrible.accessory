@@ -1,0 +1,11 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+    "staxel.bodyType.Rabbit"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.horrible",
+  "kind": "Eyes",
+  "model": "mods/EasterFest/Animals/Rabbits/FilligreeRabbit_Horrible.qb",
+  "palettes": [],
+  "searchable": false
+}

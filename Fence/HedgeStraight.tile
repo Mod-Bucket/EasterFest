@@ -1,0 +1,641 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "attachmentDirections": [
+    "yn",
+    "xp",
+    "yp",
+    "xn"
+  ],
+  "autoTileInfo": [
+
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "tilesToLookFor": [
+            "staxel.tile.Sky"
+          ]
+        },
+        {
+          "direction": "left",
+          "tilesToLookFor": [
+            "staxel.tile.Sky"
+          ]
+        },
+        {
+          "direction": "front",
+          "tilesToLookFor": [
+            "staxel.tile.Sky"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "direction": "none",
+          "rotation": 2,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd"
+        }
+      ]
+    },
+	{
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFEnd"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+        }
+      ]
+    },
+		{
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFEnd"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd"
+        }
+      ]
+    },
+			{
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFEnd"
+          ]
+        }
+      ],
+      "results": [
+        {
+         "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+	{
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFEnd"
+          ]
+        }
+      ],
+      "results": [
+        {
+         "rotation": 2,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+	{
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFMiddle",
+            "EFMiddle2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFMiddle",
+            "EFMiddle2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "front",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFMiddle",
+            "EFMiddle2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 1,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFMiddle",
+            "EFMiddle2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+ //         "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFStraight"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+//          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFMiddle",
+            "EFMiddle2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "rotationToLookFor": 3,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 2,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 1,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+    	  "rotation": 2,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "left",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "back",
+         "rotationToLookFor": 2,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        },
+        {
+          "direction": "left",
+          "rotationToLookFor": 0,
+          "tileCategoriesToLookFor": [
+            "EFCorner"
+          ]
+        },
+      ],
+      "results": [
+        {
+          "direction": "none",
+          "rotation": 3,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        },
+        {
+          "direction": "left",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        },
+        {
+          "direction": "front",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        }
+      ],
+      "results": [
+        {
+          "direction": "none",
+          "rotation": 2,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection"
+        }
+      ]
+    },
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "right",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        },
+        {
+          "direction": "left",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        },
+        {
+          "direction": "front",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        },
+        {
+          "direction": "back",
+          "tileCategoriesToLookFor": [
+            "EFEnd",
+            "EFMiddle",
+            "EFMiddle2",
+            "EFCorner",
+            "EFStraight",
+            "EFTSection",
+            "EFCross",
+          ]
+        }
+      ],
+      "results": [
+        {
+          "direction": "none",
+          "rotation": 0,
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "fence",
+    "misc",
+    "plant",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "hedge",
+    "straight",
+    "green",
+    "EF",
+    "EFStraight",
+    "straight"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "placementDirections": [
+    "yn",
+    "xp",
+    "xn"
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 6,
+    "value": 10
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Fence/EasterHedgeStraight.qb"
+}

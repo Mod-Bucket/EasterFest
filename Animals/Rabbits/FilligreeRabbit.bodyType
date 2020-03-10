@@ -1,0 +1,38 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.bodyType.FilligreeRabbit",
+  "shoulderHeight": 0.5625,
+  "bodyHeight": 1.125,
+  "bodyRadius": 0.55,
+  "riserRadius": 0.5,
+  "riserHeight": 0.8,
+  "tposeEmote": "tpose",
+  "boneAnimations": "staxel.boneAnimation.Rabbit",
+  "ignoreAccessories" : true,
+  "centerBias": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "topHeadOffset": {
+    "x": 0.0,
+    "y": 0.7,
+    "z": -0.5
+  },
+  "layers": [
+    "EarRight",
+    "EarLeft",
+    "Head",
+    "TorsoFront",
+    "TorsoBack",
+    "FrontLegRight_Upper",
+    "FrontLegRight_Lower",
+    "FrontLegLeft_Upper",
+    "FrontLegLeft_Lower",
+    "BackLegRight_Upper",
+    "BackLegRight_Lower",
+    "BackLegLeft_Upper",
+    "BackLegLeft_Lower",
+    "TailHigh",
+    "TailLow"
+  ]
+}

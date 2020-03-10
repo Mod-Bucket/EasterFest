@@ -1,0 +1,15 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.species.FilligreeRabbit",
+  "icon": "",
+  "male": {
+    "icon": "",
+    "bodyType": "mods.mb.EasterFest.toketsupuurin.bodyType.FilligreeRabbit",
+    "model": ""
+  },
+  "female": {
+    "icon": "",
+    "bodyType": "mods.mb.EasterFest.toketsupuurin.bodyType.FilligreeRabbit",
+    "model": ""
+  },
+  "playable": false
+}

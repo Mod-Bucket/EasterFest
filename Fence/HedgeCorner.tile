@@ -1,0 +1,47 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "attachmentDirections": [
+    "yn",
+    "xp",
+    "yp",
+    "zp"
+  ],
+  "categories": [
+    "fence",
+    "misc",
+    "plant",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "hedge",
+    "straight",
+    "green",
+    "EF",
+    "EFCorner",
+    "corner"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "placementDirections": [
+    "yn",
+    "xn",
+    "zp"
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 6,
+    "value": 10
+  },
+  "randomizePosition": false,
+  "representativeTile": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+  "searchable": false,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Fence/EasterHedgeCorner.qb"
+}
