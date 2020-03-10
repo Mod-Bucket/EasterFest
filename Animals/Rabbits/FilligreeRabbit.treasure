@@ -1,0 +1,14 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.treasure.FilligreeRabbit",
+  "entries": [
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "staxel.tileObject.gatherable.event.AprilEgg"
+        }
+      ]
+    },
+  ]
+}

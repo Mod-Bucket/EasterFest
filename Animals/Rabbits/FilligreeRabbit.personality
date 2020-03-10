@@ -1,0 +1,22 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.personality.FilligreeRabbit",
+  "walk": [
+    "walk"
+  ],
+  "run": [
+    "run"
+  ],
+  "idle": [
+    "idle"
+  ],
+  "swim": [
+    "swim"
+  ],
+  "swimIdle": [
+    "swim"
+  ],
+  "bodyType": [],
+  "wave": [
+    "staxel.animation.Waving"
+  ]
+}

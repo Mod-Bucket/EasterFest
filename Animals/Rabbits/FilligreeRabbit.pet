@@ -1,0 +1,188 @@
+{
+  "__inherits": "staxel/farmAnimals/farmAnimal.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbit",
+  "randomPet": false,
+  "names": [
+    "Tinker",
+    "Lace",
+    "Mainspring",
+    "Lavender",
+    "Cogs",
+    "Mr. Wigglesworth",
+    "Lovelace",
+    "Ada",
+    "Belle",
+    "Celia",
+    "Ida",
+    "Clementine",
+    "Hugo",
+    "Edison",
+    "Necket",
+    "Ives",
+    "Briar",
+    "Vern",
+    "Wellington",
+    "Victoria",
+    "Bezel",
+    "Gasket",
+    "Guilloche",
+    "Horlogerie",
+    "Movement",
+    "Tourbillion",
+    "Winder",
+    "Quartz"
+  ],
+  "idleBehaviours": [
+    "staxel.petBehaviour.Idle"
+  ],
+  "spawnBehaviours": [
+    "staxel.farmAnimalBehaviour.Spawn"
+  ],
+  "milkingBehaviours": [],
+  "shearingBehaviours": [],
+  "playBehaviours": [
+    "staxel.petBehaviour.Fetch",
+    "staxel.petBehaviour.Command"
+  ],
+  "unhappyBehaviours": [
+    "staxel.farmAnimalBehaviour.Unhappy"
+  ],
+  "despawnBehaviourKind": [
+    "staxel.farmAnimalBehaviour.Catatonic"
+  ],
+  "paramAnimator": "staxel.paramAnimation.PetEat",
+  "eatPartcles": "staxel.particle.farmAnimals.PetEat",
+  "models": [
+    "mods/EasterFest/Animals/Rabbits/FilligreeRabbit.qb", 
+    "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollow.qb", 
+    "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollowLeg.qb" 
+  ],
+  "nudeModels": [],
+  "moods": {
+    "great": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.great"
+    ],
+    "good": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.happy"
+    ],
+    "normal": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.normal"
+    ],
+    "bad": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.bad"
+    ],
+    "horrible": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.horrible"
+    ],
+    "sleeping": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.sleeping"
+    ]
+  },
+  "crateTile": "",
+  "petHouse": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
+  "designs": [
+    {
+      "_version": 2,
+      "Species": "mods.mb.EasterFest.toketsupuurin.species.FilligreeRabbit",
+      "Gender": "female",
+      "Personality": "mods.mb.EasterFest.toketsupuurin.personality.FilligreeRabbit",
+      "LeftHanded": false,
+      "Shoes": {
+        "model": "",
+        "palette": ""
+      },
+      "Hair": {
+        "model": "",
+        "palette": ""
+      },
+      "Eyes": {
+        "model": "",
+        "palette": ""
+      },
+      "Shirt": {
+        "model": "",
+        "palette": ""
+      },
+      "Trousers": {
+        "model": "",
+        "palette": ""
+      },
+      "Model": {
+        "model": "",
+        "palette": ""
+      }
+    }
+  ],
+  "happy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Rabbit.happy"
+    ]
+  },
+  "unhappy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Rabbit.happy"
+    ]
+  },
+  "sitting": {
+    "emotes": [
+      "staxel.emote.pets.Sit"
+    ]
+  },
+  "pickUp": {
+    "emotes": [
+      "staxel.emote.pets.PickUp"
+    ]
+  },
+  "begging": {
+    "emotes": [
+      "staxel.emote.pets.Beg"
+    ]
+  },
+  "rolling": {
+    "emotes": [
+      "staxel.emote.pets.Rollover"
+    ]
+  },
+  "eating": {
+    "emotes": [
+      "staxel.emote.pets.Eat"
+    ]
+  },
+  "standingResistance": 0.3,
+  "airResistance": 0.1,
+  "movementVelocity": 5.0,
+  "jumpForce": 1800,
+  "wanderRadius": 10.0,
+  "maxFollowDistance": 20.0,
+  "animationParameters": {
+    "WalkingStrideCycleLength": 0.5,
+    "SwimmingStrideCycleLength": 0.5,
+    "MaxWalkingSpeed": 2.0,
+    "RunningStrideCycleLength": 2.0,
+    "MinRunningSpeed": 3.0,
+    "AnimationJitterFactor": 1.0
+  },
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "house",
+    "rabbit"
+  ],
+  "velocityRandomizationFactor": 0.05,
+  "turnSmoothingFactor": 0.1,
+  "pushedForce": 0.4,
+  "resistedPushedForce": 0.2,
+  "eatsFromHand": [],
+  "poops": [],
+  "eggs": [],
+  "milks": [],
+  "wools": [],
+  "feedKind": "petFood",
+  "grazes": false,
+  "eatsGrass": false,
+  "sleepy": true,
+  "treasure": "mods.mb.EasterFest.toketsupuurin.treasure.FilligreeRabbit"
+}
