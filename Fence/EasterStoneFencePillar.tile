@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "fence",
+    "misc",
+    "stone",
+    "brick",
+    "white",
+    "pillar"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.fence.EasterStoneFencePillar",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 18,
+    "value": 30
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "voxels": "mods/EasterFest/Fence/EasterStoneFencePillar.qb"
+}
