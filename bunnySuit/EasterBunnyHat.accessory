@@ -1,0 +1,43 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+  "paletteGroups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "hairReplacements": {
+    "default": "staxel.accessories.characters.accessories.hatHairs.Helmet_HairBase",
+    "species": [
+      {
+        "bodyTypes": [
+          "staxel.bodyType.caithFemale",
+          "staxel.bodyType.caithMale"
+        ],
+        "default": "staxel.accessories.characters.accessories.hatHairs.Caith_HatHairBase_NoEars"
+      }
+    ],
+    "specific": [
+      {
+        "code": "staxel.accessories.hairstyles.bald",
+        "type": "bald"
+      },
+    ]
+  },
+  "kind": "Hat",
+  "model": "mods/EasterFest/bunnySuit/EasterBunnyHatPaletted.qb",
+  "searchable": true,
+  "subcategory": "hat",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 150,
+    "value": 250
+  },
+  "categories": [
+    "bunny",
+    "easter",
+    "rabbit"
+  ]
+}

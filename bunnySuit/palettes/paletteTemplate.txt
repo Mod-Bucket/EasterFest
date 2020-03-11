@@ -1,0 +1,9 @@
+{
+  "code": "mods.ModBucket.Easter.palette.{0}",
+  "icon": "mods/EasterMod/BunnySuit/palettes/{0}Icon.png",
+  "palette": "mods/EasterMod/BunnySuit/palettes/{0}.png",
+  "groups": [
+    "mods.ModBucket.Easter.palette.group.BunnySuitColours"
+  ],
+  "priority": 10
+}

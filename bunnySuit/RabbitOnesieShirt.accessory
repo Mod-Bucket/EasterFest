@@ -1,0 +1,51 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/EasterFest/bunnySuit/RabbitOnesieShirtPaletted_Male.qb"
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/EasterFest/bunnySuit/RabbitOnesieShirtPaletted_Male.qb"
+    }
+  ],
+  "paletteGroups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "hidesLayers": [
+    {
+      "source": "basemodel",
+      "layers": [
+        "LowerArm_Left",
+        "UpperArm_Left",
+        "Shoulder_Left",
+        "Hand_Left",
+        "LowerArm_Right",
+        "UpperArm_Right",
+        "Shoulder_Right",
+        "Hand_Right",
+        "Torso"
+      ]
+    },
+  ],
+  "code": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+  "kind": "Shirt",
+  "model": "mods/EasterFest/bunnySuit/RabbitOnesieShirtPaletted_Female.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 150,
+    "value": 250
+  },
+  "searchable": true,
+  "starter": false,
+  "subcategory": "tshirt",
+  "categories": [
+    "bunny",
+    "easter",
+    "rabbit"
+  ],
+}

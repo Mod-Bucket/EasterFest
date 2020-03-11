@@ -1,0 +1,25 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+  "kind": "Hat",
+  "paletteGroups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "model": "mods/EasterFest/bunnySuit/BunnyEarsPaletted.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 130,
+    "value": 210
+  },
+  "searchable": true,
+  "subcategory": "hat",
+  "categories": [
+    "bunny",
+    "easter",
+    "rabbit"
+  ]
+}
