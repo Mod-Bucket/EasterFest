@@ -1,0 +1,25 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.festival.EasterFest",
+  "icon": "staxel/weathers/SunnyIcon.png",
+  "skyColors": "staxel.valueImage.SkyColors",
+  "skyTexture": "staxel/sky/skycolorstrip",
+  "skyBoxTexture": "staxel/sky/Skybox",
+  "sunVisible": true,
+  "airParticles": "",
+  "groundParticles": "",
+  "watersCrops": false,
+  "chance": 0.0,
+  "dayMusic": "staxel.music.festival.FeyMasquerade.Day",
+  "nightMusic": "staxel.music.festival.FeyMasquerade.Night",
+  "dayAmbienceSounds": [
+    "staxel.sounds.Birds"
+  ],
+  "nightAmbienceSounds": [
+    "staxel.sound.Cricket"
+  ],
+  "backgroundAmbienceSound": "staxel.sound.GentleWind",
+  "dialoguePools": [
+    "staxel.dialoguePool.SunnyDay"
+  ],
+  "isSunnyWeather": true
+}

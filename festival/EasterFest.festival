@@ -1,0 +1,25 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.festivals.EasterFest",
+  "icon": "mods/EasterFest/festival/EasterFestIcon.png",
+  "season": "Spring",
+  "start": 6,
+  "end": 10,
+  "weatherOverride": "mods.mb.EasterFest.markgrant.festival.EasterFest",
+  "festivalTotem": "mods.mb.EasterFest.markgrant.festival.EasterFountain",
+  "totemReplacements": [
+    {
+      "totem": "staxel.totem.workplace.TownSquare",
+      "structure": "mods.mb.EasterFest.markgrant.structure.EasterFestTownSquare"
+    },
+    {
+      "totem": "staxel.totem.workplace.FestivalSquare",
+      "structure": "mods.mb.EasterFest.markgrant.structure.EasterFestMaze"
+    }
+  ],
+  "hosts": [
+    {
+      "name": "Easter Bunny",
+      "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny"
+    }
+  ]
+}
