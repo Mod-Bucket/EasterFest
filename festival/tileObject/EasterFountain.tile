@@ -1,11 +1,13 @@
 {
   "__inherits": "staxel/tileObject/base.config",
   "categories": [
+    "ModBucket",
+    "EasterFest",
     "misc",
     "fountain",
     "water",
     "statue",
-    "white"
+    "pink"
   ],
   "code": "mods.mb.EasterFest.markgrant.festival.EasterFountain",
   "compound": {
