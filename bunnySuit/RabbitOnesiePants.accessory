@@ -1,0 +1,49 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/EasterFest/bunnySuit/RabbitOnesiePantsPaletted_Male.qb"
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/EasterFest/bunnySuit/RabbitOnesiePantsPaletted_Male.qb"
+    }
+  ],
+  "paletteGroups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+  "kind": "Trousers",
+  "model": "mods/EasterFest/bunnySuit/RabbitOnesiePantsPaletted_Female.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 150,
+    "value": 250
+  },
+  "hidesLayers": [
+    {
+      "source": "basemodel",
+      "layers": [
+        "LowerLeg_Right",
+        "UpperLeg_Right",
+        "LowerLeg_Left",
+        "UpperLeg_Left",
+        "Thigh_Left",
+        "Thigh_Right"
+      ]
+    },
+  ],
+  "searchable": true,
+  "starter": false,
+  "subcategory": "jeans",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+	"bunny",
+    "rabbit"
+  ],
+}

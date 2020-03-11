@@ -1,0 +1,26 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+  "kind": "Accessory",
+  "paletteGroups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "model": "mods/EasterFest/bunnySuit/BunnyTeethPaletted.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 130,
+    "value": 210
+  },
+  "searchable": true,
+  "subcategory": "glasses",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+	"bunny",
+    "rabbit"
+  ]
+}

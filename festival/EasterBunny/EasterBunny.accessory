@@ -1,0 +1,13 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.fullBodyOutfits.villager.festival.EasterBunny",
+  "kind": "Shirt",
+  "model": "mods/EasterFest/Festival/EasterBunny/EasterBunnyOutfit.qb",
+  "palettes": [
+    "staxel.palette.grey"
+  ],
+  "searchable": false,
+  "subcategory": "tshirt"
+}

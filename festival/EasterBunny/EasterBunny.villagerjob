@@ -1,0 +1,21 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.job.festival.EasterBunny",
+  "startingTime": 0,
+  "endingTime": 1440,
+  "primaryDialogue": "staxel.village.dialogue.festival.FeyQueen",
+  "workPlace": "staxel.totem.festival.feymasquerade.FeyThroneRoom",
+  "workPlaceMissingPools": [
+    "staxel.dialoguePool.FeyThroneRoomMissing"
+  ],
+  "workOvernight": true,
+  "weightedScripts": [
+    {
+      "script": "staxel.script.LookAroundIdle",
+      "weight": 2.5
+    },
+    {
+      "script": "staxel.script.StandAroundIdle",
+      "weight": 5.0
+    }
+  ]
+}

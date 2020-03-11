@@ -1,0 +1,9 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny",
+  "name": "Alice",
+  "personality": "staxel.village.personality.Generic",
+  "job": "mods.mb.EasterFest.markgrant.job.festival.EasterBunny",
+  "initialDesign": "staxel.village.design.VillagerFemale",
+  "initialOutfit": "mods.mb.EasterFest.markgrant.outfit.festival.EasterBunny",
+  "acceptsGift": false
+}
