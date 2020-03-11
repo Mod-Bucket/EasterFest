@@ -1,0 +1,22 @@
+{
+  "__inherits": "staxel/docks/TwoSeater.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "chair",
+    "seat",
+    "sit",
+    "furniture",
+    "bench",
+    "red"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.EasterBench",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 48,
+    "value": 80
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/festival/tileObject/EasterBench.qb"
+}

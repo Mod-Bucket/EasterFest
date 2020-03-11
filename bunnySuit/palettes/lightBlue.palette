@@ -1,0 +1,9 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.palette.lightBlue",
+  "icon": "mods/EasterFest/bunnySuit/palettes/lightBlueIcon.png",
+  "palette": "mods/EasterFest/bunnySuit/palettes/lightBlue.png",
+  "groups": [
+    "mods.mb.EasterFest.markgrant.palette.group.BunnySuitColours"
+  ],
+  "priority": 10
+}

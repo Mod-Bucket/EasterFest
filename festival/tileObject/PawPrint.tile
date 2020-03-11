@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "container",
+    "paw",
+    "bunny",
+    "rabbit",
+    "pink"
+  ],
+  "attachmentDirections": [
+    "all"
+  ],
+  "collision": false,
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "code": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 66,
+    "value": 110
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/festival/tileObject/PawPrints.qb"
+}

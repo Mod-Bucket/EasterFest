@@ -1,0 +1,22 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "flower",
+    "bed",
+    "purple",
+    "green",
+    "plant"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Purple",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/festival/tileObject/EasterPottedPlant_Purple.qb"
+}

@@ -1,0 +1,58 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "misc",
+    "fountain",
+    "water",
+    "statue",
+    "pink"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.festival.EasterFountain",
+  "compound": {
+    "size": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    },
+    "specification": " EEEE EEEE EEEE EEEE EEEE EEEE EEEE ECCE EEEE ECCE CCCC ECEE CCCC CXCC CCCC CCCC"
+  },
+  "frameAnimatedTile": {
+    "frameTime": 0.13,
+    "sounds": "staxel.sound.item.Fountain.loop"
+  },
+  "pathFindingPenalty": 500,
+  "prefetchTileState": true,
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 300,
+    "value": 500
+  },
+  "dispenser": {
+    "dispenserType": "WaterFaucet",
+    "interactAction": "staxel.entityAction.FillPotWater",
+    "effect": "staxel.effect.cooking.BathroomSink",
+    "offset": { "x": 0.0, "y": 0.0, "z": 0.0}
+  },
+  "canBreakDuringFestival": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.PuddleFootSteps",
+  "tileStateKind": "staxel.tileState.FrameAnimated",
+  "useCustomRendering": true,
+  "variants": [
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={0,0,0}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={64,0,0}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={128,0,0}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={192,0,0}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={256,0,0}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={320,0,0}",
+	"mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={0,0,64}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={64,0,64}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={128,0,64}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={192,0,64}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={256,0,64}",
+    "mods/EasterFest/festival/tileObject/EasterFountain.qb?size={64,64,64}?offset={320,0,64}"
+  ]
+}
