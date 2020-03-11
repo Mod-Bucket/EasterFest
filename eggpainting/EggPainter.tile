@@ -22,7 +22,7 @@
     "buyable": true,
     "catalogueUnlockedFromStart": true,
     "sellPrice": 5,
-    "value": 1000
+    "value": 200
   },
   "searchable": true,
   "stepSoundGroup": "staxel.sounds.WoodFootSteps",
