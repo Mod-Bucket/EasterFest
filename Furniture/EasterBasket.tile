@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "basic",
+    "picnic",
+    "basket",
+	"food",
+    "brown"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/EasterBasket.qb"
+}
