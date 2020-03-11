@@ -44,8 +44,9 @@
   "starter": false,
   "subcategory": "tshirt",
   "categories": [
-    "bunny",
-    "easter",
+    "ModBucket",
+    "EasterFest",
+	"bunny",
     "rabbit"
   ],
 }

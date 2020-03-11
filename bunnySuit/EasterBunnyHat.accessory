@@ -36,8 +36,9 @@
     "value": 250
   },
   "categories": [
-    "bunny",
-    "easter",
+    "ModBucket",
+    "EasterFest",
+	"bunny",
     "rabbit"
   ]
 }

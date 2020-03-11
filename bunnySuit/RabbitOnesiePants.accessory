@@ -41,8 +41,9 @@
   "starter": false,
   "subcategory": "jeans",
   "categories": [
-    "bunny",
-    "easter",
+    "ModBucket",
+    "EasterFest",
+	"bunny",
     "rabbit"
   ],
 }

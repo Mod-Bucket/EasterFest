@@ -18,8 +18,9 @@
   "searchable": true,
   "subcategory": "hat",
   "categories": [
-    "bunny",
-    "easter",
+    "ModBucket",
+    "EasterFest",
+	"bunny",
     "rabbit"
   ]
 }

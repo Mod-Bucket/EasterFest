@@ -18,8 +18,9 @@
   "searchable": true,
   "subcategory": "glasses",
   "categories": [
-    "bunny",
-    "easter",
+    "ModBucket",
+    "EasterFest",
+	"bunny",
     "rabbit"
   ]
 }
