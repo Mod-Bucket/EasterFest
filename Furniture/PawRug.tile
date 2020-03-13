@@ -1,0 +1,18 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "paw"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.rug",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 100,
+    "value": 250
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawRug.qb"
+}

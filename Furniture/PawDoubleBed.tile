@@ -1,0 +1,34 @@
+{
+  "__inherits": "staxel/docks/DoubleBed.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "wood",
+    "set",
+    "bed",
+    "bunk",
+    "sleep",
+    "double",
+    "queen",
+    "king"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.doublebed",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawDoubleBed.qb"
+}

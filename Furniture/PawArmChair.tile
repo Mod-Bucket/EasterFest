@@ -1,0 +1,24 @@
+{
+  "__inherits": "staxel/docks/OneSeater.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "set",
+    "chair",
+    "seat",
+    "sit",
+    "armchair"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.armchair",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawArmChair.qb"
+}

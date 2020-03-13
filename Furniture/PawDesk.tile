@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/docks/Desk.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "set",
+    "table",
+    "surface",
+    "desk",
+    "davenport",
+    "bureau",
+    "wood",
+    "writing"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.desk",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawDesk.qb"
+}

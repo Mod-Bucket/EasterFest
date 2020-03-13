@@ -1,0 +1,34 @@
+{
+  "__inherits": "staxel/tileObject/wardrobe.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "set",
+    "cabinet",
+    "closet",
+    "cupboard",
+    "pantry",
+    "wardrobe",
+    "credenza"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.wardrobe",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawWardrobe.qb"
+}

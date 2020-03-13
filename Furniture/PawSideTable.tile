@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/docks/SideTable.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "yellow",
+    "set",
+    "table",
+    "surface",
+    "bedside",
+    "side",
+    "nightstand"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.sidetable",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawSideTable.qb"
+}

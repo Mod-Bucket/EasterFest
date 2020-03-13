@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/docks/TwoSeater_Thick.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "yellow",
+    "set",
+    "chair",
+    "seat",
+    "sit",
+    "sofa",
+    "couch",
+    "love",
+    "loveseat",
+    "settee"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.loveseat",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawLoveseat.qb"
+}

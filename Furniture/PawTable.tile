@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/docks/MediumTable.config",
+  "categories": [
+	"easterfest",
+	"modbucket",
+    "furniture",
+    "pet",
+    "set",
+    "table",
+    "surface",
+    "dining",
+    "dinner",
+    "room"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.table",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 1,
+      "z": 3
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawTable.qb"
+}
