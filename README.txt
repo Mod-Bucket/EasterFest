@@ -12,7 +12,8 @@ MarkGrant:
 
 toketsupuurin:
 - Easter hedge fence
-- maze
+- maze, gazebo, arch, sign, rotten egg
 - filligree rabbit pets
 - lamps
 - easter basket
+
