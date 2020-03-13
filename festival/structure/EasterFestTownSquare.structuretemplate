@@ -1,0 +1,383 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.structure.EasterFestTownSquare",
+  "file": "mods/EasterFest/festival/structure/EasterFestTownSquare.qb",
+  "offset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "markers": [
+    {
+      "kind": "front",
+      "locations": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 14
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "FF046BF8": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF0FB2A1": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.4",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF178C55": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF19ABFC": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF24B366": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Pink",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF26262A": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.Streetlamp",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF2F40C6": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.4",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF30387F": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.Streetlamp",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF304685": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF34B4AD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Purple",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF40706D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.EasterBench",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF43DFAF": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.PottedPlant.orangeRose",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF44D62A": {
+      "matches": false,
+      "material": "staxel.tile.rock.Rock.5",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF4976CB": {
+      "matches": false,
+      "material": "staxel.plant.flower.Pansies.blue",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF4BB7DD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight2",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF58C66A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Red",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF58D547": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF5A95AC": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF5BAE0F": {
+      "matches": false,
+      "material": "staxel.plant.flower.Bush.small",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF60A571": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.EasterBench",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF73639B": {
+      "matches": false,
+      "material": "staxel.plant.flower.Senneti.purple",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF762AD0": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.3",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF774054": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFencePillar",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF81B9B8": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.EasterFountain",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF868185": {
+      "matches": false,
+      "material": "staxel.tile.newVillage.CobbleStonePath",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF8A0753": {
+      "matches": false,
+      "material": "staxel.tile.grass.GrassLayer.1",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF8F5F21": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.PottedPlant.orangeRose",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF8F7D55": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.PottedPlant.whiteRose",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF9F94AB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFencePillar",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFA1EF78": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFA45F2E": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.Streetlamp",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFA4F06B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight2",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFA8FFFA": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFB7BDC1": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFBAB531": {
+      "matches": false,
+      "material": "staxel.tile.grass.GrassLayer.2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFBD8117": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFBEB8C5": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.EasterBench",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC2B192": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Purple",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFC3BF82": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFencePillar",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC7B898": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Purple",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC83F4B": {
+      "matches": false,
+      "material": "staxel.plant.flower.Senneti.pink",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC8B18E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Pink",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFC8B48D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Orange",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFC9830A": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.PottedPlant.whiteRose",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFC9B390": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Red",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFC9B895": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Orange",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC9B896": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Pink",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFCB448A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.EasterBench",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFD2D77F": {
+      "matches": false,
+      "material": "staxel.plant.flower.WildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFD6D95D": {
+      "matches": false,
+      "material": "staxel.plant.gatherable.Creaturebud",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFD6E6B3": {
+      "matches": false,
+      "material": "staxel.plant.flower.Daisies.white",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFE17E2E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFencePillar",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFE1C48E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFE3B064": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Red",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE3C284": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight2",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFE59696": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.fence.EasterStoneFenceStraight",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE7ADF8": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.3",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF29B54": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.Streetlamp",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFF51D91": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Orange",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFFACBD9": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+      "requireEmpty": false,
+      "rotation": 2
+    }
+  }
+}
