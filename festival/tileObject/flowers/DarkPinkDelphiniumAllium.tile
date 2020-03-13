@@ -1,0 +1,19 @@
+{
+  "__inherits": "staxel/plant/flower/base.config",
+  "categories": [
+    "flower",
+    "Delphinium",
+    "Allium",
+    "pink"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.DarkPinkDelphiniumAllium",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 6,
+    "value": 10
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/festival/tileObject/flowers/DarkPinkDelphiniumAllium.qb"
+}
