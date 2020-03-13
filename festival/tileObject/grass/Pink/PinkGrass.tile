@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/plant/flower/pickable.config",
+  "categories": [
+    "flower",
+    "heart",
+    "rose",
+    "red",
+	"valentine"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.PinkGrass",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass1.qb",
+ "variants": [
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass1.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass2.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass3.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass4.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass5.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkGrass6.qb",
+	]
+}

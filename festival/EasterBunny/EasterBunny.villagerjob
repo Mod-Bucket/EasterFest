@@ -3,7 +3,7 @@
   "startingTime": 0,
   "endingTime": 1440,
   "primaryDialogue": "staxel.village.dialogue.festival.FeyQueen",
-  "workPlace": "staxel.totem.festival.feymasquerade.FeyThroneRoom",
+  "workPlace": "mods.mb.EasterFest.markgrant.festival.EasterFountain",
   "workPlaceMissingPools": [
     "staxel.dialoguePool.FeyThroneRoomMissing"
   ],

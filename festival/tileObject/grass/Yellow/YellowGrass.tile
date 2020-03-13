@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/plant/flower/pickable.config",
+  "categories": [
+    "flower",
+    "heart",
+    "rose",
+    "red",
+	"valentine"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.YellowGrass",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass1.qb",
+ "variants": [
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass1.qb",
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass2.qb",
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass3.qb",
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass4.qb",
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass5.qb",
+    "mods/EasterFest/festival/tileObject/grass/Yellow/YellowGrass6.qb",
+	]
+}
