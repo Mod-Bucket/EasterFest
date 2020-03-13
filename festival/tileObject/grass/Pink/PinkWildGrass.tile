@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/plant/flower/pickable.config",
+  "categories": [
+    "plant",
+    "green"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 6,
+    "value": 10
+  },
+  "scytheable": {
+    "spawnsMixedSeeds": true
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass1.qb",
+  "variants": [
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass1.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass2.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass3.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass4.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass5.qb",
+    "mods/EasterFest/festival/tileObject/grass/Pink/PinkWildGrass6.qb",
+	]
+}
