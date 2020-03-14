@@ -1,0 +1,23 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.treasure.{0}",
+  "entries": [
+    {
+      "weight": 99.0,
+      "items": [
+        {
+          "code": "mods.mb.EasterFest.gatherableEggs.item.{0}",
+		  "quantity" : 1
+        },
+      ],
+	},
+	{
+      "weight": 1.0,
+      "items": [
+        {
+          "code": "mods.mb.EasterFest.gatherableEggs.item.{0}",
+		  "quantity" : 1
+        },
+      ],
+    }
+  ]
+}
