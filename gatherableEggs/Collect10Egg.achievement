@@ -1,7 +1,7 @@
 {
   "code": "mods.mb.EasterFest.achievement.Collect10EasterEggs",
   "icon": "mods/EasterFest/gatherableEggs/harvestables/{0}.qb",
-  "requirement": "staxel.achievement.Catch10Bug",
+  "requirement": "mods.mb.EasterFest.achievement.Collect1EasterEggs",
   "progressesWithoutRequirement": true,
   "slot": {
     "x": 300,
