@@ -1,0 +1,40 @@
+{
+  "code": "mods.mb.EasterFest.particle.EasterEgg",
+  "angularVelocity": 1.0,
+  "liveDuration": 3.0,
+  "particlesPerSecond": 8.0,
+  "scale": 0.4,
+  "scaleSpread": 0.0,
+  "emitDuration": 1.5,
+  "color": "a8d3da",
+  "colorSpread": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "emitVelocity": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "emitVelocitySpread": {
+    "x": 0.07,
+    "y": 0.2,
+    "z": 0.07
+  },
+  "gravityFactor": {
+    "x": 0.0,
+    "y": 0.003,
+    "z": 0.0
+  },
+  "position": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "positionSpread": {
+    "x": 0.2,
+    "y": 0.0,
+    "z": 0.2
+  }
+}
