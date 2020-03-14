@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "misc",
+    "sign",
+    "post",
+    "another",
+    "castle",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "brown"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.AnotherCastleSign",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/AnotherCastleSign.qb"
+}

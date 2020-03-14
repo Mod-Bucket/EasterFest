@@ -1,0 +1,43 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"green",
+	"rotten",
+    "egg"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.RottenEgg",
+  "frameAnimatedTile": {
+    "frameTime": 0.5
+  },
+  "prefetchTileState": true,
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 1,
+    "value": 1
+  },
+  "searchable": true,
+  "tilePlacement": {
+    "inHandRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "tileStateKind": "staxel.tileState.FrameAnimated",
+  "useCustomRendering": true,
+  "variants": [
+    "mods/EasterFest/Furniture/RottenEgg.qb?size={16,16,16}?offset={0,0,0}",
+    "mods/EasterFest/Furniture/RottenEgg.qb?size={16,16,16}?offset={16,0,0}",
+  ]
+}

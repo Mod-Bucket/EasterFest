@@ -7,7 +7,7 @@
 	"egg",
 	"mod bucket"
   ],
-  "code": "mods.mb.EasterFest.lydocia.egg.{0}",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-pinkSpeckled",
   "pricing": {
     "buyable": false,
     "catalogueUnlockedFromStart": false,
@@ -15,5 +15,5 @@
     "value": 1000
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/eggpainting/eggs/{0}.qb"
+  "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-pinkSpeckled.qb"
 }
