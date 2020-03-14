@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "wood",
+    "garden",
+    "arch",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "decoration"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 48,
+    "value": 100
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EasterGardenArch.qb",
+  "pathFindingNoCollision": true,
+  "collision": false
+}

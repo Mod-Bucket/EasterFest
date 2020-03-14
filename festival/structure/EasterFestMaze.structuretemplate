@@ -1,0 +1,642 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.structure.EasterFestMaze",
+  "file": "mods/EasterFest/festival/structure/EasterFestMaze.qb",
+  "offset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "markers": [
+    {
+      "kind": "front",
+      "locations": [
+        {
+          "x": 26,
+          "y": 0,
+          "z": -51
+        }
+      ]
+    }
+  ],
+"mapping": {
+	"00000000": {
+      "material": "staxel.tile.Sky",
+      "requireEmpty": false,
+      "matches": false,
+	  "writeTile": true,
+      "randomRotation": false
+    },
+    "FF003569": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF00AEA3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF0E9BCB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF155771": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF15B4C8": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF1FC5CE": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF2AADFC": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF32B115": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF32DE9B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF3AEC70": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF3E92FD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF452ABD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF463663": {
+      "matches": false,
+      "material": "staxel.tile.grass.MeadowGrassLayer.1.Spring",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF4976CB": {
+      "matches": false,
+      "material": "staxel.plant.flower.Pansies.blue",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF4B677C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF4F27F1": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF515C6D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF519E48": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF537333": {
+      "matches": false,
+      "material": "staxel.plant.gatherable.Wildberry",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF54DB3A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF54ECB3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF56A019": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF57A6FC": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.3",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF5BDD8F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF5F9F2F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF6120AD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF64973B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF65F9FC": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF699F3E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF6AA03F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF6D612E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF6DC272": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF6F9E47": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF7A5915": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF7A7549": {
+      "matches": false,
+      "material": "staxel.tileObject.museum.fossils.EggFossil",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF7AB80E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF7C6D95": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF7D5F33": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.AnotherCastleSign",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF7D699E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF7E6D97": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF7F804C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF867AA1": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboFront",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF867B40": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF868185": {
+      "matches": false,
+      "material": "staxel.tile.newVillage.CobbleStonePath",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF887D9F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF8B809D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboBack",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF8DF25B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF8F1D5B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF8F2ECF": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF90B2BD": {
+      "matches": false,
+      "material": "staxel.tileObject.serverVillage.FilledFountain",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF90B664": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.RottenEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF935816": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF9D84D4": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF9E2543": {
+      "matches": false,
+      "material": "staxel.plant.flower.Pansies.pink",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF9E9991": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA68777": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFEA439C": {
+      "matches": false,
+      "material": "staxel.tile.creepy.PurpleGrassLayer.2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA8D4AE": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA8EB3F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFA9BA72": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.GreenBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFAAC7C6": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFABA9A1": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFACACA4": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCenter",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFAE52E2": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFAEF150": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFB0CB71": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFB15643": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFB1C997": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFB57651": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFB5B9AD": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.BlueBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFB6AC40": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFBC2977": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFC9CE57": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFCD89B5": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFCFA9CD": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.PurpleBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFD2629C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFD370C5": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFD8104F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFDA8064": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.RedBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFDC759A": {
+      "matches": false,
+      "material": "staxel.tile.grass.MeadowGrassLayer.2.Spring",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFDE8441": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFE0250D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE0E0E0": {
+      "matches": false,
+      "material": "staxel.tileObject.themedfurniture.pastel.PastelTable",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFE2B24D": {
+      "matches": false,
+      "material": "staxel.tile.grass.GrassLayer.2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE8B33B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.GoldenEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFEC15BB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFECB441": {
+      "matches": false,
+      "material": "staxel.tile.creepy.PurpleGrassLayer.1",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFEDB92E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFF0C367": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.YellowBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF1A385": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFF2FCF2": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFF3BE6B": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.OrangeBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF3FBFA": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF423A3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFF4ECE9": {
+      "matches": false,
+      "material": "staxel.tileObject.themedfurniture.pastel.PastelStool",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFF4F7F4": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFF5B2B3": {
+      "matches": false,
+      "material": "staxel.tile.happyBlocks.brick.PinkBrick",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF6F3FB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF758DA": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFFACBD9": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFFDE9F2": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFFEFAF0": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    }
+  }
+}

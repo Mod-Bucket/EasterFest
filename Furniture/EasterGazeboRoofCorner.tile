@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/roof.config",
+  "categories": [
+    "wood",
+    "garden",
+    "gazebo",
+    "roof",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "decoration"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 2
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 48,
+    "value": 120
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EasterGazeboRoofCorner.qb"
+}

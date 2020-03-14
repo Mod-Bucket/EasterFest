@@ -1,0 +1,30 @@
+{
+  "__inherits": "staxel/tileObject/decorativewall.config",
+  "categories": [
+    "wood",
+    "garden",
+    "gazebo",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "decoration"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 4,
+      "z": 3
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 48,
+    "value": 120
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EasterGazeboSide.qb"
+}
