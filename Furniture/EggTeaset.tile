@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "decoration",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "set",
+	"tea"
+  ],
+  "placementDirections": [
+    "all"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 2
+    },
+    "specification": "CCXC"
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 40,
+    "value": 100
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/EggTeaset.qb"
+}
