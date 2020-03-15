@@ -1,6 +1,6 @@
 {
   "__inherits": "staxel/farmAnimals/farmAnimal.config",
-  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbit",
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowLeg",
   "randomPet": false,
   "names": [
     "Tinker",
@@ -54,7 +54,7 @@
   "paramAnimator": "staxel.paramAnimation.PetEat",
   "eatPartcles": "staxel.particle.farmAnimals.PetEat",
   "models": [
-    "mods/EasterFest/Animals/Rabbits/FilligreeRabbit.qb", 
+    "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollowLeg.qb", 
   ],
   "nudeModels": [],
   "moods": {
@@ -78,7 +78,7 @@
     ]
   },
   "crateTile": "",
-  "petHouse": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
+  "petHouse": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowLegHouse",
   "designs": [
     {
       "_version": 2,

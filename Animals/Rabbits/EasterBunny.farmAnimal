@@ -1,62 +1,30 @@
 {
   "__inherits": "staxel/farmAnimals/farmAnimal.config",
-  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbit",
-  "randomPet": false,
+  "code": "mods.mb.EasterFest.toketsupuurin.farmAnimal.EasterBunny",
   "names": [
-    "Tinker",
-    "Lace",
-    "Mainspring",
-    "Lavender",
-    "Cogs",
-    "Mr. Wigglesworth",
-    "Lovelace",
-    "Ada",
-    "Belle",
-    "Celia",
-    "Ida",
-    "Clementine",
-    "Hugo",
-    "Edison",
-    "Necket",
-    "Ives",
-    "Briar",
-    "Vern",
-    "Wellington",
-    "Victoria",
-    "Bezel",
-    "Gasket",
-    "Guilloche",
-    "Horlogerie",
-    "Movement",
-    "Tourbillion",
-    "Winder",
-    "Quartz",
-    "Loki"
+    "Easter Bunny",
+    "Osterhase",
   ],
   "idleBehaviours": [
-    "staxel.petBehaviour.Idle"
+    "staxel.farmAnimalBehaviour.Idle"
   ],
   "spawnBehaviours": [
     "staxel.farmAnimalBehaviour.Spawn"
   ],
   "milkingBehaviours": [],
   "shearingBehaviours": [],
-  "playBehaviours": [
-    "staxel.petBehaviour.Fetch",
-    "staxel.petBehaviour.Command"
-  ],
   "unhappyBehaviours": [
     "staxel.farmAnimalBehaviour.Unhappy"
   ],
   "despawnBehaviourKind": [
     "staxel.farmAnimalBehaviour.Catatonic"
   ],
-  "paramAnimator": "staxel.paramAnimation.PetEat",
-  "eatPartcles": "staxel.particle.farmAnimals.PetEat",
   "models": [
-    "mods/EasterFest/Animals/Rabbits/FilligreeRabbit.qb", 
+    "mods/EasterFest/Animals/Rabbits/EasterBunny.qb", 
   ],
   "nudeModels": [],
+  "paramAnimator": "staxel.paramAnimation.AnimalEat",
+  "eatPartcles": "staxel.particle.farmAnimals.ChickenEat",
   "moods": {
     "great": [
       "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.great"
@@ -77,8 +45,7 @@
       "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.sleeping"
     ]
   },
-  "crateTile": "",
-  "petHouse": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
+  "crateTile": "mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate",
   "designs": [
     {
       "_version": 2,
@@ -113,74 +80,53 @@
     }
   ],
   "happy": {
-    "emotes": [],
+    "emotes": [
+      "staxel.emote.farmAnimals.Happy_1"
+    ],
     "sounds": [
-      "staxel.sounds.pets.Rabbit.happy"
+      "staxel.sounds.farmAnimals.Chicken.happy_1"
     ]
   },
   "unhappy": {
-    "emotes": [],
+    "emotes": [
+      "staxel.emote.farmAnimals.Unhappy_1"
+    ],
     "sounds": [
-      "staxel.sounds.pets.Rabbit.happy"
-    ]
-  },
-  "sitting": {
-    "emotes": [
-      "staxel.emote.pets.Sit"
-    ]
-  },
-  "pickUp": {
-    "emotes": [
-      "staxel.emote.pets.PickUp"
-    ]
-  },
-  "begging": {
-    "emotes": [
-      "staxel.emote.pets.Beg"
-    ]
-  },
-  "rolling": {
-    "emotes": [
-      "staxel.emote.pets.Rollover"
+      "staxel.sounds.farmAnimals.Chicken.unhappy_1"
     ]
   },
   "eating": {
     "emotes": [
-      "staxel.emote.pets.Eat"
+      "staxel.emote.farmAnimals.Chicken.Eating"
     ]
   },
   "standingResistance": 0.3,
   "airResistance": 0.1,
-  "movementVelocity": 5.0,
-  "jumpForce": 1800,
-  "wanderRadius": 10.0,
-  "maxFollowDistance": 20.0,
+  "movementVelocity": 2.5,
+  "jumpForce": 1200,
   "animationParameters": {
     "WalkingStrideCycleLength": 0.5,
     "SwimmingStrideCycleLength": 0.5,
     "MaxWalkingSpeed": 2.0,
-    "RunningStrideCycleLength": 2.0,
+    "RunningStrideCycleLength": 1.0,
     "MinRunningSpeed": 3.0,
     "AnimationJitterFactor": 1.0
   },
-  "categories": [
-    "house",
-    "Filligree", 
-	"Rabbit",
-	"pet"
-  ],
   "velocityRandomizationFactor": 0.05,
   "turnSmoothingFactor": 0.1,
-  "pushedForce": 0.4,
+  "pushedForce": 0.8,
   "resistedPushedForce": 0.2,
   "eatsFromHand": [],
-  "poops": [],
-  "eggs": [],
+  "poops": [
+  ],
+  "eggs": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg"
+    }
+  ],
   "milks": [],
   "wools": [],
-  "feedKind": "petFood",
-  "grazes": false,
-  "eatsGrass": false,
-  "sleepy": true,
-  "treasure": "mods.mb.EasterFest.toketsupuurin.treasure.FilligreeRabbit"
+  "feedKind": "chickenFeed",
+  "grazes": true,
+  "eatsGrass": false
 }

@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "market",
+    "rabbit",
+    "egg",
+    "mixable",
+    "harvested",
+    "chocolate"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+  "icon": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
+  "inHand": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.56
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 20,
+    "value": 25
+  },
+  "searchable": true,
+  "secondaryIcon": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
+  "stackSizeLimit": 999,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

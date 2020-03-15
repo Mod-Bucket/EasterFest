@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/spawnCrate/SmallSpawnCrate.config",
+  "animation": "staxel.boneAnimation.SmallSpawnCrate",
+  "categories": [
+    "animal",
+    "animalCrate",
+    "EasterBunny"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate",
+  "customRendererVoxels": "mods/EasterFest/Animals/Rabbits/EasterBunnyCrateLayered.qb",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 3000,
+    "value": 5000
+  },
+  "searchable": true,
+  "spawner": {
+    "destroyDelay": 1000000,
+    "farmAnimalCode": "mods.mb.EasterFest.toketsupuurin.farmAnimal.EasterBunny",
+    "spawnDelay": 200000,
+    "spawnEmote": "staxel.emote.tile.SpawnCrate.open",
+    "spawnParticles": "staxel.particle.farmAnimals.Spawn"
+  },
+  "voxels": "mods/EasterFest/Animals/Rabbits/EasterBunnyCrateLayered.qb"
+}

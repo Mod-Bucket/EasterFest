@@ -10,7 +10,7 @@
     "pet",
     "Rabbit"
   ],
-  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowHouse",
   "compound": {
     "size": {
       "x": 2,
@@ -28,5 +28,5 @@
     "value": 5000
   },
   "stepSoundGroup": "staxel.sounds.WoodFootSteps",
-  "voxels": "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHouse.qb"
+  "voxels": "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollowHouse.qb"
 }
