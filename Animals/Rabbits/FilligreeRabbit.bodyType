@@ -6,7 +6,7 @@
   "riserRadius": 0.5,
   "riserHeight": 0.8,
   "tposeEmote": "tpose",
-  "boneAnimations": "staxel.boneAnimation.Rabbit",
+  "boneAnimations": "mods.mb.EasterFest.toketsupuurin.boneAnimation.FilligreeRabbit",
   "ignoreAccessories" : true,
   "centerBias": {
     "x": 0.0,
