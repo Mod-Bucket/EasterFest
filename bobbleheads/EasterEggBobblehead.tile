@@ -1,0 +1,21 @@
+{
+  "__inherits": "staxel/tileObject/bobblehead.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "bobblehead",
+    "misc"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.bobbleheads.EasterEggBobblehead",
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/bobbleheads/EasterEggBobblehead.qb",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "value": 1000.0,
+    "sellPrice": 600.0,
+    "canBeEarntFromLuckyBox": false
+  },
+}

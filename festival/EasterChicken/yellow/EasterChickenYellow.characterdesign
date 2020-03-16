@@ -1,0 +1,23 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.design.EasterChickenYellow",
+  "design": {
+    "_version": 3,
+    "Species": "staxel.species.StrayCat",
+    "Gender": "female",
+    "Personality": "staxel.personality.standard",
+    "LeftHanded": false,
+    "Model": {
+      "model": "mods/EasterFest/festival/easterChicken/yellow/EasterChickenYellow.qb",
+      "palette": ""
+    },
+    "Hair": {
+      "model": "",
+      "palette": ""
+    },
+    "Eyes": {
+      "model": "mods.mb.EasterFest.markgrant.eyes.EasterChicken.normal",
+      "palette": ""
+    },
+    "revision": 1
+  }
+}
