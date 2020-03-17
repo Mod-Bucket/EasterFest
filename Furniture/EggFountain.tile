@@ -46,7 +46,8 @@
   "variants": [
     "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={0,0,0}",
     "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={32,0,0}",
-    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={64,0,0}"
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={64,0,0}",
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={96,0,0}"
   ],
   "interactVerb": "controlHint.verb.default.Use"
 }
