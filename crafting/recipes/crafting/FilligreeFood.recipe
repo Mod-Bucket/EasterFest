@@ -1,0 +1,36 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.CarveFilligreeFood",
+  "grouping": "misc",
+  "ingredients": [
+    {
+      "code": "staxel.item.Ore1",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.MetalBands",
+      "quantity": 2
+    }
+  ],
+  "steps": [
+    "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CarveFilligreeFood"
+  ],
+  "result": {
+    "count": 30,
+    "item": {
+      "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBox"
+    }
+  },
+  "icon" : "staxel/crafting/recipes/Blueprint.qb",
+  "inHandRotation" : { "x" : 0.0, "y" : 1.54, "z" : -1.54 },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 42,
+    "value": 70
+  },
+  "priority": 1,
+
+  "searchable": true,
+  "starter": false,
+}
