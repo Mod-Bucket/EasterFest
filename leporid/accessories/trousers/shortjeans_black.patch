@@ -1,0 +1,13 @@
+{
+  "file": "staxel/characters/accessories/shortjeans/shortjeans_black.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "staxel/characters/accessories/shortjeans/shortjeans_blackMale.qb"
+    },
+  ],
+  }
+}

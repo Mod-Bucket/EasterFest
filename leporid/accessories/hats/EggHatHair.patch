@@ -1,0 +1,26 @@
+{
+  "file": "staxel/characters/accessories/achievements/EggHat.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+    "hairReplacements": {
+    "species": [
+      {
+        "bodyTypes": [
+          "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+          "mods.mb.EasterFest.markgrant.bodyType.leporidMale"
+        ],
+        "default": "mods.mb.EasterFest.markgrant.accessories.leporid.EggHatHair",
+        "specific": [
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairNoEars",
+            "type": "bald"
+          }
+        ]
+      }
+    ]
+	}
+  }
+}
+
+

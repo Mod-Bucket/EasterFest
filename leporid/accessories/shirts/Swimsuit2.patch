@@ -1,0 +1,13 @@
+{
+  "file": "staxel/characters/accessories/swimsuits/Swimsuit2.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "staxel/characters/accessories/swimsuits/Swimsuit2Male.qb"
+    },
+  ],
+  }
+}

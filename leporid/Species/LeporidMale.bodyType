@@ -1,0 +1,40 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+  "shoulderHeight": 1.34375,
+  "bodyHeight": 2.125,
+  "bodyRadius": 0.65625,
+  "riserRadius": 0.46875,
+  "riserHeight": 1.140625,
+  "tposeEmote": "tpose",
+  "boneAnimations": "avatar",
+  "centerBias": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.5
+  },
+  "topHeadOffset": {
+    "x": 0.0,
+    "y": 0.9,
+    "z": 0.0
+  },
+  "layers": [
+    "Torso",
+    "Head",
+    "Shoulder_Right",
+    "UpperArm_Right",
+    "LowerArm_Right",
+    "Hand_Right",
+    "Item_Right",
+    "Shoulder_Left",
+    "UpperArm_Left",
+    "LowerArm_Left",
+    "Hand_Left",
+    "Item_Left",
+    "Thigh_Right",
+    "UpperLeg_Right",
+    "LowerLeg_Right",
+    "Thigh_Left",
+    "UpperLeg_Left",
+    "LowerLeg_Left"
+  ]
+}
