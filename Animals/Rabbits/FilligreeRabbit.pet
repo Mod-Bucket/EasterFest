@@ -30,7 +30,8 @@
     "Movement",
     "Tourbillion",
     "Winder",
-    "Quartz"
+    "Quartz",
+    "Loki"
   ],
   "idleBehaviours": [
     "staxel.petBehaviour.Idle"
@@ -54,28 +55,26 @@
   "eatPartcles": "staxel.particle.farmAnimals.PetEat",
   "models": [
     "mods/EasterFest/Animals/Rabbits/FilligreeRabbit.qb", 
-    "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollow.qb", 
-    "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollowLeg.qb" 
   ],
   "nudeModels": [],
   "moods": {
     "great": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.great"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.great"
     ],
     "good": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.happy"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.happy"
     ],
     "normal": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.normal"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.normal"
     ],
     "bad": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.bad"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.bad"
     ],
     "horrible": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.horrible"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.horrible"
     ],
     "sleeping": [
-      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.sleeping"
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.sleeping"
     ]
   },
   "crateTile": "",
@@ -165,11 +164,10 @@
     "AnimationJitterFactor": 1.0
   },
   "categories": [
-    "Mod Bucket",
-    "Easter",
-    "EasterFest",
     "house",
-    "rabbit"
+    "Filligree", 
+	"Rabbit",
+	"pet"
   ],
   "velocityRandomizationFactor": 0.05,
   "turnSmoothingFactor": 0.1,

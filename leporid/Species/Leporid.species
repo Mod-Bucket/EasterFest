@@ -1,0 +1,21 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.species.Leporid",
+  "icon": "mods/EasterFest/leporid/species/LeporidSpeciesIcon.png",
+  "male": {
+    "icon": "image/CharacterCreator/ElfMaleGenderIcon.png",
+    "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+    "model": "mods/EasterFest/leporid/species/Leporid_Male.qb",
+    "paletteGroups": [
+      "staxel.palette.group.SkinColours"
+    ]
+  },
+  "female": {
+    "icon": "image/CharacterCreator/ElfFemaleGenderIcon.png",
+    "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+    "model": "mods/EasterFest/leporid/species/Leporid_Female.qb",
+    "paletteGroups": [
+      "staxel.palette.group.SkinColours"
+    ]
+  },
+  "playable": true
+}

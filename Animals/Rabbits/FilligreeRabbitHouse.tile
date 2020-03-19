@@ -4,10 +4,11 @@
     "Mod Bucket",
     "Easter",
     "EasterFest",
+	"filligree",
     "basic",
     "furniture",
     "pet",
-    "rabbit"
+    "Rabbit"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
   "compound": {
@@ -20,9 +21,9 @@
   "searchable": false,
   "stackSizeLimit": 1,
   "pricing": {
-    "catalogueUnlockedFromStart": true,
+    "catalogueUnlockedFromStart": false,
     "buyable": true,
-    "appearsInCatalogue": true,
+    "appearsInCatalogue": false,
     "sellPrice": 2000,
     "value": 5000
   },

@@ -1,0 +1,13 @@
+{
+  "file": "staxel/characters/accessories/explorer/ExplorerTrousers.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "staxel/characters/accessories/explorer/ExplorerTrousers_Male.qb"
+    },
+  ],
+  }
+}

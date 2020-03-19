@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Start",
+    "body": [
+      "",
+      "<<lockPlayerInConversation>>",
+      "<<typewriterMode on>>",
+      "<<if $PVcatState > 0 and $PVcatState < 4>>",
+      "    <<branchMeetsFriendshipLevel staxel.reputationLevel.Liked liked>>",
+      "<<endif>>",
+      "... #line:10000010",
+      "... #line:10000020",
+      "<<if $PVcatState < 3>>",
+      "<<set $PVcatState to 2>>",
+      "<<endif>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 484,
+      "y": 189
+    }
+  },
+  {
+    "title": "liked",
+    "body": [
+      "Meow! Meow! #line:10000120",
+      "",
+      "<<setGlobal spawnStrayCat false>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<giveItemToPlayerIfDoesntHave item staxel.item.quest.StrayCat>>",
+      "<<despawnSelf>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 812,
+      "y": 184
+    }
+  }
+]

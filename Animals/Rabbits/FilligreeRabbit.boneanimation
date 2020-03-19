@@ -1,0 +1,248 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.boneAnimation.FilligreeRabbit",
+  "definition": "staxel/pets/Pet.bvh",
+  "offset": {
+    "x": -0.035,
+    "y": 0.43,
+    "z": -0.255
+  },
+  "translation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "scale": 0.31,
+  "axismode": "XPYPZP",
+  "timelines": {
+    "tpose": {
+      "start": 0,
+      "end": 0
+    },
+    "staxel.animation.Waving": {
+      "start": 30,
+      "end": 70
+    },
+    "walk": {
+      "start": 5,
+      "end": 25
+    },
+    "femalewalk": {
+      "start": 5,
+      "end": 25
+    },
+    "run": {
+      "start": 5,
+      "end": 25
+    },
+    "femalerun": {
+      "start": 5,
+      "end": 25
+    },
+    "idle": {
+      "start": 30,
+      "end": 70
+    },
+	"idle2": {
+      "start": 30,
+      "end": 70
+    },
+	"idle3": {
+      "start": 30,
+      "end": 70
+    },
+    "staxel.animation.farmAnimals.Happy_1": {
+      "base": 0,
+      "start": 30,
+      "end": 70
+    },
+    "staxel.animation.farmAnimals.Unhappy_1": {
+      "base": 0,
+      "start": 30,
+      "end": 70
+    },
+    "staxel.animation.pets.Eat.begin": {
+      "base": 0,
+      "start": 80,
+      "end": 85
+    },
+    "staxel.animation.pets.Eat.loop": {
+      "base": 0,
+      "start": 80,
+      "end": 110
+    },
+    "staxel.animation.pets.Eat.end": {
+      "base": 0,
+      "start": 110,
+      "end": 115
+    },
+	"staxel.animation.farmAnimals.EatingBegin": {
+      "base": 0,
+      "start": 80,
+      "end": 85
+    },
+    "staxel.animation.farmAnimals.EatingLoop": {
+      "base": 0,
+      "start": 80,
+      "end": 110
+    },
+    "staxel.animation.farmAnimals.EatingEnd": {
+      "base": 0,
+      "start": 110,
+      "end": 115
+    },
+    "staxel.animation.farmAnimals.LayDown": {
+      "base": 0,
+      "start": 170,
+      "end": 175
+    },
+    "staxel.animation.farmAnimals.LayDownIdle": {
+      "base": 0,
+      "start": 175,
+      "end": 205
+    },
+    "staxel.animation.farmAnimals.StandUp": {
+      "base": 0,
+      "start": 205,
+      "end": 210
+    },
+    "staxel.animation.farmAnimals.Sleeping.begin": {
+      "base": 0,
+      "start": 175,
+      "end": 175
+    },
+    "staxel.animation.farmAnimals.Sleeping.loop": {
+      "base": 0,
+      "start": 175,
+      "end": 205
+    },
+    "staxel.animation.farmAnimals.Sleeping.end": {
+      "base": 0,
+      "start": 205,
+      "end": 205
+    },
+	"staxel.animation.farmAnimals.Catatonic.begin": {
+      "base": 0,
+      "start": 175,
+      "end": 175
+    },
+    "staxel.animation.farmAnimals.Catatonic.loop": {
+      "base": 0,
+      "start": 175,
+      "end": 205
+    },
+    "staxel.animation.farmAnimals.Catatonic.end": {
+      "base": 0,
+      "start": 205,
+      "end": 205
+    },
+	"staxel.animation.farmAnimals.Pooping.begin": {
+      "base": 0,
+      "start": 115,
+      "end": 125
+    },
+    "staxel.animation.farmAnimals.Pooping.end": {
+      "base": 0,
+      "start": 160,
+      "end": 170
+    },
+	"staxel.animation.farmAnimals.EggLaying.begin": {
+      "base": 0,
+      "start": 350,
+      "end": 439
+    },
+    "staxel.animation.farmAnimals.EggLaying.end": {
+      "base": 0,
+      "start": 439,
+      "end": 440
+    },
+    "staxel.animation.pets.Sit.begin": {
+      "base": 0,
+      "start": 115,
+      "end": 125
+    },
+    "staxel.animation.pets.Sit.loop": {
+      "base": 0,
+      "start": 125,
+      "end": 160
+    },
+    "staxel.animation.pets.Sit.end": {
+      "base": 0,
+      "start": 160,
+      "end": 170
+    },
+    "staxel.animation.pets.PickUp.begin": {
+      "base": 0,
+      "start": 330,
+      "end": 349
+    },
+    "staxel.animation.pets.PickUp.end": {
+      "base": 0,
+      "start": 349,
+      "end": 350
+    },
+    "staxel.animation.pets.Rollover.begin": {
+      "base": 0,
+      "start": 440,
+      "end": 495
+    },
+    "staxel.animation.pets.Rollover.end": {
+      "base": 0,
+      "start": 496,
+      "end": 515
+    },
+    "staxel.animation.pets.Beg.begin": {
+      "base": 0,
+      "start": 350,
+      "end": 439
+    },
+    "staxel.animation.pets.Beg.end": {
+      "base": 0,
+      "start": 439,
+      "end": 440
+    },
+    "staxel.animation.farmAnimals.Petting": {
+      "base": 0,
+      "start": 0,
+      "end": 0
+    },
+    "swim": {
+      "base": 0,
+      "start": 525,
+      "end": 555
+    },
+    "swimidle": {
+      "base": 0,
+      "start": 525,
+      "end": 555
+    },
+    "full": {
+      "start": 1,
+      "end": 555
+    }
+  },
+  "zbias": {
+    "": 0,
+    "__0": 0,
+    "TorsoFront": 3,
+    "TorsoBack": 3,
+    "Head": 4,
+    "EarConnectRight": 5,
+    "EarRight": 6,
+    "EarConnectLeft": 5,
+    "EarLeft": 6,
+    "ThighFrontRight": 0,
+    "FrontLegRight_Upper": 0,
+    "FrontLegRight_Lower": 1,
+    "ThighFtontLeft": 0,
+    "FrontLegLeft_Upper": 0,
+    "FrontLegLeft_Lower": 1,
+    "BackThighRIght": 0,
+    "BackLegRight_Upper": 0,
+    "BackLegRight_Lower": 1,
+    "BackThighLeft": 0,
+    "BackLegLeft_Upper": 0,
+    "BackLegLeft_Lower": 1,
+    "TailLow": 4,
+    "TailHigh": 5
+  }
+}

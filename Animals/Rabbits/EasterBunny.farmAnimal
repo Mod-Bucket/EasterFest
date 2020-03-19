@@ -1,0 +1,132 @@
+{
+  "__inherits": "staxel/farmAnimals/farmAnimal.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.farmAnimal.EasterBunny",
+  "names": [
+    "Easter Bunny",
+    "Osterhase",
+  ],
+  "idleBehaviours": [
+    "staxel.farmAnimalBehaviour.Idle"
+  ],
+  "spawnBehaviours": [
+    "staxel.farmAnimalBehaviour.Spawn"
+  ],
+  "milkingBehaviours": [],
+  "shearingBehaviours": [],
+  "unhappyBehaviours": [
+    "staxel.farmAnimalBehaviour.Unhappy"
+  ],
+  "despawnBehaviourKind": [
+    "staxel.farmAnimalBehaviour.Catatonic"
+  ],
+  "models": [
+    "mods/EasterFest/Animals/Rabbits/EasterBunny.qb", 
+  ],
+  "nudeModels": [],
+  "paramAnimator": "staxel.paramAnimation.AnimalEat",
+  "eatPartcles": "staxel.particle.farmAnimals.ChickenEat",
+  "moods": {
+    "great": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.great"
+    ],
+    "good": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.happy"
+    ],
+    "normal": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.normal"
+    ],
+    "bad": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.bad"
+    ],
+    "horrible": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.horrible"
+    ],
+    "sleeping": [
+      "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.sleeping"
+    ]
+  },
+  "crateTile": "mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate",
+  "designs": [
+    {
+      "_version": 2,
+      "Species": "mods.mb.EasterFest.toketsupuurin.species.FilligreeRabbit",
+      "Gender": "female",
+      "Personality": "mods.mb.EasterFest.toketsupuurin.personality.FilligreeRabbit",
+      "LeftHanded": false,
+      "Shoes": {
+        "model": "",
+        "palette": ""
+      },
+      "Hair": {
+        "model": "",
+        "palette": ""
+      },
+      "Eyes": {
+        "model": "",
+        "palette": ""
+      },
+      "Shirt": {
+        "model": "",
+        "palette": ""
+      },
+      "Trousers": {
+        "model": "",
+        "palette": ""
+      },
+      "Model": {
+        "model": "",
+        "palette": ""
+      }
+    }
+  ],
+  "happy": {
+    "emotes": [
+      "staxel.emote.farmAnimals.Happy_1"
+    ],
+    "sounds": [
+      "staxel.sounds.farmAnimals.Chicken.happy_1"
+    ]
+  },
+  "unhappy": {
+    "emotes": [
+      "staxel.emote.farmAnimals.Unhappy_1"
+    ],
+    "sounds": [
+      "staxel.sounds.farmAnimals.Chicken.unhappy_1"
+    ]
+  },
+  "eating": {
+    "emotes": [
+      "staxel.emote.farmAnimals.Chicken.Eating"
+    ]
+  },
+  "standingResistance": 0.3,
+  "airResistance": 0.1,
+  "movementVelocity": 2.5,
+  "jumpForce": 1200,
+  "animationParameters": {
+    "WalkingStrideCycleLength": 0.5,
+    "SwimmingStrideCycleLength": 0.5,
+    "MaxWalkingSpeed": 2.0,
+    "RunningStrideCycleLength": 1.0,
+    "MinRunningSpeed": 3.0,
+    "AnimationJitterFactor": 1.0
+  },
+  "velocityRandomizationFactor": 0.05,
+  "turnSmoothingFactor": 0.1,
+  "pushedForce": 0.8,
+  "resistedPushedForce": 0.2,
+  "eatsFromHand": [],
+  "poops": [
+  ],
+  "eggs": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg"
+    }
+  ],
+  "milks": [],
+  "wools": [],
+  "feedKind": "chickenFeed",
+  "grazes": true,
+  "eatsGrass": false
+}

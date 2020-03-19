@@ -1,0 +1,17 @@
+{
+  "__inherits": "staxel/spawnCrate/VillagerCrate.config",
+  "code": "mods.mb.EasterFest.markgrant.EasterChickenBrownSpawnwer",
+  "customRendererVoxels": "staxel/tileObject/villagers/Spawner.qb",
+  "searchable": true,
+  "spawner": {
+    "destroyDelay": 1000000,
+    "spawnDelay": 0,
+    "spawnEmote": "",
+    "spawnParticles": "",
+    "suppressRendering": true,
+    "villager": {
+      "code": "mods.mb.EasterFest.markgrant.character.EasterChickenBrown"
+    }
+  },
+  "voxels": "staxel/tileObject/villagers/Spawner.qb"
+}

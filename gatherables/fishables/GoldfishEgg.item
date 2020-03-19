@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "market",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "fish"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.GoldfishEgg",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "gatherable": {
+    "fishable": {
+      "size": "small",
+      "spawnChanceWeight": 1.06,
+      "spawnsOn": [
+		"mods.mb.EasterFest.toketsupuurin.furniture.EggFountain",
+		"mods.mb.EasterFest.markgrant.flower.BlueGrass",
+		"mods.mb.EasterFest.markgrant.flower.BlueWildGrass"
+      ]
+    },
+    "isFishable": true
+  },
+  "icon": "mods/EasterFest/gatherables/fishables/GoldfishEgg.qb",
+  "inHand": "mods/EasterFest/gatherables/fishables/GoldfishEgg.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.5399999618530273,
+    "z": -1.5399999618530273
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 15,
+    "value": 25
+  },
+  "renderHeight": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

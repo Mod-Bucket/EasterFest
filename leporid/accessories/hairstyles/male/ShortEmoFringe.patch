@@ -1,0 +1,17 @@
+{
+  "file": "staxel/characters/accessories/hairstyles/male/short/ShortEmoFringe.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+"altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "mods/EasterFest/leporid/accessories/hairstyles/male/ShortEmoFringe.qb"
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "mods/EasterFest/leporid/accessories/hairstyles/male/ShortEmoFringe.qb"
+    },
+  ],    
+  }
+}

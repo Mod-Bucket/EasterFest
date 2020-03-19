@@ -2,11 +2,389 @@
   "code": "mods.mb.EasterFest.toketsupuurin.treasure.FilligreeRabbit",
   "entries": [
     {
-      "weight": 1,
+      "weight": 15,
       "items": [
         {
           "kind": "staxel.item.Placer",
           "tile": "staxel.tileObject.gatherable.event.AprilEgg"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.armchair"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.chair"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.desk"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.doublebed"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.lamp"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.loveseat"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.rug"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.sidetable"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.table"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.wardrobe"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Dresser"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.DoubleBed(NoDock)"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Desk(NoDock)"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Credenza"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable(NoDock)"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Chandelier2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Chandelier"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CeilingLamp2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CeilingLamp"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Candle2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Candle"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Bookshelf"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.SingleBed"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.SingleBed(NoDock)"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.WardrobeSingle"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.WallShelf"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.WallLamp2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.WallLamp"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Vanity"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.TVStand"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.TableLarge"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Stool"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Sofa"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.SideTable(NoDock)"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.LongStool"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Lamp2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon3"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.FootLamp2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.FootLamp"
         }
       ]
     },

@@ -1,0 +1,16 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHair",
+  "defaultPalette": "staxel.palette.grey",
+  "kind": "Hair",
+  "model": "mods/EasterFest/leporid/accessories/hats/HatHair.qb",
+  "paletteGroups": [
+    "staxel.palette.group.HairColours"
+  ],
+  "searchable": false,
+  "subcategory": "short"
+}

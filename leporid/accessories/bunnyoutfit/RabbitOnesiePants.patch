@@ -1,0 +1,17 @@
+{
+  "file": "staxel/characters/accessories/event/RabbitOnesiePants.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "mods/EasterFest/leporid/accessories/bunnyoutfit/RabbitOnesiePants_Female.qb"
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "mods/EasterFest/leporid/accessories/bunnyoutfit/RabbitOnesiePants_Male.qb"
+    },
+	],
+  }
+}

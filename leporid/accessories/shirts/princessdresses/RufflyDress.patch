@@ -1,0 +1,17 @@
+{
+  "file": "staxel/characters/accessories/princessdresses/ruffly/RufflyDress.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "mods/EasterFest/leporid/accessories/shirts/princessdresses/RufflyDress.qb"
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "mods/EasterFest/leporid/accessories/shirts/princessdresses/RufflyDress.qb"
+    },
+	],
+  }
+}

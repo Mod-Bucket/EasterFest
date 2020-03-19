@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/docks/PetHouse.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"filligree",
+    "basic",
+    "furniture",
+    "pet",
+    "Rabbit"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowHouse",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 2,
+      "z": 3
+    }
+  },
+  "searchable": false,
+  "stackSizeLimit": 1,
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "appearsInCatalogue": false,
+    "sellPrice": 2000,
+    "value": 5000
+  },
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Animals/Rabbits/FilligreeRabbitHollowHouse.qb"
+}

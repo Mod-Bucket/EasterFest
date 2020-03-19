@@ -1,0 +1,11 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+    "mods.mb.EasterFest.toketsupuurin.bodyType.FilligreeRabbit"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.FilligreeRabbit.accessories.eyes.great",
+  "kind": "Eyes",
+  "model": "mods/EasterFest/Animals/Rabbits/filligree/FilligreeRabbit_Great.qb",
+  "palettes": [],
+  "searchable": false
+}

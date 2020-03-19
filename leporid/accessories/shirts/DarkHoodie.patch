@@ -1,0 +1,13 @@
+{
+  "file": "staxel/characters/accessories/shirts/darkhoodie/DarkHoodie.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "staxel/characters/accessories/shirts/darkhoodie/BaseFemaleDarkHoodie.qb"
+    },
+  ],
+  }
+}

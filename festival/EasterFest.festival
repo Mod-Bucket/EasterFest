@@ -13,13 +13,37 @@
     },
     {
       "totem": "staxel.totem.workplace.FestivalSquare",
-      "structure": "mods.mb.EasterFest.markgrant.structure.EasterFestMaze"
+      "structure": "mods.mb.EasterFest.toketsupuurin.structure.EasterFestMaze"
     }
   ],
   "hosts": [
     {
       "name": "Easter Bunny",
-      "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny"
-    }
+      "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny",
+	  "festivalBehaviour": [
+        {
+          "script": "staxel.script.ChillAtTownSquareScript",
+          "weight": 10.0
+        }
+      ]
+    },
+  {
+    "name" : "Cottontail",
+    "code" : "mods.mb.EasterFest.markgrant.character.EasterChickenBlack"
+  },	
+  {
+    "name" : "Mopsy",
+    "code" : "mods.mb.EasterFest.markgrant.character.EasterChickenBrown"
+  },
+  {
+    "name" : "Flopsy",
+    "code" : "mods.mb.EasterFest.markgrant.character.EasterChickenWhite"
+  },
+  {
+    "name" : "Thumper",
+    "code" : "mods.mb.EasterFest.markgrant.character.EasterChickenYellow"
+  },
   ]
 }
+
+

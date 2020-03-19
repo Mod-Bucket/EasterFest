@@ -5,7 +5,9 @@
 	"easter",
 	"easterfest",
 	"egg",
-	"mod bucket"
+	"mod bucket",
+	"decor",
+	"decorated"
   ],
   "code": "mods.mb.EasterFest.lydocia.egg.{0}",
   "pricing": {

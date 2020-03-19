@@ -1,0 +1,13 @@
+{
+  "file": "staxel/characters/accessories/generic/cooking/BakingJacket.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+   "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "staxel/characters/accessories/generic/cooking/BakingJacket_Female.qb"
+    },
+  ],
+  }
+}

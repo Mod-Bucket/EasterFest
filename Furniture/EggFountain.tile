@@ -1,0 +1,53 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "misc",
+    "fountain",
+    "water",
+    "statue",
+    "white"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggFountain",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 1000,
+    "value": 5000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.PuddleFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggFountain.qb",
+  "frameAnimatedTile": {
+    "frameTime": 0.13,
+    "sounds": "staxel.sound.item.Fountain.loop"
+  },
+  "pathFindingPenalty": 500,
+  "prefetchTileState": true,
+  "dispenser": {
+    "dispenserType": "WaterFaucet",
+    "interactAction": "staxel.entityAction.FillPotWater",
+    "effect": "staxel.effect.cooking.BathroomSink",
+    "offset": { "x": 0.0, "y": 0.0, "z": 0.0}
+  },
+  "tileStateKind": "staxel.tileState.FrameAnimated",
+  "useCustomRendering": true,
+  "variants": [
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={0,0,0}",
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={32,0,0}",
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={64,0,0}",
+    "mods/EasterFest/Furniture/EggFountain.qb?size={31,31,31}?offset={96,0,0}"
+  ],
+  "interactVerb": "controlHint.verb.default.Use"
+}

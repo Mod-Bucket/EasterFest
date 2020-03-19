@@ -1,0 +1,38 @@
+{
+  "file": "staxel/characters/accessories/cathats/CatHatStars.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+    "hairReplacements": {
+    "species": [
+      {
+        "bodyTypes": [
+  "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+  "mods.mb.EasterFest.markgrant.bodyType.leporidMale"
+        ],
+        "default": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairShort",
+        "specific": [
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairShort",
+            "type": "short"
+          },
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairMedium",
+            "type": "medium"
+          },
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairLong",
+            "type": "long"
+          },
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairNoEars",
+            "type": "bald"
+          },
+        ],
+      },
+    ],
+	}
+  }
+}
+
+

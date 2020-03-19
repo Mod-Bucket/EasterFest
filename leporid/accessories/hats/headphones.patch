@@ -1,0 +1,17 @@
+{
+  "file": "staxel/characters/accessories/hats/headphones.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+"altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "staxel/characters/accessories/hats/HeadphonesPalettedCaith.qb"
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "staxel/characters/accessories/hats/HeadphonesPalettedCaith.qb"
+    },
+  ],    
+  }
+}

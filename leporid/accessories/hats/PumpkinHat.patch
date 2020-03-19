@@ -1,0 +1,30 @@
+{
+  "file": "staxel/characters/accessories/halloween/PumpkinHat.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+    "hairReplacements": {
+    "species": [
+      {
+        "bodyTypes": [
+          "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+          "mods.mb.EasterFest.markgrant.bodyType.leporidMale"
+        ],
+        "default": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairNoEars",
+      }
+    ]
+	},
+"altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "mods/EasterFest/leporid/accessories/hats/PumpkingHat.qb"
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "mods/EasterFest/leporid/accessories/hats/PumpkingHat.qb"
+    },
+  ], 
+  }
+}
+
+

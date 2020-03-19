@@ -1,0 +1,16 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+  "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+  "mods.mb.EasterFest.markgrant.bodyType.leporidMale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.leporid.MilkmanHatHair",
+  "defaultPalette": "staxel.palette.grey",
+  "kind": "Hair",
+  "model": "mods/EasterFest/leporid/accessories/hats/MilkmanHatHair.qb",
+  "paletteGroups": [
+    "staxel.palette.group.HairColours"
+  ],
+  "searchable": false,
+  "subcategory": "short",
+}

@@ -1,0 +1,27 @@
+{
+  "file": "staxel/characters/accessories/explorer/ExplorerHat.accessory", 
+  "priority": 1, 
+  "mergeLists": true, 
+  "patch" : {
+    "hairReplacements": {
+    "default": "staxel.accessories.characters.accessories.explorer.HatHair",
+    "species": [
+      {
+        "bodyTypes": [
+          "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+          "mods.mb.EasterFest.markgrant.bodyType.leporidMale"
+        ],
+        "default": "mods.mb.EasterFest.markgrant.accessories.leporid.ExplorerHatHair",
+        "specific": [
+          {
+            "code": "mods.mb.EasterFest.markgrant.accessories.leporid.HatHairNoEars",
+            "type": "bald"
+          }
+        ]
+      }
+    ]
+	}
+  }
+}
+
+
