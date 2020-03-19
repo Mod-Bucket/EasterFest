@@ -5,9 +5,11 @@
 	"easter",
 	"easterfest",
 	"egg",
-	"mod bucket"
+	"mod bucket",
+	"decor",
+	"decorated"
   ],
-  "code": "mods.mb.EasterFest.lydocia.egg.GoldenEgg",
+  "code": "mods.mb.EasterFest.lydocia.egg.lydocia-Yellow",
   "pricing": {
     "buyable": false,
     "catalogueUnlockedFromStart": false,
@@ -15,5 +17,5 @@
     "value": 1000
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/eggpainting/eggs/GoldenEgg.qb"
+  "voxels": "mods/EasterFest/eggpainting/eggs/lydocia-Yellow.qb"
 }

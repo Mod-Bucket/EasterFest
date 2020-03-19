@@ -1,0 +1,32 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.egg.lydocia-Pastels.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.RedPetal",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.YellowPetal",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.GreenLeaf",
+      "quantity": 1
+    }	
+	
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.lydocia.egg.lydocia-Pastels",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.lydocia.egg.{0}.reaction",
+  "code": "mods.mb.EasterFest.toketsu.egg.{0}.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -12,14 +12,19 @@
       "quantity": 1
     },
     {
+      "code": "staxel.item.crafting.BlackPetal",
+      "quantity": 1
+    },
+    {
       "code": "staxel.item.crafting.GreenLeaf",
       "quantity": 1
     }	
+	
   ],
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.lydocia.egg.{0}",
+      "tile": "mods.mb.EasterFest.toketsu.egg.{0}",
       "quantity": 1
     }
   ],

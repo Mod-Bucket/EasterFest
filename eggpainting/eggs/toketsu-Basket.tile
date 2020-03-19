@@ -5,9 +5,11 @@
 	"easter",
 	"easterfest",
 	"egg",
-	"mod bucket"
+	"mod bucket",
+	"decor",
+	"decorated"
   ],
-  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Basket",
+  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Basket",
   "pricing": {
     "buyable": false,
     "catalogueUnlockedFromStart": false,
