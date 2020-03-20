@@ -9,6 +9,10 @@
     "egg"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.furniture.RottenEgg",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
   "frameAnimatedTile": {
     "frameTime": 0.5
   },

@@ -1,0 +1,38 @@
+{
+  "__inherits": "staxel/tileObject/noDock.config",
+  "attachmentDirections": [
+    "yp"
+  ],
+  "categories": [
+    "furniture",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "set",
+    "table",
+    "surface",
+    "dining",
+    "dinner",
+    "room"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggTable(NoDock)",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 2
+    },
+    "specification": "XC CC"
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggTable.qb"
+}

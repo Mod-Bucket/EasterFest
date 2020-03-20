@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/tileObject/ceilinglight.config",
+  "categories": [
+    "hanging",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+	"lamp",
+	"white",
+    "light",
+	"chandelier"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterChandelier",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "emissiveColor": "fff7EFCF",
+  "light": 20,
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EasterChandelier.qb",
+  "compound": {
+  "size": {
+    "x": 3,
+    "y": 3,
+    "z": 3
+  },
+  "specification": "CCC CXC CCC EEE EEE EEE EEE EEE EEE"
+  },
+}

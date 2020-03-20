@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/docks/DoubleBed.config",
+  "categories": [
+    "furniture",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "white",
+    "set",
+    "bed",
+    "sleep",
+    "double",
+	"queen",
+	"king",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggDoubleBed",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggDoubleBed.qb"
+}

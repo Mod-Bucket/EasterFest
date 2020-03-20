@@ -21,8 +21,8 @@
   "pricing": {
     "catalogueUnlockedFromStart": true,
     "buyable": true,
-    "sellPrice": 48,
-    "value": 100
+    "sellPrice": 100,
+    "value": 500
   },
   "searchable": true,
   "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",

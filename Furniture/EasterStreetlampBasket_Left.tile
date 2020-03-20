@@ -26,8 +26,8 @@
   "pricing": {
     "buyable": true,
     "catalogueUnlockedFromStart": true,
-    "sellPrice": 10,
-    "value": 2500
+    "sellPrice": 90,
+    "value": 250
   },
   "searchable": true,
   "voxels": "mods/EasterFest/Furniture/EasterStreetlampBasket_Left.qb"

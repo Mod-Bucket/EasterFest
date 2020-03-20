@@ -1,0 +1,36 @@
+{
+  "__inherits": "staxel/tileObject/noDock.config",
+  "categories": [
+    "furniture",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "white",
+    "set",
+    "bed",
+    "coffin",
+    "sleep",
+    "double",
+	"queen",
+	"king",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggDoubleBed(NoDock)",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 2,
+      "z": 3
+    },
+    "specification": "CCC CXC CCC EEE EEE EEE"
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggDoubleBed.qb"
+}

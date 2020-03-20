@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/tileObject/noDock.config",
+  "categories": [
+    "furniture",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "set",
+    "table",
+    "surface",
+    "desk",
+    "davenport",
+    "bureau",
+    "writing"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggDesk(NoDock)",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggDesk.qb"
+}

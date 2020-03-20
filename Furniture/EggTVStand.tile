@@ -1,0 +1,44 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "attachmentDirections": [
+    "yp"
+  ],
+  "categories": [
+    "table",
+    "surface",
+    "furniture",
+    "television",
+    "TV",
+    "t.v",
+    "stand",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "white"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "placementDirections": [
+    "yn",
+    "xp",
+    "xn",
+    "zp",
+    "zn"
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggTVStand.qb"
+}

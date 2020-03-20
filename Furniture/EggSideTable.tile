@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/docks/SideTable.config",
+  "categories": [
+    "furniture",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "white",
+    "wood",
+    "set",
+    "table",
+    "surface",
+    "bedside",
+    "side",
+    "nightstand"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggSideTable",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggSideTable.qb"
+}

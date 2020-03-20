@@ -1,0 +1,30 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"white",
+    "egg"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggwoodDecor",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 10,
+    "value": 100
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/EggwoodDecor.qb"
+}

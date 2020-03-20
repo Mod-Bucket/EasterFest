@@ -1,0 +1,36 @@
+{
+  "__inherits": "staxel/tileObject/wardrobe.config",
+  "categories": [
+    "furniture",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "set",
+    "container",
+    "storage",
+    "chest",
+    "drawers",
+    "dresser",
+    "yorkshire"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggDresser",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 2,
+      "z": 1
+    },
+    "specification": "CC XC"
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggDresser.qb"
+}

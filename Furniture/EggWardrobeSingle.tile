@@ -1,0 +1,38 @@
+
+{
+  "__inherits": "staxel/tileObject/wardrobe.config",
+  "categories": [
+    "container",
+    "storage",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "furniture",
+    "cabinet",
+    "closet",
+    "cupboard",
+    "pantry",
+    "wardrobe",
+    "credenza",
+    "single",
+    "white"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggWardrobeSingle",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/EggWardrobeSingle.qb"
+}

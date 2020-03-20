@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/tileObject/walllight.config",
+  "categories": [
+    "light",
+    "lightsource",
+	"egg",
+    "lighting",
+    "wall",
+    "lamp",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterWallLamp02",
+  "emissiveColor": "fff7EFCF",
+  "light": 7.0,
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/EasterWallLamp02.qb"
+}

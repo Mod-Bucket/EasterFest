@@ -1,0 +1,52 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "light",
+    "lightsource",
+    "lighting",
+    "torch",
+    "candle",
+	"white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "fire"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterCandle1",
+  "emissiveColor": "fff57317",
+  "frameAnimatedTile": {
+    "frameTime": 0.13
+  },
+  "light": 5.2,
+  "prefetchTileState": true,
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "tilePlacement": {
+    "inHandRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "tileStateKind": "staxel.tileState.FrameAnimated",
+  "useCustomRendering": true,
+  "variants": [
+    "mods/EasterFest/Furniture/EasterCandle1.qb?size={16,16,16}?offset={0,0,0}",
+    "mods/EasterFest/Furniture/EasterCandle1.qb?size={16,16,16}?offset={16,0,0}",
+    "mods/EasterFest/Furniture/EasterCandle1.qb?size={16,16,16}?offset={32,0,0}",
+    "mods/EasterFest/Furniture/EasterCandle1.qb?size={16,16,16}?offset={48,0,0}"
+  ]
+}

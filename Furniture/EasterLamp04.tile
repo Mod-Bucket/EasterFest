@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "furniture",
+	"white",
+    "Mod Bucket",
+	"egg",
+    "Easter",
+    "EasterFest",
+    "set",
+    "light",
+    "lightsource",
+    "lighting",
+    "lamp",
+    "bedside"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterLamp04",
+  "emissiveColor": "fff7EFCF",
+  "light": 10.0,
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 100,
+    "value": 500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/EasterLamp04.qb"
+}
