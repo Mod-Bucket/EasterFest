@@ -6,6 +6,7 @@ Contributing modders:
 lydocia:
 - Egg Painter machine with recipes.
 - paw furniture recolors
+- some decorated eggs
 
 MarkGrant:
 - Bunny Suits
@@ -17,8 +18,9 @@ toketsupuurin:
 - Easter hedge fence
 - maze
 - wisteria gazebo, pillar, arch
-- sign, rotten egg, egg tea party
 - filligree rabbit pets
-- lamps
-- easter basket
+- lamps and egg furniture
 - Expanded paw furniture models
+- Egg fish, bugs, and some decorated eggs
+- Easter Bunny farm animal
+- Eggwood plant
