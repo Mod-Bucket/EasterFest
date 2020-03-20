@@ -1,0 +1,229 @@
+{
+  "categories": [
+    "crop",
+    "plant",
+    "produce",
+    "growable",
+    "eggwood",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "vegetable",
+    "white",
+    "seed",
+    "seeds",
+    "packet",
+    "large"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood",
+  "growthTime": 5,
+  "icon": "mods/EasterFest/Plants/crops/EggwoodSeedpacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 45,
+    "value": 120
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "stages": {
+    "EggwoodFruited": {
+      "alt": 5,
+      "interactionEntityAction": "staxel.entityAction.HarvestFruitedPlant",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mods.mb.EasterFest.toketsupuurin.treasure.EggwoodHarvest",
+      "scytheable": {},
+      "wilted": "EggwoodWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodSprout1": {
+      "alt": 1,
+      "grow": "EggwoodSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "wilted": "EggwoodWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodSprout2": {
+      "alt": 2,
+      "grow": "EggwoodSprout3",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "wilted": "EggwoodWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodSprout3": {
+      "alt": 3,
+      "grow": "EggwoodSprout4",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "wilted": "EggwoodWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodSprout4": {
+      "alt": 4,
+      "grow": "EggwoodFruited",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "wilted": "EggwoodWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWilted1": {
+      "alt": 6,
+      "grow": "EggwoodSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "withered": "EggwoodWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWilted2": {
+      "alt": 7,
+      "grow": "EggwoodSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "withered": "EggwoodWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWilted3": {
+      "alt": 8,
+      "grow": "EggwoodSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "withered": "EggwoodWithered3",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWilted4": {
+      "alt": 9,
+      "grow": "EggwoodSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "withered": "EggwoodWithered4",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWiltedFruited": {
+      "alt": 10,
+      "grow": "EggwoodFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "dropsSeed" : true,
+      "withered": "EggwoodWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "EggwoodWithered1": {
+      "alt": 11,
+      "scytheable": {}
+    },
+    "EggwoodWithered2": {
+      "alt": 12,
+      "scytheable": {}
+    },
+    "EggwoodWithered3": {
+      "alt": 13,
+      "scytheable": {}
+    },
+    "EggwoodWithered4": {
+      "alt": 14,
+      "scytheable": {}
+    },
+    "EggwoodWitheredFruited": {
+      "alt": 15,
+      "scytheable": {}
+    },
+    "seed": {
+      "alt": 0,
+      "grow": "EggwoodSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "shovelable": {}
+    }
+  },
+  "tile": "mods.mb.EasterFest.toketsupuurin.plant.crop.Eggwood"
+}

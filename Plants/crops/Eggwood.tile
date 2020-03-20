@@ -1,0 +1,45 @@
+{
+  "__inherits": "staxel/plant/crop/base.config",
+  "categories": [
+    "crop",
+    "plant",
+    "produce",
+    "growable",
+    "eggwood",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+    "white",
+    "vegetable"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.plant.crop.Eggwood",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 2
+    },
+    "specification": "\r\n\tCC XC\r\n\t"
+  },
+  "randomizePosition": false,
+  "searchable": false,
+  "variants": [
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={0,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={32,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={64,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={96,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={128,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={160,0,0}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={32,0,32}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={64,0,32}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={96,0,32}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={128,0,32}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={160,0,32}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={32,0,64}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={64,0,64}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={96,0,64}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={128,0,64}",
+    "mods/EasterFest/Plants/crops/EggwoodCrop.qb?size={32,24,32}?offset={160,0,64}"
+  ]
+}
