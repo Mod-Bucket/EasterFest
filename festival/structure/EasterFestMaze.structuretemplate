@@ -26,81 +26,195 @@
 	  "writeTile": true,
       "randomRotation": false
     },
-    "FF003569": {
+    "FF025091": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF00AEA3": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
-      "requireEmpty": false,
-      "rotation": 2
-    },
-    "FF0E9BCB": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
-      "requireEmpty": false,
-      "rotation": 0
-    },
-    "FF155771": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
-      "requireEmpty": false,
-      "rotation": 2
-    },
-    "FF15B4C8": {
+    "FF033557": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF1FC5CE": {
+    "FF059976": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF092DD1": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF0CE2F7": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF0FE6EC": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF2AADFC": {
+    "FF132A6A": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
       "requireEmpty": false,
-      "rotation": 3
+      "rotation": 0
     },
-    "FF32B115": {
+    "FF133191": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
       "requireEmpty": false,
       "rotation": 3
     },
-    "FF32DE9B": {
+    "FF142612": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggStool",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF14D96E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF166151": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF167F5C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF1831CB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF1CB576": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF1D2FE5": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF1DA69D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF1E31DB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF1FEF3C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF2195BD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF298B35": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF2A523F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF2AC744": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FF3AEC70": {
+    "FF2C5633": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Pine",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF322949": {
+      "matches": false,
+      "material": "staxel.tile.creepy.PurpleGrassLayer.2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF34761B": {
+      "matches": false,
+      "material": "staxel.tile.grass.GrassLayer.2.Summer",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF364246": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF3E92FD": {
+    "FF36B0A4": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF3F4052": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Pirate",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF3FCD8D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF43AC55": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-WarmSplotchy",
       "requireEmpty": false,
       "rotation": 3
     },
-    "FF452ABD": {
+    "FF43C87A": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
       "requireEmpty": false,
       "rotation": 3
     },
     "FF463663": {
       "matches": false,
-      "material": "staxel.tile.grass.MeadowGrassLayer.1.Spring",
+      "material": "staxel.tile.creepy.PurpleGrassLayer.1",
       "requireEmpty": false,
       "rotation": 0
     },
@@ -110,29 +224,29 @@
       "requireEmpty": false,
       "rotation": 2
     },
-    "FF4B677C": {
+    "FF4D2A96": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre1",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF4F27F1": {
+    "FF4DAFBD": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
-      "requireEmpty": false,
-      "rotation": 2
-    },
-    "FF515C6D": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-BunnyPhoneBlue",
       "requireEmpty": false,
       "rotation": 3
     },
-    "FF519E48": {
+    "FF50A82B": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "material": "staxel.tile.grass.MeadowGrassLayer.2.Spring",
       "requireEmpty": false,
-      "rotation": 3
+      "rotation": 0
+    },
+    "FF515D82": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Chocolate",
+      "requireEmpty": false,
+      "rotation": 0
     },
     "FF537333": {
       "matches": false,
@@ -140,17 +254,17 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF54DB3A": {
+    "FF53CC66": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre3",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF5547A4": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
       "requireEmpty": false,
       "rotation": 1
-    },
-    "FF54ECB3": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
-      "requireEmpty": false,
-      "rotation": 3
     },
     "FF56A019": {
       "matches": false,
@@ -158,17 +272,41 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF57A6FC": {
-      "matches": false,
-      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.3",
-      "requireEmpty": false,
-      "rotation": 0
-    },
-    "FF5BDD8F": {
+    "FF58AB05": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
       "requireEmpty": false,
       "rotation": 2
+    },
+    "FF59248B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF593A13": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-AcornEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF5ADD12": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF5B2D61": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF5D9DC2": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Blue",
+      "requireEmpty": false,
+      "rotation": 3
     },
     "FF5F9F2F": {
       "matches": false,
@@ -176,23 +314,23 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF6120AD": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
-      "requireEmpty": false,
-      "rotation": 1
-    },
     "FF64973B": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FF65F9FC": {
+    "FF6742DA": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggStool",
       "requireEmpty": false,
-      "rotation": 2
+      "rotation": 1
+    },
+    "FF676604": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
     },
     "FF699F3E": {
       "matches": false,
@@ -206,17 +344,17 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF6D612E": {
+    "FF6BB028": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Leaf",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF6DC272": {
+    "FF6CD254": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
       "requireEmpty": false,
-      "rotation": 3
+      "rotation": 0
     },
     "FF6F9E47": {
       "matches": false,
@@ -224,11 +362,35 @@
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF7A5915": {
+    "FF725136": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-SwirlyShellEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF736A4C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Wildberry",
       "requireEmpty": false,
       "rotation": 3
+    },
+    "FF74B591": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Green",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF797979": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Black",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF79A4A0": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
     },
     "FF7A7549": {
       "matches": false,
@@ -236,11 +398,11 @@
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF7AB80E": {
+    "FF7A8C41": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-SeaweedEgg",
       "requireEmpty": false,
-      "rotation": 2
+      "rotation": 3
     },
     "FF7C6D95": {
       "matches": false,
@@ -266,11 +428,29 @@
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF7F804C": {
+    "FF7E80FD": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
       "requireEmpty": false,
-      "rotation": 2
+      "rotation": 3
+    },
+    "FF7FB731": {
+      "matches": false,
+      "material": "staxel.tile.grass.MeadowGrassLayer.1.Spring",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF825B3A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-BrownMushroomEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF84D4C6": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueGrass",
+      "requireEmpty": false,
+      "rotation": 1
     },
     "FF867AA1": {
       "matches": false,
@@ -278,17 +458,17 @@
       "requireEmpty": false,
       "rotation": 1
     },
-    "FF867B40": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
-      "requireEmpty": false,
-      "rotation": 2
-    },
     "FF868185": {
       "matches": false,
       "material": "staxel.tile.newVillage.CobbleStonePath",
       "requireEmpty": false,
       "rotation": 0
+    },
+    "FF86C2E7": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggStool",
+      "requireEmpty": false,
+      "rotation": 2
     },
     "FF887D9F": {
       "matches": false,
@@ -296,35 +476,29 @@
       "requireEmpty": false,
       "rotation": 1
     },
+    "FF8889B6": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FF896673": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "requireEmpty": false,
+      "rotation": 3
+    },
     "FF8B809D": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboBack",
       "requireEmpty": false,
       "rotation": 3
     },
-    "FF8DF25B": {
+    "FF8BB0B9": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-FairyEgg",
       "requireEmpty": false,
       "rotation": 3
-    },
-    "FF8F1D5B": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-    "FF8F2ECF": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
-      "requireEmpty": false,
-      "rotation": 0
-    },
-    "FF90B2BD": {
-      "matches": false,
-      "material": "staxel.tileObject.serverVillage.FilledFountain",
-      "requireEmpty": false,
-      "rotation": 1
     },
     "FF90B664": {
       "matches": false,
@@ -332,11 +506,35 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF935816": {
+    "FF90BBBE": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggFountain",
       "requireEmpty": false,
-      "rotation": 1
+      "rotation": 0
+    },
+    "FF94C88A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF99DD2C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF9BB84C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FF9BC2CD": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-SnailEgg",
+      "requireEmpty": false,
+      "rotation": 3
     },
     "FF9D84D4": {
       "matches": false,
@@ -356,29 +554,77 @@
       "requireEmpty": false,
       "rotation": 0
     },
+    "FF9ED9CB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FF9F2F92": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-CoolSplotchy",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF9F9C81": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Disco",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FF9FB2CF": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-April3",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA04D5F": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-RedCoralEgg",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFA183E7": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner",
+      "requireEmpty": false,
+      "rotation": 2
+    },
+    "FFA47C8D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA54DC4": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-HermitShellEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
     "FFA68777": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFEA439C": {
+    "FFA6D5B9": {
       "matches": false,
-      "material": "staxel.tile.creepy.PurpleGrassLayer.2",
-      "requireEmpty": false,
-      "rotation": 0
-    },
-    "FFA8D4AE": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
-      "requireEmpty": false,
-      "rotation": 0
-    },
-    "FFA8EB3F": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Pastels",
       "requireEmpty": false,
       "rotation": 3
+    },
+    "FFA7A690": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFA92E5B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
+      "requireEmpty": false,
+      "rotation": 0
     },
     "FFA9BA72": {
       "matches": false,
@@ -386,47 +632,23 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFAAC7C6": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide",
-      "requireEmpty": false,
-      "rotation": 3
-    },
     "FFABA9A1": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFACACA4": {
+    "FFADADA5": {
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCenter",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFAE52E2": {
+    "FFB19799": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Basket",
       "requireEmpty": false,
       "rotation": 0
-    },
-    "FFAEF150": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-    "FFB0CB71": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
-      "requireEmpty": false,
-      "rotation": 3
-    },
-    "FFB15643": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
-      "requireEmpty": false,
-      "rotation": 1
     },
     "FFB1C997": {
       "matches": false,
@@ -434,41 +656,107 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFB57651": {
+    "FFB3B3BC": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
-      "requireEmpty": false,
-      "rotation": 3
-    },
-    "FFB5B9AD": {
-      "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.BlueBrick",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-April1",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFB6AC40": {
+    "FFB3F4BB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeEnd",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFB88BC3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFBA868D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-StarfishEgg",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFBC6351": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-RedWhiteMushroomEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFBDC54D": {
+      "matches": false,
+      "material": "staxel.tile.leaves.Leaf.1.Spring",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFBED793": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.bobbleheads.EasterEggBobblehead",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC08181": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Red",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFC28F27": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Sponge",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC79234": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFC8BCEF": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-StarJellyEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC8EF98": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFC9C89A": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-PearlShellEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFCA6C11": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-RareMushroomEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFCC15A0": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFBC2977": {
+    "FFCE669A": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-BunnyPhonePink",
       "requireEmpty": false,
-      "rotation": 1
+      "rotation": 3
     },
-    "FFC9CE57": {
+    "FFCEF9B6": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
       "requireEmpty": false,
-      "rotation": 1
-    },
-    "FFCD89B5": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
-      "requireEmpty": false,
-      "rotation": 2
+      "rotation": 0
     },
     "FFCFA9CD": {
       "matches": false,
@@ -476,57 +764,75 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFD2629C": {
+    "FFCFCE96": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeMiddle",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-    "FFD370C5": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
-      "requireEmpty": false,
-      "rotation": 2
-    },
-    "FFD8104F": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-    "FFDA8064": {
-      "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.RedBrick",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Yoshi",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFDC759A": {
+    "FFCFF1B5": {
       "matches": false,
-      "material": "staxel.tile.grass.MeadowGrassLayer.2.Spring",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-MintSpeckled",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFD0BADA": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFDE8441": {
+    "FFD0DC5B": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCross",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-    "FFE0250D": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-CreatureBellEgg",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFE0E0E0": {
+    "FFD29631": {
       "matches": false,
-      "material": "staxel.tileObject.themedfurniture.pastel.PastelTable",
+      "material": "staxel.tileObject.dungeon.MoneyPileLarge",
       "requireEmpty": false,
       "rotation": 1
     },
-    "FFE2B24D": {
+    "FFD496A6": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFD8A3AA": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-MalevolentFairyEgg",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFD8C7C3": {
       "matches": false,
       "material": "staxel.tile.grass.GrassLayer.2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFDA56BB": {
+      "matches": false,
+      "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.3",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFDDAE9E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-April2",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE2E0CB": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-WhiteMushroomEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFE5A08C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Candycorn",
       "requireEmpty": false,
       "rotation": 0
     },
@@ -534,37 +840,61 @@
       "matches": false,
       "material": "mods.mb.EasterFest.toketsupuurin.furniture.GoldenEgg",
       "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFE8C63C": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-BunnyPhoneYellow",
+      "requireEmpty": false,
       "rotation": 0
     },
-    "FFEC15BB": {
+    "FFE9E2D4": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeCorner",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggTable(NoDock)",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFEA82C3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-PawShellEgg",
       "requireEmpty": false,
       "rotation": 3
     },
-    "FFECB441": {
+    "FFEAE08C": {
       "matches": false,
-      "material": "staxel.tile.creepy.PurpleGrassLayer.1",
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-Yellow",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFEDB92E": {
+    "FFEDE8D2": {
       "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch",
-      "requireEmpty": false,
-      "rotation": 2
-    },
-    "FFF0C367": {
-      "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.YellowBrick",
+      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EggStool",
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFF1A385": {
+    "FFEF5454": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+      "material": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
       "requireEmpty": false,
-      "rotation": 2
+      "rotation": 3
+    },
+    "FFEF8620": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Rainbow",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+    "FFF105F8": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+    "FFF26488": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-HeartEgg1",
+      "requireEmpty": false,
+      "rotation": 3
     },
     "FFF2FCF2": {
       "matches": false,
@@ -572,9 +902,21 @@
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFF3BE6B": {
+    "FFF3B6D7": {
       "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.OrangeBrick",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-pinkSpeckled",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFF3EC94": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-StarBit",
+      "requireEmpty": false,
+      "rotation": 3
+    },
+    "FFF3F3F3": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.lydocia-White",
       "requireEmpty": false,
       "rotation": 0
     },
@@ -584,39 +926,27 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FFF423A3": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
-      "requireEmpty": false,
-      "rotation": 3
-    },
-    "FFF4ECE9": {
-      "matches": false,
-      "material": "staxel.tileObject.themedfurniture.pastel.PastelStool",
-      "requireEmpty": false,
-      "rotation": 1
-    },
     "FFF4F7F4": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass",
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFF5B2B3": {
+    "FFF5CF27": {
       "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.PinkBrick",
+      "material": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
       "requireEmpty": false,
-      "rotation": 0
+      "rotation": 3
     },
     "FFF6F3FB": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
       "requireEmpty": false,
-      "rotation": 0
+      "rotation": 1
     },
-    "FFF758DA": {
+    "FFF8FC7D": {
       "matches": false,
-      "material": "mods.mb.EasterFest.markgrant.flower.MixedEasterGrass",
+      "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
       "requireEmpty": false,
       "rotation": 3
     },
@@ -625,6 +955,12 @@
       "material": "mods.mb.EasterFest.markgrant.festival.PawPrint",
       "requireEmpty": false,
       "rotation": 1
+    },
+    "FFFD548B": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeTSection",
+      "requireEmpty": false,
+      "rotation": 3
     },
     "FFFDE9F2": {
       "matches": false,
