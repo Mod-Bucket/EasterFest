@@ -388,5 +388,714 @@
         }
       ]
     },
+	{
+      "weight": 10,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.black"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.black"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.black"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.black"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.black"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.blue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.blue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.blue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.blue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.blue"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.brown"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.brown"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.brown"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.brown"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.brown"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.green"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.green"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.green"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.green"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.green"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.grey"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.grey"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.grey"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.grey"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.grey"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lavender"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lavender"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lavender"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lavender"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lavender"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lightBlue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lightBlue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lightBlue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lightBlue"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lightBlue"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lime"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lime"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lime"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lime"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.lime"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.orange"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.orange"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.orange"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.orange"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.orange"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.pink"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.pink"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.pink"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.pink"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.pink"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.purple"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.purple"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.purple"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.purple"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.purple"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.red"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.red"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.red"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.red"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.red"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.white"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.white"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.white"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.white"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.white"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyEars",
+			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.BunnyTeeth",
+			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.accessories.EasterBunnyHat",
+			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesiePants",
+			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"kind": "staxel.item.Clothing",
+			"accessory": "mods.mb.EasterFest.markgrant.RabbitOnesieShirt",
+			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
+        }
+      ]
+    },
   ]
 }
