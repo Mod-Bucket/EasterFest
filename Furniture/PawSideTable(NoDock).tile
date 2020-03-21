@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/tileObject/noDock.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "table",
+    "surface",
+    "bedside",
+    "side",
+    "nightstand"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.SideTable(NoDock)",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "staxel/tileObject/themedfurniture/pet/PawSideTable.qb"
+}

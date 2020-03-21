@@ -1,0 +1,39 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "categories": [
+    "container",
+    "storage",
+    "pet",
+    "yellow",
+    "brown",
+	"book",
+    "furniture",
+    "cabinet",
+    "closet",
+    "cupboard",
+    "pantry",
+    "credenza",
+    "double",
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Bookshelf",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 1
+    },
+    "specification": "CCC CXC"
+  },
+  "dockDefinition": "mods.mb.EasterFest.lydocia.furniture.paw.Bookshelf.dock",
+  "prefetchTileState": true,
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawBookshelf.qb",
+  "wallPushOut": true
+}

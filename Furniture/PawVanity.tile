@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/vanity.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "vanity",
+    "dressing",
+    "mirror",
+    "table"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Vanity",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawVanity.qb"
+}

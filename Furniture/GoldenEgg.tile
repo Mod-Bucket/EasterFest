@@ -1,5 +1,5 @@
 {
-  "__inherits": "staxel/tileObject/base.config",
+  "__inherits": "staxel/tileObject/moveable.config",
   "categories": [
     "Mod Bucket",
     "Easter",

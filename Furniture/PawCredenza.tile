@@ -1,0 +1,38 @@
+{
+  "__inherits": "staxel/tileObject/wardrobe.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "container",
+    "storage",
+    "cabinet",
+    "closet",
+    "cupboard",
+    "pantry",
+    "wardrobe",
+    "credenza"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Credenza",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawCredenza.qb",
+  "attachmentDirections": [
+  "yp"
+  ]
+}

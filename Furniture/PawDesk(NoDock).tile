@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/tileObject/noDock.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "table",
+    "surface",
+    "desk",
+    "davenport",
+    "bureau",
+    "writing"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Desk(NoDock)",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "staxel/tileObject/themedfurniture/pet/PawDesk.qb"
+}

@@ -1,0 +1,26 @@
+{
+  "__inherits": "mods/EasterFest/Furniture/PawOneSeaterStool.config",
+  "categories": [
+    "furniture",
+	"yellow",
+    "brown",
+    "pet",
+    "set",
+    "chair",
+    "seat",
+    "sit",
+	"long",
+	"long stool",
+    "stool",
+	"ottoman"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.LongStool",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawLongStool.qb"
+}

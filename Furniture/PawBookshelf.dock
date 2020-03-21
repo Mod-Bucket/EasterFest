@@ -1,0 +1,479 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Bookshelf.dock",
+  "allowStacksForAllSites": true,
+  "sites": [
+    {
+      "siteName": "slot1",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": 0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot2",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": 0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot3",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": 0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot4",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": -0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot5",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": -0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot6",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.31,
+        "x": -0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot7",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": 0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot8",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": 0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot9",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": 0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot10",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": -0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot11",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": -0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot12",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 0.81,
+        "x": -0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot13",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": 0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot14",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": 0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot15",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": 0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot16",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": -0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot17",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": -0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot18",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.31,
+        "x": -0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot19",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": 0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot20",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": 0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot21",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": 0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot22",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": -0.15
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot23",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": -0.45
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "siteName": "slot24",
+      "compact": true,
+      "dimensionOverride": {
+        "x": 1.0,
+        "y": 2.0,
+        "z": 1.0
+      },
+      "location": {
+        "z": 0.15,
+        "y": 1.81,
+        "x": -0.75
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "placeSoundGroup": "staxel.sounds.place.Stone",
+      "effectTrigger": "staxel.effect.DockItem"
+    }
+  ]
+}

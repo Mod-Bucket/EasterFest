@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/tileObject/ceilinglight.config",
+  "categories": [
+    "hanging",
+    "pet",
+	"lamp",
+	"yellow",
+    "brown",
+    "light",
+	"chandelier"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Chandelier",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 1200,
+    "value": 2000
+  },
+  "emissiveColor": "fff7EFCF",
+  "light": 20,
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawChandelier.qb",
+  "compound": {
+  "size": {
+    "x": 3,
+    "y": 1,
+    "z": 3
+  },
+  "specification": "CCC CXC CCC"
+  },
+}

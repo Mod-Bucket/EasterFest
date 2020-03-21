@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/docks/CoffeeTable.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "table",
+    "surface",
+    "coffee",
+    "low",
+    "short"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawCoffeeTable.qb"
+}

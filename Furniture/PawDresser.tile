@@ -1,0 +1,34 @@
+{
+  "__inherits": "staxel/tileObject/wardrobe.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "container",
+    "storage",
+    "chest",
+    "drawers",
+    "dresser",
+    "yorkshire"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Dresser",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 2,
+      "z": 1
+    },
+    "specification": "CC XC"
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawDresser.qb"
+}

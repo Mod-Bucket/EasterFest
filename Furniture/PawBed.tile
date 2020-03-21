@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/docks/SingleBed.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+    "set",
+    "bed",
+    "bunk",
+    "sleep",
+    "single"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.SingleBed",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 2,
+      "z": 3
+    },
+    "specification": "EEE EEE EEECCC CXC CCC"
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawSingleBed.qb"
+}

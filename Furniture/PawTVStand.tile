@@ -1,0 +1,42 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "attachmentDirections": [
+    "yp"
+  ],
+  "categories": [
+    "table",
+    "surface",
+    "furniture",
+    "television",
+    "TV",
+    "t.v",
+    "stand",
+	"pet",
+    "yellow",
+    "brown"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.TVStand",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "placementDirections": [
+    "yn",
+    "xp",
+    "xn",
+    "zp",
+    "zn"
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/EasterFest/Furniture/PawTVStand.qb"
+}
