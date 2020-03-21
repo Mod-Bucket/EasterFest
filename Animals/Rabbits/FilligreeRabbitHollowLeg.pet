@@ -178,7 +178,7 @@
   "eggs": [],
   "milks": [],
   "wools": [],
-  "feedKind": "petFood",
+  "feedKind": "filligreeFood",
   "grazes": false,
   "eatsGrass": false,
   "sleepy": true,

@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/tileObject/feeder.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "pet",
+    "feed",
+    "feeding",
+    "bowl",
+    "area",
+    "empty"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
+  "feeder": {},
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 60,
+    "value": 100
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.DirtFootSteps",
+  "voxels": "mods/EasterFest/Animals/Rabbits/FilligreeFoodBowlEmpty.qb"
+}

@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/tileObject/feeder.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "misc",
+    "pet",
+    "feed",
+    "feeding",
+    "area",
+    "full",
+    "bowl"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlFull",
+  "feeder": {
+    "emptyFeederCode": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
+    "feedCapacity": 5,
+    "feedKind": "filligreeFood"
+  },
+  "searchable": false,
+  "spawnOnBreak": {
+    "drops": {
+      "entries": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty"
+        }
+      ]
+    },
+    "selfDropChance": 0.0
+  },
+  "stepSoundGroup": "staxel.sounds.DirtFootSteps",
+  "voxels": "mods/EasterFest/Animals/Rabbits/FilligreeFoodBowlFull.qb"
+}
