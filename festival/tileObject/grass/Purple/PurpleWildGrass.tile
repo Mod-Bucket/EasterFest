@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/plant/flower/pickable.config",
+  "categories": [
+    "plant",
+    "purple"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 6,
+    "value": 10
+  },
+  "scytheable": {
+    "spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsBlack",
+    "spawnsMixedSeeds": true
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass1.qb",
+  "variants": [
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass1.qb",
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass2.qb",
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass3.qb",
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass4.qb",
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass5.qb",
+    "mods/EasterFest/festival/tileObject/grass/Purple/PurpleWildGrass6.qb",
+	]
+}
