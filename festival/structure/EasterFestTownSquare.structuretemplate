@@ -44,12 +44,6 @@
       "requireEmpty": false,
       "rotation": 0
     },
-    "FF343C2D": {
-      "matches": false,
-      "material": "staxel.tile.grass.GrassLayer.1",
-      "requireEmpty": false,
-      "rotation": 0
-    },
     "FF353F7F": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight",
@@ -97,12 +91,6 @@
       "material": "staxel.plant.flower.Bush.small",
       "requireEmpty": false,
       "rotation": 2
-    },
-    "FF616E11": {
-      "matches": false,
-      "material": "staxel.tile.rock.Rock.5",
-      "requireEmpty": false,
-      "rotation": 0
     },
     "FF64A28C": {
       "matches": false,
