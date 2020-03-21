@@ -532,7 +532,7 @@
     },
     "FF9BC2CD": {
       "matches": false,
-      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-SnailEgg",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-OmbreSpiral",
       "requireEmpty": false,
       "rotation": 3
     },
@@ -628,7 +628,7 @@
     },
     "FFA9BA72": {
       "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.GreenBrick",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-MintStripe",
       "requireEmpty": false,
       "rotation": 0
     },
@@ -683,6 +683,12 @@
     "FFBC6351": {
       "matches": false,
       "material": "mods.mb.EasterFest.lydocia.egg.toketsu-RedWhiteMushroomEgg",
+      "requireEmpty": false,
+      "rotation": 0
+    },
+	"FFFF7612": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Princess",
       "requireEmpty": false,
       "rotation": 0
     },
@@ -760,7 +766,7 @@
     },
     "FFCFA9CD": {
       "matches": false,
-      "material": "staxel.tile.happyBlocks.brick.PurpleBrick",
+      "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Wisteria",
       "requireEmpty": false,
       "rotation": 0
     },
