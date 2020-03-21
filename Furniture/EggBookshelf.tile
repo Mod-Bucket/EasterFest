@@ -26,7 +26,7 @@
     },
     "specification": "CCC CXC"
   },
-  "dockDefinition": "mods.ExpandedFurniture.SpookySet.SpookyBookshelf.dock",
+  "dockDefinition": "mods.mb.EasterFest.lydocia.furniture.paw.Bookshelf.dock",
   "prefetchTileState": true,
   "pricing": {
     "buyable": true,
