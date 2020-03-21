@@ -1,0 +1,24 @@
+{
+  "__inherits": "staxel/tileObject/walllight.config",
+  "categories": [
+    "light",
+    "lightsource",
+    "lighting",
+    "wall",
+    "lamp",
+    "yellow",
+    "brown",
+    "pet"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.WallLamp2",
+  "emissiveColor": "fff7EFCF",
+  "light": 7.0,
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawWallLamp2.qb"
+}
