@@ -296,12 +296,6 @@
       "requireEmpty": false,
       "rotation": 2
     },
-    "FFBA6554": {
-      "matches": false,
-      "material": "staxel.plant.gatherable.RedWhiteMushroom",
-      "requireEmpty": false,
-      "rotation": 0
-    },
     "FFBB1C28": {
       "matches": false,
       "material": "staxel.tileObject.biomeDebris.LongMeadowGrass.4",
