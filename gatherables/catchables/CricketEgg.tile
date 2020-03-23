@@ -1,0 +1,40 @@
+{
+  "__inherits": "staxel/gatherables/catchables/catchableWithNet.config",
+  "attachToSide": true,
+  "autoTileInfo": [
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "down",
+          "tileCategoriesToLookFor": [
+            "grass"
+          ],
+          "tileCategoriesToReject": [
+            "plant",
+            "weed"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.gatherable.CricketEgg"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "bug",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.CricketEgg",
+  "placementDirections": [
+    "yn"
+  ],
+  "prefetchTileState": true,
+  "searchable": false,
+  "tileStateKind": "staxel.tileState.Catchable",
+  "voxels": "mods/EasterFest/gatherables/catchables/CricketEgg.qb"
+}

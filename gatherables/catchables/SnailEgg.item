@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "market",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg","gatherable",
+    "bug",
+    "beetle"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.SnailEgg",
+  "collectable": {
+    "grouping": "staxel.collections.bug",
+    "priority": 20
+  },
+  "gatherable": {
+    "catchable": {
+      "spawnChance": 50,
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.SnailEgg"
+    },
+    "isCatchable": true
+  },
+  "icon": "mods/EasterFest/gatherables/catchables/SnailEgg.qb",
+  "inHand": "mods/EasterFest/gatherables/catchables/SnailEgg.qb",
+  "inHandOffset": {
+    "x": -0.07,
+    "y": -0.08,
+    "z": 0.4
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.5399999618530273
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 30,
+    "value": 50
+  },
+  "renderHeight": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

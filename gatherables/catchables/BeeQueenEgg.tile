@@ -1,0 +1,34 @@
+{
+  "__inherits": "staxel/gatherables/catchables/catchableWithNet.config",
+  "autoTileInfo": [
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "down",
+          "tileCategoriesToLookFor": [
+            "flower"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.gatherable.BeeQueenEgg"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "bug",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.BeeQueenEgg",
+  "floats": true,
+  "prefetchTileState": true,
+  "randomizePosition": true,
+  "searchable": false,
+  "tileStateKind": "staxel.tileState.Catchable",
+  "voxels": "mods/EasterFest/gatherables/catchables/BeeQueenEgg.qb"
+}
