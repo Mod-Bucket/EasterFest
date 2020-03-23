@@ -13,6 +13,7 @@ MarkGrant:
 - Assorted Easter Festival tiles
 - town square
 - NPCs
+- Bunny People
 
 toketsupuurin:
 - Easter hedge fence
