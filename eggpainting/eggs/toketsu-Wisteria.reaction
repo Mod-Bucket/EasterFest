@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Wisteria.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Wisteria.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -8,15 +8,8 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
+	  "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar",
       "quantity": 1
     }	
 	
@@ -24,7 +17,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-Wisteria",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-Wisteria",
       "quantity": 1
     }
   ],

@@ -8,17 +8,10 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BlackPetal",
+	  "kind": "staxel.item.Placer",
+      "tile": "staxel.tileObject.gatherable.RedCoral",
       "quantity": 1
     },
-    {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
-      "quantity": 1
-    }	
 	
   ],
   "results": [

@@ -8,17 +8,9 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BlackPetal",
+      "code": "staxel.item.gatherable.Creaturebud",
       "quantity": 1
     },
-    {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
-      "quantity": 1
-    }	
 	
   ],
   "results": [

@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-MintStripe.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-MintStripe.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -8,23 +8,18 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
       "code": "staxel.item.crafting.GreenLeaf",
       "quantity": 1
-    }	
-	
+    },
+    {
+      "code": "staxel.item.crafting.WhitePetal",
+      "quantity": 1
+    }
   ],
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-MintStripe",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-MintStripe",
       "quantity": 1
     }
   ],

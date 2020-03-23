@@ -8,15 +8,8 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.BlackPetal",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
       "quantity": 1
     }	
 	
