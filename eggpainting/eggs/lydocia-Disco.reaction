@@ -1,0 +1,23 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.egg.lydocia-Disco.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.CandyChocolateBar",
+      "quantity": 1
+    }	
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.lydocia.egg.lydocia-Disco",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}
