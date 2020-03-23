@@ -46,8 +46,8 @@
   "pricing": {
     "catalogueUnlockedFromStart": false,
     "buyable": false,
-    "sellPrice": 180,
-    "value": 300
+    "sellPrice": 1800,
+    "value": 3000
   },
   "renderHeight": {
     "x": 0.0,

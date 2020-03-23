@@ -10,7 +10,7 @@
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.RhinoBeetleEgg",
   "collectable": {
-    "grouping": "staxel.collections.bug",
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
     "priority": 20
   },
   "gatherable": {
@@ -37,8 +37,8 @@
   "pricing": {
     "catalogueUnlockedFromStart": false,
     "buyable": false,
-    "sellPrice": 30,
-    "value": 50
+    "sellPrice": 300,
+    "value": 500
   },
   "renderHeight": {
     "x": 0.0,
