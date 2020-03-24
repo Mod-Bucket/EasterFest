@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsupuurin.furniture.SequoiaEgg",
+  "code": "mods.mb.EasterFest.toketsupuurin.Eggwood.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -11,12 +11,19 @@
       "code": "staxel.item.crafting.RawSequoiaWood",
       "quantity": 1
     },	
-	
+	{
+      "code": "staxel.item.crafting.RawWood",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.RawHardWood",
+      "quantity": 1
+    }	
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.SequoiaEgg",
+      "kind": "staxel.item.Seed",
+      "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood",
       "quantity": 1
     }
   ],
