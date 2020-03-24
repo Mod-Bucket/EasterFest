@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+	  "quantity": 4
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 414,
+    "value": 690
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "code": "staxel.item.crafting.CandyChocolateBar"
+    }
+  },
+  "searchable": true,
+  "starter": true,
+  "steps": [
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.ChocolateEgg"
+  ]
+}
