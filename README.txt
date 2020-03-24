@@ -5,7 +5,7 @@ Contributing modders:
 ----------------------
 lydocia:
 - Egg Painter machine with recipes.
-- paw furniture recolors
+- some paw furniture recolors & rug
 - some decorated eggs
 
 MarkGrant:
@@ -21,7 +21,7 @@ toketsupuurin:
 - wisteria gazebo, pillar, arch
 - filligree rabbit pets
 - lamps and egg furniture
-- Expanded paw furniture models
+- Expanded paw furniture
 - Egg fish, bugs, and some decorated eggs
 - Easter Bunny farm animal
-- Eggwood plant
+- Eggwood & bunnycarrot plants
