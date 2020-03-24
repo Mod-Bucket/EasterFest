@@ -8,15 +8,14 @@
       "quantity": 1
     },
     {
-      "code": "staxel.tileObject.gatherable.OrchidMantis",
+      "code": "staxel.item.gatherable.OrchidMantis",
       "quantity": 1
     },
 
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.OrchidMantisEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.OrchidMantisEgg",
       "quantity": 1
     }
   ],

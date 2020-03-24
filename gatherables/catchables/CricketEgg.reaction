@@ -15,8 +15,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.CricketEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.CricketEgg",
       "quantity": 1
     }
   ],

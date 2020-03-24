@@ -15,8 +15,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.GreenCicadaEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.GreenCicadaEgg",
       "quantity": 1
     }
   ],

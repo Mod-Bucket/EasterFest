@@ -8,15 +8,14 @@
       "quantity": 1
     },
     {
-      "code": "staxel.tileObject.gatherable.Ladybug",
+      "code": "staxel.item.gatherable.Ladybug",
       "quantity": 1
     },
 
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.LadybugEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.LadybugEgg",
       "quantity": 1
     }
   ],
