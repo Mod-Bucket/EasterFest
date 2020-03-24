@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Ombre2.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre2.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -8,7 +8,7 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.BluePetal",
+      "code": "staxel.item.crafting.BlackPetal",
       "quantity": 1
     },
     {
@@ -16,7 +16,7 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.RedPetal",
+      "code": "staxel.item.crops.Eggplant",
       "quantity": 1
     }	
 	
@@ -24,7 +24,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-Ombre2",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre2",
       "quantity": 1
     }
   ],

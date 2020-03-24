@@ -9,15 +9,15 @@
     },
     {
       "code": "staxel.item.crafting.RedPetal",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "code": "staxel.item.crafting.YellowPetal",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "code": "staxel.item.crafting.BluePetal",
-      "quantity": 1
+      "quantity": 2
     }	
 	
   ],

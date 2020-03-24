@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-WhiteMushroomEgg.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-WhiteMushroomEgg.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -16,7 +16,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-WhiteMushroomEgg",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-WhiteMushroomEgg",
       "quantity": 1
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Wildberry.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Wildberry.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -15,7 +15,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-Wildberry",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-Wildberry",
       "quantity": 1
     }
   ],

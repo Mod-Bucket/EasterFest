@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-pinkSpeckled.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-pinkSpeckled.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -24,7 +24,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-pinkSpeckled",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-pinkSpeckled",
       "quantity": 1
     }
   ],

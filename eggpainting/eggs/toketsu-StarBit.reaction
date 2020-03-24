@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-StarBit.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-StarBit.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -16,7 +16,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-StarBit",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-StarBit",
       "quantity": 1
     }
   ],

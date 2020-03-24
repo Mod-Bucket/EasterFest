@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Basket.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Basket.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -17,7 +17,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-Basket",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-Basket",
       "quantity": 1
     }
   ],

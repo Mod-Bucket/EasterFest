@@ -8,7 +8,8 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.CandyChocolateBar",
+      "kind": "staxel.item.Placer",
+      "tile": "staxel.tileObject.dungeon.MoneyPileLarge",
       "quantity": 1
     }	
   ],

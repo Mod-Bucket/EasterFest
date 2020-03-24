@@ -1,5 +1,5 @@
 {
-  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-MalevolentFairyEgg.reaction",
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-MalevolentFairyEgg.reaction",
   "recipeStep": "Paint Egg",
   "tools": [],
   "reagents": [
@@ -16,7 +16,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-MalevolentFairyEgg",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-MalevolentFairyEgg",
       "quantity": 1
     }
   ],
