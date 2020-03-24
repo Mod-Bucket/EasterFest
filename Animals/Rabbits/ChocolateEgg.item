@@ -1,4 +1,4 @@
-{
+60{
   "categories": [
     "Mod Bucket",
     "Easter",
@@ -8,7 +8,10 @@
     "egg",
     "mixable",
     "harvested",
-    "chocolate"
+    "chocolate",
+    "candy",
+    "brown",
+    "food"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
   "icon": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
@@ -28,8 +31,8 @@
   "pricing": {
     "buyable": false,
     "catalogueUnlockedFromStart": false,
-    "sellPrice": 20,
-    "value": 25
+    "sellPrice": 15,
+    "value": 20
   },
   "searchable": true,
   "secondaryIcon": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
