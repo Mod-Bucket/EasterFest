@@ -1,0 +1,27 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.BunnyFishEgg.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.WhitePetal",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.gatherable.FootballFish",
+      "quantity": 1
+    },
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.BunnyFishEgg",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}
