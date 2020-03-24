@@ -4,15 +4,16 @@
     "Mod Bucket",
     "Easter",
     "EasterFest",
-	"gold",
-	"orange",
+	"crystal",
+	"blue",
     "egg"
   ],
-  "code": "mods.mb.EasterFest.toketsupuurin.furniture.GoldenEgg",
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg",
   "collectable": {
     "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
     "priority": 20
   },
+
   "compound": {
     "size": {
       "x": 1,
@@ -23,9 +24,9 @@
   "pricing": {
     "buyable": true,
     "catalogueUnlockedFromStart": false,
-    "sellPrice": 5000,
-    "value": 6000
+    "sellPrice": 500,
+    "value": 600
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/Furniture/GoldenEgg.qb"
+  "voxels": "mods/EasterFest/Furniture/Crystal1Egg.qb"
 }

@@ -15,6 +15,10 @@
     "bedside"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.furniture.EasterLamp04",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
   "emissiveColor": "fff7EFCF",
   "light": 10.0,
   "pricing": {
