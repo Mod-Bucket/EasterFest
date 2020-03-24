@@ -18,8 +18,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.RadishTroutEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.RadishTroutEgg",
       "quantity": 1
     }
   ],

@@ -15,8 +15,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.CrabEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.CrabEgg",
       "quantity": 1
     }
   ],

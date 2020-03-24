@@ -15,8 +15,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.BlueLobsterEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.BlueLobsterEgg",
       "quantity": 1
     }
   ],

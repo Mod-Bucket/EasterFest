@@ -18,8 +18,7 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.JokerAngelFishEgg",
+      "code": "mods.mb.EasterFest.toketsupuurin.gatherable.JokerAngelFishEgg",
       "quantity": 1
     }
   ],
