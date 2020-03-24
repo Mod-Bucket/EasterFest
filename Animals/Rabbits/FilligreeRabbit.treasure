@@ -389,11 +389,12 @@
       ]
     },
 	{
-      "weight": 10,
+      "weight": 20,
       "items": [
         {
           "kind": "staxel.item.Seed",
-          "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood"
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.BunnyCarrot",
+          "quantity": 10		  
         }
       ]
     },
