@@ -1,0 +1,24 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.BrownCicadaEgg.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.gatherable.BrownCicada",
+      "quantity": 1
+    },
+
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.BrownCicadaEgg",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

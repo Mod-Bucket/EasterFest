@@ -29,7 +29,7 @@
   "prefetchTileState": true,
   "randomizePosition": true,
   "searchable": false,
-  "useCustomRendering": true,
+
   "tileStateKind": "staxel.tileState.Catchable",
   "voxels": "mods/EasterFest/gatherables/catchables/BeeQueenEgg.qb"
 }

@@ -1,0 +1,24 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.ScorpionEgg.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.gatherable.Scorpion",
+      "quantity": 1
+    },
+
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.ScorpionEgg",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}
