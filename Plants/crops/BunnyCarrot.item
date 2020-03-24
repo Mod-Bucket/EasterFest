@@ -1,0 +1,50 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "market",
+    "vegetable",
+    "Carrot",
+	"orange",
+    "choppable",
+    "boilable",
+    "reapable",
+    "mixable",
+    "harvested",
+    "pet"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.items.crops.BunnyCarrot",
+  "eatTime": 1,
+  "icon": "mods/EasterFest/Plants/crops/BunnyCarrot.qb",
+  "inHand": "mods/EasterFest/Plants/crops/BunnyCarrot.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.25,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "appliesStatus": {
+    "statuses" : [
+		"swift",
+		"jumpy"
+	]
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "appearsInCatalogue": false,    
+    "sellPrice": 180,
+    "value": 300
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

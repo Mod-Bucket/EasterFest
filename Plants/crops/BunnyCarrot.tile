@@ -1,0 +1,28 @@
+{
+  "__inherits": "staxel/plant/crop/base.config",
+  "categories": [
+    "crop",
+    "plant",
+    "produce",
+    "growable",
+    "Carrot",
+    "vegetable",
+    "orange",
+    "food",
+    "pet"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.plant.crop.BunnyCarrot",
+  "searchable": true,
+  "variants": [
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={0,0,0}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={32,0,0}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={48,0,0}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={112,0,0}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={32,0,16}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={48,0,16}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={112,0,16}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={32,0,32}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={48,0,32}",
+    "mods/EasterFest/Plants/crops/BunnyCarrotCrop.qb?size={16,32,16}?offset={112,0,32}"
+  ]
+}

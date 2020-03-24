@@ -1,0 +1,153 @@
+{
+  "categories": [
+    "crop",
+    "plant",
+    "produce",
+    "growable",
+    "Carrot",
+    "vegetable",
+    "orange",
+    "seed",
+    "seeds",
+    "packet",
+    "pet"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.crop.BunnyCarrot",
+  "icon": "mods/EasterFest/Plants/crops/BunnyCarrotSeedpacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "appearsInCatalogue": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "stages": {
+    "CarrotFruited": {
+      "alt": 3,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mods.mb.EasterFest.toketsupuurin.treasure.BunnyCarrotHarvest",
+      "scytheable": {},
+      "wilted": "CarrotWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotSprout1": {
+      "alt": 1,
+      "grow": "CarrotSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "CarrotWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotSprout2": {
+      "alt": 2,
+      "grow": "CarrotFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "CarrotWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotWilted1": {
+      "alt": 4,
+      "grow": "CarrotSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "CarrotWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotWilted2": {
+      "alt": 5,
+      "grow": "CarrotSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "CarrotWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotWiltedFruited": {
+      "alt": 6,
+      "grow": "CarrotFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "CarrotWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CarrotWithered1": {
+      "alt": 7,
+      "scytheable": {}
+    },
+    "CarrotWithered2": {
+      "alt": 8,
+      "scytheable": {}
+    },
+    "CarrotWitheredFruited": {
+      "alt": 9,
+      "scytheable": {}
+    },
+    "seed": {
+      "alt": 0,
+      "grow": "CarrotSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "shovelable": {}
+    }
+  },
+  "tile": "mods.mb.EasterFest.toketsupuurin.plant.crop.BunnyCarrot"
+}

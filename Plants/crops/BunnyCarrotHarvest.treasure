@@ -1,0 +1,13 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.treasure.BunnyCarrotHarvest",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        {
+          "code": "mods.mb.EasterFest.toketsupuurin.items.crops.BunnyCarrot"
+        }
+      ]
+    }
+  ]
+}
