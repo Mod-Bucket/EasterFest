@@ -16,8 +16,9 @@
       "quantity": 1
     },
     {
-      "code": "staxel.item.crafting.GreenLeaf",
-      "quantity": 1
+	  "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.markgrant.bobbleheads.EasterEggBobblehead",
+      "quantity": 10
     }	
 	
   ],
