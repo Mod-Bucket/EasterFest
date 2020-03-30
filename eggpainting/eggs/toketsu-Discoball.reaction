@@ -1,0 +1,25 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Discoball.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "staxel.tileObject.magic.MagicLight",
+      "quantity": 1
+    }	
+	
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-Discoball",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

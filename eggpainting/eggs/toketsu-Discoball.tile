@@ -1,0 +1,40 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "decoration",
+	"easter",
+	"easterfest",
+	"egg",
+	"mod bucket",
+	"decor",
+	"decorated"
+  ],
+  "emissiveColor": "B9FAFA",
+  "light": 5.2,
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Discoball",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 400,
+    "value": 1000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb",
+  
+  "frameAnimatedTile": {
+    "frameTime": 0.5
+  },
+  "prefetchTileState": true,
+  "tileStateKind": "staxel.tileState.FrameAnimated",
+  "useCustomRendering": true,
+  "variants": [
+    "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb?size={8,8,8}?offset={0,0,0}",
+    "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb?size={8,8,8}?offset={8,0,0}",
+    "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb?size={8,8,8}?offset={16,0,0}",
+    "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb?size={8,8,8}?offset={24,0,0}",
+  ]
+}
