@@ -26,7 +26,7 @@
   "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb",
   
   "frameAnimatedTile": {
-    "frameTime": 0.5
+    "frameTime": 0.15
   },
   "prefetchTileState": true,
   "tileStateKind": "staxel.tileState.FrameAnimated",
