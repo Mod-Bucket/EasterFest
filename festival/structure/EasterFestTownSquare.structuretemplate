@@ -517,6 +517,25 @@
       "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
       "requireEmpty": false,
       "rotation": 1
+    },
+	"FF1E1E1E": {
+      "matches": false,
+      "material": "staxel.tileObject.gatherable.Scorpion",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+	"FFFF961E": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.lydocia.machine.EggPainter",
+      "requireEmpty": false,
+      "rotation": 1
+    },
+	"FF661D1D": {
+      "matches": false,
+      "material": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
+      "requireEmpty": false,
+      "rotation": 1
     }
+	
   },
 }
