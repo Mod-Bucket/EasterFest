@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"stone",
+	"gold",
+    "egg"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 1500,
+    "value": 1600
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/WonderEgg.qb"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+      "quantity": 1
+    }	
+	
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}
