@@ -15,6 +15,10 @@
   },
   "gatherable": {
     "catchable": {
+      "leaveDuringOffWeather": true,
+      "spawnWeathers": [
+        "mods.mb.EasterFest.markgrant.festival.EasterFest"
+      ],
       "spawnChance": 50,
       "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.SnailEgg"
     },
