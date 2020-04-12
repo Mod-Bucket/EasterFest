@@ -4,6 +4,8 @@
   "names": [
     "Easter Bunny",
     "Osterhase",
+	"Cadbury",
+	"White Rabbit"
   ],
   "idleBehaviours": [
     "staxel.farmAnimalBehaviour.Idle"
