@@ -16,7 +16,7 @@
   "results": [
     {
       "kind": "staxel.item.Placer",
-      "tile": "mods.mb.EasterFest.lydocia.egg.toketsu-BrownMushroomEgg",
+      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-BrownMushroomEgg",
       "quantity": 1
     }
   ],
