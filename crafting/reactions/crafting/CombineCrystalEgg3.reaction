@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "staxel.crafting.reaction.CombineCrystalEgg3",
+  "recipeStep": "combine",
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.Crystal3Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.pets.PetFood",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowLegHouse",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Combine"
+}
