@@ -520,7 +520,7 @@
     },
 	"FF1E1E1E": {
       "matches": false,
-      "material": "staxel.tileObject.gatherable.Scorpion",
+      "material": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
       "requireEmpty": false,
       "rotation": 1
     },
@@ -530,12 +530,6 @@
       "requireEmpty": false,
       "rotation": 1
     },
-	"FF661D1D": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
-      "requireEmpty": false,
-      "rotation": 1
-    }
 	
   },
 }
