@@ -1,0 +1,26 @@
+{
+  "code": "staxel.treasure.EggwoodSeeds",
+  "entries": [
+    {
+      "weight": 82.5,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "weight": 15.0,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood",
+          "quantity": 5
+        }
+      ]
+    },
+
+  ]
+}
