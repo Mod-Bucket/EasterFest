@@ -47,13 +47,13 @@ mods.mb.EasterFest.toketsupuurin.furniture.BasaltEgg.name=Basalt Egg
 mods.mb.EasterFest.toketsupuurin.furniture.BasaltEgg.description=An egg carved from basalt.
 
 mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg.name=Crystal Egg
-mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg.description=An egg made from ore.
+mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg.description=There's something inside this. Maybe I can tempt it out.
 
 mods.mb.EasterFest.toketsupuurin.furniture.Crystal2Egg.name=Crystal Egg
-mods.mb.EasterFest.toketsupuurin.furniture.Crystal2Egg.description=An egg made from ore.
+mods.mb.EasterFest.toketsupuurin.furniture.Crystal2Egg.description=Is there something alive in here?  Maybe I can tempt it out.
 
 mods.mb.EasterFest.toketsupuurin.furniture.Crystal3Egg.name=Crystal Egg
-mods.mb.EasterFest.toketsupuurin.furniture.Crystal3Egg.description=An egg made from ore.
+mods.mb.EasterFest.toketsupuurin.furniture.Crystal3Egg.description=It moved!  Maybe I can tempt whatever's in it out.
 
 mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket.name=Easter Basket
 mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket.description=An easter basket.
@@ -286,6 +286,9 @@ mods.mb.EasterFest.toketsupuurin.furniture.Ore2Egg.description=A red egg carved 
 mods.mb.EasterFest.toketsupuurin.furniture.Ore3Egg.name=Yellow Ore Egg
 mods.mb.EasterFest.toketsupuurin.furniture.Ore3Egg.description=A yellow egg carved unrefined from magic ore.
 
+mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg.name=Wonder Egg
+mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg.description=It's making noise!  Maybe I can tempt whatever's in it out.
+
 mods.mb.EasterFest.lydocia.furniture.paw.armchair.name=Pastel Paw Arm Chair
 mods.mb.EasterFest.lydocia.furniture.paw.armchair.description=A pastel paw arm chair.
 
@@ -502,9 +505,6 @@ mods.mb.EasterFest.lydocia.egg.lydocia-Yellow.description=A yellow dyed egg.
 mods.mb.EasterFest.lydocia.egg.lydocia-Yoshi.name=Yoshi Egg
 mods.mb.EasterFest.lydocia.egg.lydocia-Yoshi.description=What's a Yoshi?
 
-mods.mb.EasterFest.lydocia.egg.template.name=Mystery Egg
-mods.mb.EasterFest.lydocia.egg.template.description=How did you get this?
-
 mods.mb.EasterFest.lydocia.egg.toketsu-AcornEgg.name=Acorn Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-AcornEgg.description=Is that really an egg?
 
@@ -649,9 +649,6 @@ mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Red.description=A speci
 mods.mb.EasterFest.markgrant.festival.PawPrint.name=Pastel Paw Print
 mods.mb.EasterFest.markgrant.festival.PawPrint.description=Following easter bunny tracks might lead to something good!
 
-mods.mb.EasterFest.gatherableEggs.tile.{0}.name=Another Mystery Egg
-mods.mb.EasterFest.gatherableEggs.tile.{0}.description=How did you find this?
-
 mods.mb.EasterFest.toketsupuurin.gatherable.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.BeeEgg.description=How did it float? Can I use it as a real bee?
 
@@ -768,9 +765,6 @@ mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg.description=It's an egg. Not 
 
 mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBox.name=Filligree Food
 mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBox.description=Food for filligree pets.
-
-mods.mb.EasterFest.gatherableEggs.item.{0}.name=Yet Another Mystery Egg
-mods.mb.EasterFest.gatherableEggs.item.{0}.description=How did you get this?
 
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.description=How did it float? Can I use it as a real bee?
