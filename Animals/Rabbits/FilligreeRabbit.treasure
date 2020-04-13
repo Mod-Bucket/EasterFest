@@ -399,12 +399,12 @@
       ]
     },
 	{
-      "weight": 100, //Set to 1 and drop 10 when eggpainter is fixed.
+      "weight": 1
       "items": [
         {
           "kind": "staxel.item.Seed",
           "plant": "mods.mb.EasterFest.toketsupuurin.crop.Eggwood",
-          "quantity": 100		  
+          "quantity": 10		  
         }
       ]
     },
