@@ -254,12 +254,6 @@
       "requireEmpty": false,
       "rotation": 1
     },
-    "FFA68777": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
-      "requireEmpty": false,
-      "rotation": 0
-    },
     "FFAB60FE": {
       "matches": false,
       "material": "mods.mb.EasterFest.markgrant.EasterBench",
@@ -523,13 +517,6 @@
       "material": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
       "requireEmpty": false,
       "rotation": 1
-    },
-	"FFFF961E": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.lydocia.machine.EggPainter",
-      "requireEmpty": false,
-      "rotation": 1
-    },
-	
-  },
+    }	
+  }
 }
