@@ -1,0 +1,14 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.job.festival.EasterBunny",
+  "startingTime": 0,
+  "endingTime": 1440,
+  "workPlaceTools": "staxel.tileObject.villagers.rewards.Vorlen.VorlensPocketWatch",
+  "primaryDialogue": "mods.mb.EasterFest.markgrant.dialogue.EasterBunny",
+  "workOvernight": true,
+  "weightedScripts": [
+    {
+      "script": "staxel.script.ChillAtTownSquareScript",
+      "weight": 25.0
+    }
+  ]
+}

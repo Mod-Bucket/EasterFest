@@ -1,7 +1,7 @@
 {
   "code": "mods.mb.EasterFest.markgrant.personality.EasterBunny",
-  "idleScript": "staxel.script.StandAroundIdle",
+  "idleScript": "staxel.script.ChillAtTownSquareScript",
   "primaryDialogue": "mods.mb.EasterFest.markgrant.dialogue.EasterBunny",
   "canGiveQuests": false,
-  "canOverrideBehaviour": false
+  "canOverrideBehaviour": true
 }

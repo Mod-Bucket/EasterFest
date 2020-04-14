@@ -21,6 +21,7 @@
       "    <<set $d_eggs to 0>>",
       "    <<set $maze to 0>>",
       "    <<set $t_party to 0>>",
+      "    <<set $EggPainter to 0>>",
       "Oh! Hello, I'm Alice! Oh dear...#line:10000020",
       "<<emote staxel.emote.Fidget>>",
       "Welcome to the EasterFest! The greatest and bestest festival of the year.#line:10000030",
@@ -142,13 +143,16 @@
     "body": [
       "What's going on? Oh, lots of stuff! We're celebrating Easter!#line:10000100",
       "There's egg collecting and decorating, a maze, and there was supposed to be a tea party.#line:10000110",
-      "[[Bring3Eggs]]"
+      "<<if $EggPainter is 0>>",
+      "[[Bring3Eggs]]",
+      "<<endif>>",
+      "[[Main]]"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
       "x": 727,
-      "y": 319
+      "y": 320
     }
   },
   {
@@ -158,6 +162,7 @@
       "Three eggs! Great! Ok. Here's your decorating station! And some recipes to get you started!#line:10002001",
       "<<removePlayerItem staxel.item.crafting.Egg 3>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.lydocia.machine.EggPainter>>",
+      "<<set $EggPainter to 1>>",
       "WAIT! Don't run off yet!#line:10002002",
       "THIS.#line:10002003",
       "IS.#line:10002004",
@@ -168,6 +173,7 @@
       "Try fruit or starbits, anything you can think of that might make a pretty egg!#line:10002009",
       "If it's an ingredient to make other things it might help you make a decorated egg!#line:10002010",
       "Have Fun!#line:10002011",
+      "",
       "[[Quit]]"
     ],
     "tags": "",
