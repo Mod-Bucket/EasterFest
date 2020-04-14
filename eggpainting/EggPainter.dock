@@ -1,11 +1,33 @@
 {
   "code": "mods.mb.EasterFest.lydocia.machine.EggPainter.dock",
-  "allowStacksForAllSites": true,
+  "craftingKeyword": "Paint Egg",
   "nameTagOffset": {
     "x": 0.0,
     "y": 0.6,
     "z": 0.0
   },
+  "resultSite": "egg",
+  "effectSite": "egg",
+  "processDrawables": {
+    "egg": {
+      "voxels": "mods/EasterFest/eggpainting/eggs/Egg.qb",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "giantegg": {
+      "voxels": "mods/EasterFest/eggpainting/eggs/GiantEgg.qb",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+  },
+  "approximateSites": true,
+  "allowStacksForAllSites": true,
   "sites": [
     {
       "allowStacks": true,
@@ -21,7 +43,7 @@
         "z": 0.0
       },
       "compact": false,
-      "craftSite": false
+      "craftSite": true
     },
     {
       "allowStacks": true,
@@ -37,7 +59,7 @@
         "z": 0.0
       },
       "compact": true,
-      "craftSite": false
+      "craftSite": true
     },
     {
       "allowStacks": true,
@@ -53,7 +75,7 @@
         "z": 0.0
       },
       "compact": true,
-      "craftSite": false
+      "craftSite": true
     },
     {
       "allowStacks": true,
@@ -69,10 +91,28 @@
         "z": 0.0
       },
       "compact": true,
-      "craftSite": false
+      "craftSite": true
     }
   ],
   "validDockables": [
+      {
+      "category": "egg",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "effectTrigger": "staxel.effect.DockItem",
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "sites": [
+        "egg"
+      ]
+	},
     {
       "category": "all",
       "offset": {
@@ -86,7 +126,13 @@
         "z": 0.0
       },
       "placeSoundGroup": "staxel.sounds.place.Stone",
-      "effectTrigger": "staxel.effect.DockItem"
+      "effectTrigger": "staxel.effect.DockItem",
+	  "sites": [
+//        "results",
+        "colour1",
+        "colour2",
+        "colour3"
+      ]
     }
-  ]
+  ],
 }

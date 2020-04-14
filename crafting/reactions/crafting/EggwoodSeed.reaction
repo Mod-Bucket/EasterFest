@@ -1,0 +1,27 @@
+{
+  "name": "Make Eggwood Seeds",
+  "code": "staxel.crafting.reaction.MakeEggwoodSeed",
+  "recipeStep": "reap",
+  "moveResultsToSite": "seedSite",
+  "anyTool": true,
+  "automated": true,
+  "automationDelay": 3,
+  "docks": [
+    "staxel.tileObject.serverVillage.SeedMaker"
+  ],
+  "reagents": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggwoodDecor",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "reactionTreasure": "staxel.treasure.EggwoodSeeds"
+    }
+  ],
+  "duration": 4/* seconds*/,
+  "effect": "staxel.effect.crafting.SeedMaker"/*only valid with duration*/,
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}
