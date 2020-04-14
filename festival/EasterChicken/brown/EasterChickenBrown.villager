@@ -12,7 +12,7 @@
       }
     }
   ],
-  "canLeaveTown": false,
+  "canLeaveTown": true,
   "canOverrideBehaviour": false,
   "canGiveQuests": false
 }

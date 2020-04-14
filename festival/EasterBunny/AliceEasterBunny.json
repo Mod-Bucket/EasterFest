@@ -4,13 +4,33 @@
     "body": [
       "<<lockPlayerInConversation>>",
       "<<typewriterMode on>>",
-      "Oh dear, oh dear... #line:10000100",
-      "<<if $said_hello is 0>>",
-      "    Oh! Hello, I'm Alice! Oh dear... #line:10000200",
-      "    <<set $said_hello to 1>>",
-      "    [[Intro]]    ",
+      "<<emote staxel.emote.Nervious>>",
+      "Oh dear, oh dear... #line:10000010",
+      "<<if $daysSinceLastFest is 0 or $daysSinceLastFest is null>>",
+      "    <<set $said_hello to 0>>",
+      "    <<set $daysSinceLastFest to $day>>",
       "<<else>>",
-      "Hi again! Oh dear... #line:10000300",
+      "    <<if $daysSinceLastFest + 10 < $day>>",
+      "        <<set $said_hello to 0>>",
+      "        <<set $daysSinceLastFest to $day>>",
+      "    <<endif>>",
+      "<<endif>>",
+      "",
+      "<<if $said_hello is 0>>",
+      "    <<set $c_eggs to 0>>",
+      "    <<set $d_eggs to 0>>",
+      "    <<set $maze to 0>>",
+      "    <<set $t_party to 0>>",
+      "Oh! Hello, I'm Alice! Oh dear...#line:10000020",
+      "<<emote staxel.emote.Fidget>>",
+      "Welcome to the EasterFest! The greatest and bestest festival of the year.#line:10000030",
+      "<<emote staxel.emote.Satisfied>>",
+      "It would be so nice if you participated and enjoyed yourself. #line:10000040",
+      " <<set $said_hello to 1>>",
+      "[[Intro]]    ",
+      "<<else>>",
+      "<<emote staxel.emote.Fidget>>",
+      "Hi again! Oh dear... #line:10000050",
       "[[Intro]]",
       "<<endif>>",
       "<<typewriterMode off True True>>",
@@ -26,18 +46,22 @@
   {
     "title": "Main",
     "body": [
-      "[[Tell me about collecting.|Collection]] #line:10000600",
-      "[[Tell me about decorating.|Decoration]] #line:10000700",
-      "[[Tell me about the maze.|Maze]] #line:10000800",
-      "[[Tell me about the tea party.|TeaParty]] #line:10000900",
-      "[[Nevermind....|Quit]] #line:10001000",
+      "<<branchPlayerHasItem mods.mb.EasterFest.toketsupuurin.furniture.RottenEgg RottenEgg>>",
+      "<<branchPlayerHasItem mods.mb.EasterFest.toketsupuurin.furniture.GoldenEgg GiantGoldenEgg>>",
+      "<<branchPlayerHasItem mods.mb.EasterFest.lydocia.egg.lydocia-Gold LittleGoldenEgg>>",
+      "Want to know more? #line:10000120",
+      "[[Egg Collecting.|Collection]] #line:10000200",
+      "[[Egg Decorating.|Decoration]] #line:10000300",
+      "[[The Maze.|Maze]] #line:10000400",
+      "[[The Tea Party.|TeaParty]] #line:10000500",
+      "[[Nevermind....|Quit]] #line:10000130",
       ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
       "x": 716,
-      "y": 592
+      "y": 594
     }
   },
   {
@@ -57,22 +81,25 @@
   {
     "title": "Collection",
     "body": [
-      "There's a whole new collection for you!#line:10000610",
-      "And special prizes if you bring me decorated eggs.#line:10000620",
-      "There are some where you'll find bugs or fossils, and of course you'll find some hidden in the maze. For every % eggs you bring me I'll give you a prize!#line:10000630",
+      "There's a whole new collection for you!#line:10000210",
+      "And special prizes if you bring me decorated eggs.#line:10000220",
+      "There are bugs and fossils to find.#line:10000230",
+      "Plus all sorts of unique eggs scattered in the maze. #line:10000240",
+      "There may even be a fish or two \"well\" hidden. #line:10000250",
+      "For every % eggs you bring me I'll give you a prize!#line:10000260",
       "[[Main]]"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 417,
-      "y": 605
+      "x": 415,
+      "y": 571
     }
   },
   {
     "title": "TeaParty",
     "body": [
-      "Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one #line:10000910",
+      "Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one? #line:10000910",
       "[[Main]]"
     ],
     "tags": "",
@@ -91,15 +118,15 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 994,
-      "y": 598
+      "x": 980,
+      "y": 601
     }
   },
   {
     "title": "Maze",
     "body": [
       "Isn't it pretty? It's a little piece of home!#line:10000810",
-      "You can find Decorated eggs and goodies in it!#line:10000820",
+      "You can find decorated eggs and goodies in it!#line:10000820",
       "There are all sorts of secrets! And there's a big prize if you make it to the center!#line:10000830",
       "[[Main]]"
     ],
@@ -107,21 +134,142 @@
     "colorID": 0,
     "position": {
       "x": 727,
-      "y": 910
+      "y": 911
     }
   },
   {
     "title": "Intro",
     "body": [
-      "What's going on? Oh, lots of stuff! We're celebrating Easter!#line:10000400",
-      "There's egg collecting and egg decorating, and a maze, and there was supposed to be a tea party.#line:10000500",
-      "[[Main]]"
+      "What's going on? Oh, lots of stuff! We're celebrating Easter!#line:10000100",
+      "There's egg collecting and decorating, a maze, and there was supposed to be a tea party.#line:10000110",
+      "[[Bring3Eggs]]"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
       "x": 727,
       "y": 319
+    }
+  },
+  {
+    "title": "Bring3Eggs",
+    "body": [
+      "<<branchPlayerDoesntHaveEnoughOfItem staxel.item.crafting.Egg 3 Main>>",
+      "Three eggs! Great! Ok. Here's your decorating station! And some recipes to get you started!#line:10002001",
+      "<<removePlayerItem staxel.item.crafting.Egg 3>>",
+      "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.lydocia.machine.EggPainter>>",
+      "WAIT! Don't run off yet!#line:10002002",
+      "THIS.#line:10002003",
+      "IS.#line:10002004",
+      "IMPORTANT!#line:10002005",
+      "There are lots and lots of eggs you can make! But most of them are a secret!#line:10002006",
+      "You'll have to experiment! There are no recipes written down for you!#line:10002007",
+      "Don't just try petals either!#line:10002008",
+      "Try fruit or starbits, anything you can think of that might make a pretty egg!#line:10002009",
+      "If it's an ingredient to make other things it might help you make a decorated egg!#line:10002010",
+      "Have Fun!#line:10002011",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1039,
+      "y": 353
+    }
+  },
+  {
+    "title": "RottenEgg",
+    "body": [
+      "Ew! You found a Rotten Egg?#line:20000011",
+      "Gross!#line:20000012",
+      "That must have been from leftover from last year.#line:20000013",
+      "I thought I smelled something funky....#line:20000014"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1347,
+      "y": 141
+    }
+  },
+  {
+    "title": "GiantGoldenEgg",
+    "body": [
+      "Oh! You found the Giant Golden Egg?#line:20000000",
+      "Yay! Congratulations!#line:20000001",
+      "Wasn't the maze fun? You can keep that for decoration around your house, or sell it.#line:20000002",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1347,
+      "y": -301
+    }
+  },
+  {
+    "title": "LittleGoldenEgg",
+    "body": [
+      "Oh! You found painted a Golden Egg?#line:20000007",
+      "It's pretty!#line:20000008",
+      "But that's not the real prize.#line:20000009",
+      "Keep searching the maze.#line:20000010",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1351,
+      "y": -68
+    }
+  },
+  {
+    "title": "TeaSetFound",
+    "body": [
+      "You found my Tea Set?#line:20000015",
+      "You did!?! Oh, thank you!#line:20000016",
+      "But... It's just... Oh dear...#line:20000017",
+      "[[What's wrong now? |EasterBasket]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1467,
+      "y": 547
+    }
+  },
+  {
+    "title": "EasterBasket",
+    "body": [
+      "I managed to lose my Easter Basket!#line:20000018",
+      "I know I had it when I went into the maze.#line:20000019",
+      "Oh dear... Could you help me find it?#line:20000020",
+      "[[Quit]]",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1726,
+      "y": 547
+    }
+  },
+  {
+    "title": "FoundEasterBasket",
+    "body": [
+      "You found my basket?#line:20000021",
+      "Marvellous! You're a lifesaver!#line:20000022",
+      "But.. It's just.. Oh dear...#line:20000023",
+      "I can't find my egg fish. #line:20000024",
+      "I think a stray cat must have gotten hungry.#line:20000025",
+      "Could you go into the maze and catch me one?#line:20000026",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1482,
+      "y": 823
     }
   }
 ]

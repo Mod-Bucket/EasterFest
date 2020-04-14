@@ -1,27 +1,35 @@
 ﻿language.code=en-GB
 language=English
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000100=Oh dear, oh dear... 
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000200=Oh! Hello, I'm Alice! Oh dear...
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000300=Hi again! Oh dear...
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000400=What's going on? Oh, lots of stuff! We're celebrating Easter!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000500=There's egg collecting and egg decorating, and a maze, and there was supposed to be a tea party.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000010=Oh dear, oh dear... 
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000020=Oh! Hello, I'm Alice! Oh dear...
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000030=Welcome to the EasterFest! The greatest and bestest festival of the year.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000040=It would be so nice if you participated and enjoyed yourself.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000050=Hi again! Oh dear...
 
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000600=Tell me about collecting.
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000700=Tell me about decorating
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000800=Tell me about the maze.
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000900=Tell me about the tea party.
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10001000=Nevermind....
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000100=What's going on? Oh, lots of stuff! We're celebrating Easter!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000110=There's egg collecting and decorating, a maze, and there was supposed to be a tea party.
 
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000610=There's a whole new collection for you!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000620=And special prizes if you bring me decorated eggs.
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000630=There are some where you'll find bugs or fossils, and of course you'll find some hidden in the maze. For every % eggs you bring me I'll give you a prize!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000120=Want to know more?
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000200=Egg Collecting
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000300=Egg Decorating
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000400=The Maze
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000500=The Tea Party
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000130=Nevermind....
+
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000210=There's a whole new collection for you!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000220=And special prizes if you bring me decorated eggs.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000230=There are bugs and fossils to find.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000240=Plus all sorts of unique eggs scattered in the maze.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000250=There may even be a fish or two "well" hidden.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000260=For every % eggs you bring me I'll give you a prize!
 
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000710=Oh! Well, there's a special station that will let you make some of the eggs for the collection!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000720=If you bring me 3 ^c:d03e37;regular chicken eggs^c:pop I'll give it to you and show you how it works!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000720=If you bring me 3 ^c:d03e37;regular chicken eggs^c:pop; I'll give it to you and show you how it works!
 
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000810=Isn't it pretty? It's a little piece of home!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000820=You can find Decorated eggs and goodies in it!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000820=You can find decorated eggs and goodies in it!
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000830=There are all sorts of secrets! And there's a big prize if you make it to the center!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000910=Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one
+
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10000910=Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one?
 
 
