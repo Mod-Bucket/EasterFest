@@ -3,16 +3,5 @@
   "idleScript": "staxel.script.StrayCatIdle",
   "primaryDialogue": "mods.mb.EasterFest.markgrant.dialogue.EasterChickenYellow",
   "suppressGeneralDialogue": true,
-  "typicalRegards": [
-    {
-      "kind": "staxel.concepts.Category",
-      "attitude": 5,
-      "concept": {
-        "categories":["sweet"]
-      }
-    }
-  ],
-  "canLeaveTown": false,
-  "canOverrideBehaviour": false,
-  "canGiveQuests": false
+  "canLeaveTown": true
 }

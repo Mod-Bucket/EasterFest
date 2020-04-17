@@ -4,35 +4,5 @@
   "personality": "mods.mb.EasterFest.markgrant.personality.EasterChickenWhite",
   "initialDesign": "mods.mb.EasterFest.markgrant.design.EasterChickenWhite",
   "initialOutfit": "",
-  "polaroid": "staxel/village/character/polaroids/CirahnaPolaroid.png",
-  "gainsRepThroughDialogue" : false,
-  "hidefrommap": false,
-  "giftDialogue": "mods.mb.EasterFest.markgrant.dialogue.EasterChickenWhiteGiveItem",
-  "overrideGiftCap": true,
-  "regards": [
-    {
-      "kind": "staxel.concepts.Category",
-      "attitude": 4,
-      "concept": {
-        "categories":["fish"]
-      },
-      "multiplier": 10
-    },
-	{
-      "kind": "staxel.concepts.Category",
-      "attitude": 4,
-      "concept": {
-        "categories":["petFood"]
-      },
-      "multiplier": 10
-    },
-	{
-      "kind": "staxel.concepts.Category",
-      "attitude": 2,
-      "concept": {
-        "categories":["ball"]
-      },
-      "multiplier": 10
-    }
-  ]
+  "hidefrommap": false
 }
