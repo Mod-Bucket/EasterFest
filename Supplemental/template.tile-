@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "decoration",
+	"easter",
+	"easterfest",
+	"egg",
+	"mod bucket",
+	"decor",
+	"decorated"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.egg.{0}",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 400,
+    "value": 1000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/eggpainting/eggs/{0}.qb"
+}

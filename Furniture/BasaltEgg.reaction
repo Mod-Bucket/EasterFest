@@ -20,5 +20,5 @@
       "quantity": 1
     }
   ],
-  "effectTrigger": "staxel.effect.crafting.Assemble"
+  "effectTrigger": "staxel.effect.crafting.Assemble",
 }

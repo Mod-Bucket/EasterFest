@@ -6,6 +6,10 @@
     "EasterFest",
 	"stone",
 	"gold",
+	"pastel",
+	"rainbow",
+	"green",
+	"clock",
     "egg"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg",
@@ -22,7 +26,7 @@
     }
   },
   "pricing": {
-    "buyable": true,
+    "buyable": false,
     "catalogueUnlockedFromStart": false,
     "sellPrice": 1500,
     "value": 1600

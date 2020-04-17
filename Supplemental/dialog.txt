@@ -1,0 +1,119 @@
+Introduction dialog:
+Oh dear, oh dear...
+
+	* Never met this festival:
+	Oh! Hello, I'm Alice! Oh dear...
+
+	* Already met this festival:
+	Hi again! Oh dear...
+
+-----------------------------------
+
+Overview:
+What's going on? Oh, lots of stuff! We're celebrating Easter!
+There's egg collecting and egg decorating, and a maze, and there was supposed to be a tea party.
+
+	* Tell me about collecting:
+	There's a whole new collection for you! 
+	And special prizes if you bring me decorated eggs.
+	There are some where you'll find bugs or fossils,
+	and of course, you'll find some hidden in the maze.
+	For every # eggs you bring me I'll give you a prize!
+
+	* Tell me about decorating:
+	Oh! well, there's a special station that will let you make some of the eggs for the collection!
+	If you bring me 3 regular chicken eggs I'll give it to you and show you how it works!
+
+	* Tell me about the maze:
+	Isn't it pretty? It's a little piece of home! 
+	You can find decorated eggs and goodies in it! 
+	There are all sorts of secrets! And there's a big prize if you make it to the center!
+	
+	* Tell me about the tea party: 
+	Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one?
+
+--------------------------------------------------
+
+Collecting Eggs Quest Chain:
+	* Ten eggs! Already? Wow! You've definitely earned a reward!
+	(Easter Bunny Farm Animal and Chocolate Egg to Chocolate Bar recipe.)
+	He's convinced he's a chicken! Just humor him and give him chicken feed. He'll leave you chocolate eggs! I have more prizes if you can show me you've found another # eggs! Bring me ten more eggs for another prize!
+
+	* Ten eggs! Amazing! You wanted a cute pet, didn't you? I have the perfect thing! 	
+	(filligree rabbit, filligree rabbit food recipe, filligree food bowl, 1 blue ore.)
+	It's a clockwork rabbit made by the best fairy filligree smiths! It's so lifelike! 
+	Filligree needs magic ore to power it! Here's the recipe for the food and a chunk of ore to get you going until you can get more from the mining island. 
+	Bring me ten more eggs for another prize!
+
+	(This chain will loop infinitely, but you should only get any recipes the first time. Each time the filligree rabbit should change, but it shouldn't be random.)
+
+--------------------------------------------------
+
+Decorating Eggs Quest Chain:
+
+	* Bring three eggs.
+	Three eggs! Great! Ok. Here's your decorating station! And some recipes to get you started!
+	(Decorating Station)
+	WAIT! Don't run off yet!
+	THIS.
+	IS.
+	IMPORTANT!
+	There are lots and lots of eggs you can make! But most of them are a secret!
+	You'll have to experiment! There are no recipes written down for you!
+	Don't just try petals either! Try fruit or starbits, anything you can think of that might make a pretty egg! If it's an ingredient to make other things it might help you make a decorated egg!
+	Have Fun!
+
+	*Tell me about Decorating (after you have the station.)
+	There are lots and lots of eggs you can make! But most of them are a secret!
+	You'll have to experiment! There are no recipes written down for you!
+	Don't just try petals either! Try fruit or starbits, anything you can think of that might make a pretty egg! If it's an ingredient to make other things it might help you make a decorated egg!
+	Have Fun!
+	
+--------------------------------------------------
+
+Maze Questline:
+
+	*I found this Giant Golden Egg (after getting the egg from the center of the maze.)
+	You did? Yay! Congratulations! Wasn't the maze fun? You can keep that for a decoration around your house, or sell it if you need the money.
+
+	*I found this little Golden Egg (after finding the decorated golden egg.)
+	Oh! It's pretty! But it's not the real prize!
+
+	*I found this Rotten Egg (after finding the rotten egg.)
+	Ew! Gross! That must have been from last year. I thought I smelled something...
+
+------------------------------------------------
+
+Tea Party Questline:
+
+	*I found you a Tea Set (After getting a tea set either from maze or catalog)
+	You did!? Oh, Thank you! 
+	(Get random bit of easter furniture. Not the paw set, but stuff around the maze and square.)
+	But... It's just... Oh dear...
+
+	*What's wrong now?
+	I managed to lose my easter basket! I know I had it when I went into the maze...
+
+	*I found your basket!
+	Marvellous! You're a lifesaver! 
+	(Get random bit of easter furniture. Not the paw set, but stuff around the maze and square.)
+	You must think I'm such a loon... Oh dear...
+
+	* What's wrong now? (Start infinite loop)
+	I broke the tea set again... It wasn't my fault this time! RANDOM_VILLAGERNAME bumped into me and well... Could you get me another?
+
+	* I got you a new tea set!
+	You did!? Oh, Thank you! 
+	(Get random bit of easter furniture. Not the paw set, but stuff around the maze and square.)
+	But... It's just... Oh dear...
+			
+	*What's wrong now?
+	I'm missing all my egg fish! I think a cat got hungry.
+	(Get random bit of easter furniture. Not the paw set, but stuff around the maze and square.)
+	Could you go into the maze and catch me one?
+
+	*I found an egg fish!
+	Wow! They're so hard to catch!	
+	(Get random bit of easter furniture. Not the paw set, but stuff around the maze and square.)
+	...um... I hate to say it... (End infinite loop)
+

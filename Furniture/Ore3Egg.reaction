@@ -10,6 +10,10 @@
     {
       "code": "staxel.item.Ore3",
       "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.RawBasalt",
+      "quantity": 1
     }	
 	
   ],

@@ -1,0 +1,45 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "egg",
+    "chocolate",
+    "brown",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantChocolateEgg",
+  "eatTime": 6,
+  "edible": true,
+  "icon": "mods/EasterFest/item/crafting/intermediary/cooking/GiantChocolateEgg.qb",
+  "inHand": "mods/EasterFest/item/crafting/intermediary/cooking/GiantChocolateEgg.qb",
+  "appliesStatus": {
+    "statuses" : [
+		"lucky"
+	]
+  },
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 600,
+    "value": 800
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

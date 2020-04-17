@@ -1,0 +1,31 @@
+{
+  "name": "GiantChocolateEgg",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.BoilGiantChocolateEgg",
+  "recipeStep": "boil",
+  "tools": [],
+  "docks": [
+    "staxel.tileObject.serverVillage.BoilingStation"
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+      "quantity": 10
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.CheapEggMould",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantChocolateEgg"
+    }
+  ],
+  "duration": 5,
+  "moveResultsToSite": "results",
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "action": "staxel.entityAction.Stir",
+  "effect": "staxel.effect.cooking.Boil",
+  "processDrawable": "syrup"
+}

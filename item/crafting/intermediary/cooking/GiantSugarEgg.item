@@ -1,0 +1,45 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "egg",
+    "sugar",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantSugarEgg",
+  "eatTime": 6,
+  "edible": true,
+  "icon": "mods/EasterFest/item/crafting/intermediary/cooking/GiantSugarEgg.qb",
+  "inHand": "mods/EasterFest/item/crafting/intermediary/cooking/GiantSugarEgg.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "appliesStatus": {
+    "statuses" : [
+		"unlucky"
+	]
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 60,
+    "value": 100
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

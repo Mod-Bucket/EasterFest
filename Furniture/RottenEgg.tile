@@ -14,12 +14,12 @@
     "priority": 20
   },
   "frameAnimatedTile": {
-    "frameTime": 0.5
+    "frameTime": 0.35
   },
   "prefetchTileState": true,
   "pricing": {
     "catalogueUnlockedFromStart": false,
-    "buyable": true,
+    "buyable": false,
     "sellPrice": 1,
     "value": 1
   },
@@ -43,5 +43,6 @@
   "variants": [
     "mods/EasterFest/Furniture/RottenEgg.qb?size={16,16,16}?offset={0,0,0}",
     "mods/EasterFest/Furniture/RottenEgg.qb?size={16,16,16}?offset={16,0,0}",
-  ]
+  ],
+    "canBeEarntFromLuckyBox": false
 }

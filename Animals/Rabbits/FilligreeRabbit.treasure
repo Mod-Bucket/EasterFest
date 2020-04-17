@@ -1107,6 +1107,14 @@
 			"palette": "mods.mb.EasterFest.markgrant.palette.yellow"
         }
       ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+			"code": "staxel.item.gatherable.Scorpion",
+        }
+      ]
     }
   ]
 }

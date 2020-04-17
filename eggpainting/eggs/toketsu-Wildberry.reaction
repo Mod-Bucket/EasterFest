@@ -5,7 +5,7 @@
   "reagents": [
     {
       "code": "staxel.item.crafting.Egg",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "code": "staxel.item.gatherable.Wildberry",

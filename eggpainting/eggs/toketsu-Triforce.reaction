@@ -1,0 +1,27 @@
+{
+  "code": "mods.mb.EasterFest.lydocia.egg.toketsu-Triforce.reaction",
+  "recipeStep": "Paint Egg",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.VialYellow",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.generic.StarBits",
+      "quantity": 3
+    },
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsu.egg.toketsu-Triforce",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

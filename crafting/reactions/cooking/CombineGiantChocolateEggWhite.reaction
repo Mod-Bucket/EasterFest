@@ -1,0 +1,24 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineGiantChocolateEggWhite",
+  "recipeStep": "combine",
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantChocolateEgg",
+      "quantity": 1
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing",
+      "quantity": 1
+    },
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedWhite"
+    }
+  ],
+  "effectTrigger": "staxel.effect.cooking.Combine"
+}

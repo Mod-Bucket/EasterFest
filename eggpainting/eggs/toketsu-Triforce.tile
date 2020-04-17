@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "decoration",
+	"easter",
+	"easterfest",
+	"egg",
+	"mod bucket",
+	"decor",
+	"decorated"
+  ],
+  "code": "mods.mb.EasterFest.toketsu.egg.toketsu-Triforce",
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 1000,
+    "value": 10000
+  },
+  "searchable": true,
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-Triforce.qb",
+  "canBeEarntFromLuckyBox": false
+}

@@ -18,7 +18,7 @@
   ],
   "hosts": [
     {
-      "name": "Alice",
+      "name": "Easter Bunny",
       "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny",
 	  "festivalBehaviour": [
         {

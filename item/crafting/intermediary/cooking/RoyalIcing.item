@@ -1,0 +1,40 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "frosting",
+    "icing",
+    "white",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing",
+  "eatTime": 1,
+  "edible": true,
+  "icon": "mods/EasterFest/item/crafting/intermediary/cooking/RoyalIcing.qb",
+  "inHand": "mods/EasterFest/item/crafting/intermediary/cooking/RoyalIcing.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 60,
+    "value": 100
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

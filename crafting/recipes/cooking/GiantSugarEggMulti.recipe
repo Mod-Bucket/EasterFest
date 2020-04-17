@@ -1,0 +1,64 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggMulti",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.WaterJar",
+      "quantity": 6
+    },
+    {
+      "code": "staxel.item.crafting.BluePetal",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.GreenLeaf",
+      "quantity": 2
+    },
+	{
+      "code": "staxel.item.crafting.YellowPetal",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.RedPetal",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.Egg",
+	  "quantity": 3 
+    },
+    {
+      "code": "staxel.item.crafting.WhiteSugar",
+      "quantity": 4
+    },
+    {
+      "code": "staxel.item.crafting.Lumber",
+      "quantity": 5
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 1000,
+    "value": 2000
+  },
+  "result": {
+    "count": 1,
+    "item":     {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantSugarEggMulti"
+    }
+  },
+  "searchable": true,
+  "steps": [
+	"staxel.crafting.reaction.CombineVialBlue",
+	"staxel.crafting.reaction.CombineVialGreen",
+	"staxel.crafting.reaction.CombineVialYellow",
+	"staxel.crafting.reaction.CombineVialRed",
+	"staxel.crafting.reaction.CombineVialMixed",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.MixRoyalIcing",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CarveCheapEggMould",
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.MixGiantSugarEgg",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineGiantSugarEggMulti",
+  ]
+}

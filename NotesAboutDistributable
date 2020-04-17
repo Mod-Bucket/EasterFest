@@ -1,7 +1,0 @@
-Remove these files from distributable:
-Gatherable eggs folder 
-template files in egg painting
-petset.qb
-Any image file in _images that is not "EasterFest#"
-eggpainter/quests.txt
-

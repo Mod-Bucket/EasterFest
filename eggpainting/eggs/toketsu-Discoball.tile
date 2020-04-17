@@ -23,7 +23,12 @@
     "value": 1000
   },
   "searchable": true,
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
   "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-Discoball.qb",
+  "canBeEarntFromLuckyBox": false,
   
   "frameAnimatedTile": {
     "frameTime": 0.15

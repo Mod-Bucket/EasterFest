@@ -8,24 +8,6 @@
   },
   "resultSite": "egg",
   "effectSite": "egg",
-  //"processDrawables": {
-    //"egg": {
-      //"voxels": "mods/EasterFest/eggpainting/eggs/Egg.qb",
-      //"offset": {
-        //"x": 0.0,
-        //"y": 0.0,
-        //"z": 0.0
-      //}
-    //},
-    //"giantegg": {
-      //"voxels": "mods/EasterFest/eggpainting/eggs/GiantEgg.qb",
-      //"offset": {
-       // "x": 0.0,
-        //"y": 0.0,
-       // "z": 0.0
-      //}
-//},
-  //},
   "approximateSites": true,
   "allowStacksForAllSites": true,
   "sites": [
@@ -128,7 +110,6 @@
       "placeSoundGroup": "staxel.sounds.place.Stone",
       "effectTrigger": "staxel.effect.DockItem",
 	  "sites": [
-//        "results",
         "colour1",
         "colour2",
         "colour3"

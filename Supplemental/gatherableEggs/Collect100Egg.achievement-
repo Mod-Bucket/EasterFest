@@ -1,0 +1,29 @@
+{
+  "code": "mods.mb.EasterFest.achievement.Collect100EasterEggs",
+  "icon": "mods/EasterFest/gatherableEggs/harvestables/{0}.qb",
+  "requirement": "mods.mb.EasterFest.achievement.Collect10EasterEggs",
+  "progressesWithoutRequirement": true,
+  "slot": {
+    "x": 300,
+    "y": 360
+  },
+  "rewards": [
+    {
+      "kind": "staxel.item.Seed",
+      "plant": "staxel.tree.PeachTree",
+      "quantity": 1
+    },
+    {
+      "code": "",
+      "kind": "staxel.item.Clothing",
+      "accessory": "staxel.accessories.characters.accessories.achievements.BeeHat"
+    }
+  ],
+  "anyOfCategory": {
+    "type": "collectItems",
+    "orCategories": [
+      "eastereggs"
+    ],
+    "quantity": 100
+  }
+}

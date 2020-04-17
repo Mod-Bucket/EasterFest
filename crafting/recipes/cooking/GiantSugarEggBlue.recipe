@@ -1,0 +1,48 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggBlue",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.WaterJar",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.BluePetal",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.Egg",
+	  "quantity": 3 
+    },
+    {
+      "code": "staxel.item.crafting.WhiteSugar",
+      "quantity": 4
+    },
+    {
+      "code": "staxel.item.crafting.Lumber",
+      "quantity": 5
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 1000,
+    "value": 2000
+  },
+  "result": {
+    "count": 1,
+    "item":     {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantSugarEggBlue"
+    }
+  },
+  "searchable": true,
+  "steps": [
+	"staxel.crafting.reaction.CombineVialBlue",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.MixRoyalIcing",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CarveCheapEggMould",
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.MixGiantSugarEgg",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineGiantSugarEggBlue",
+  ]
+}

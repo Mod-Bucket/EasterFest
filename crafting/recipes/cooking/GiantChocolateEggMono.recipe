@@ -1,0 +1,55 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEggMono",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.WaterJar",
+	  "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.BlackPetal",
+	  "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.Egg",
+	  "quantity": 3 
+    },
+    {
+      "code": "staxel.item.crafting.WhiteSugar",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.Lumber",
+      "quantity": 5
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+      "quantity": 10
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 1000,
+    "value": 2000
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedMono"
+    }
+  },
+  "searchable": true,
+  "steps": [
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineVialBlack",
+	{
+      "reaction": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.MixRoyalIcing",
+      "quantity": 2
+    },
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CarveCheapEggMould",
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.BoilGiantChocolateEgg",
+	"mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineGiantChocolateEggMono"
+  ]
+}

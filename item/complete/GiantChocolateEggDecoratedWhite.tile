@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/tileObject/moveable.config",
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"brown",
+	"white",
+	"chocolate",
+    "egg"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedWhite",
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 1000,
+    "value": 2000
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/item/complete/GiantChocolateEggDecoratedWhite.qb",
+  "canBeEarntFromLuckyBox": false
+}

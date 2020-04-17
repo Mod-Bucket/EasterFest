@@ -1,0 +1,42 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "name": "Mix Giant Sugar Egg",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.MixGiantSugarEgg",
+  "recipeStep": "mix",
+  "docks": [
+    "staxel.tileObject.serverVillage.MixingStation"
+  ],
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.crafting.WaterJar",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.crafting.WhiteSugar",
+      "quantity": 3
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.CheapEggMould",
+      "quantity": 1
+    },
+  ],
+  "results": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantSugarEgg"
+    }
+  ],
+  "moveResultsToSite": "results",
+  "triggerDurationCraftManually": true,
+  "triggerDockAction": "staxel.entityAction.ToggleMixerAction",
+  "triggerDockActionOnCompletion": "staxel.entityAction.ToggleMixerAction",
+  "duration": 5,
+  "effectTrigger": "staxel.effect.DockItem",
+  "effect": "staxel.effect.cooking.Mixer",
+  "processDrawable": "sludge"
+}

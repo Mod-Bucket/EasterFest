@@ -1,0 +1,40 @@
+{
+  "categories": [
+    "modbucket",
+    "easterfest",
+    "gatherable",
+    "eastereggs"
+  ],
+  "code": "mods.mb.EasterFest.gatherableEggs.item.{0}",
+  "icon": "mods/EasterFest/gatherableEggs/harvestables/{0}.qb",
+  "inHand": "mods/EasterFest/gatherableEggs/harvestables/{0}.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+    "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "isDockable": true,
+  "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

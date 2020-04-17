@@ -17,5 +17,10 @@
     "value": 1000
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-PearlShellEgg.qb"
+  "collectable": {
+    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+    "priority": 20
+  },
+  "voxels": "mods/EasterFest/eggpainting/eggs/toketsu-PearlShellEgg.qb",
+  "canBeEarntFromLuckyBox": false
 }

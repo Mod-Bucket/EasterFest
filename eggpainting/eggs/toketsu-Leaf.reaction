@@ -9,17 +9,12 @@
     },
     {
       "code": "staxel.item.crafting.GreenLeaf",
+      "quantity": 2
+    },
+	{
+      "code": "staxel.item.crafting.YellowPetal",
       "quantity": 1
     },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
-      "quantity": 1
-    },
-    {
-      "code": "staxel.item.crafting.GreenLeaf",
-      "quantity": 1
-    }	
-	
   ],
   "results": [
     {

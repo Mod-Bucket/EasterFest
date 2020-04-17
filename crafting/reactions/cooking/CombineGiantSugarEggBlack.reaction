@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.CombineGiantSugarEggBlack",
+  "recipeStep": "combine",
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantSugarEgg",
+      "quantity": 1
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing",
+      "quantity": 1
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantSugarEggBlack",
+	  "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.cooking.Combine"
+}

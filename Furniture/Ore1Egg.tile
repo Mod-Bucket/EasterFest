@@ -23,11 +23,12 @@
     }
   },
   "pricing": {
-    "buyable": true,
+    "buyable": false,
     "catalogueUnlockedFromStart": false,
     "sellPrice": 500,
     "value": 600
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/Furniture/Ore1Egg.qb"
+  "voxels": "mods/EasterFest/Furniture/Ore1Egg.qb",
+  "canBeEarntFromLuckyBox": false
 }

@@ -21,11 +21,12 @@
     }
   },
   "pricing": {
-    "buyable": true,
+    "buyable": false,
     "catalogueUnlockedFromStart": false,
     "sellPrice": 5000,
     "value": 6000
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/Furniture/GoldenEgg.qb"
+  "voxels": "mods/EasterFest/Furniture/GoldenEgg.qb",
+  "canBeEarntFromLuckyBox": false
 }
