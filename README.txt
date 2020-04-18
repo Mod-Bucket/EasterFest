@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.2
+Version 1.3.1
 
 A mod for Staxel.
 
@@ -44,6 +44,12 @@ toketsupuurin:
 - Eggwood & bunnycarrot plants
 
 ==========
+
+Version 1.3.1
+	* Fixed the pet crafting recipes so that the result actually spawns pets.
+	* Added egg painter tutorial recipes.
+	* Removed unimportant NPC data.
+
 Version 1.3
 	* Added Devil Eggfish 
 	* Corrected Angel Eggfish and Joker EggFish models
