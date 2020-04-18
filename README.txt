@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.3.1
+Version 1.3.1.1
 
 A mod for Staxel.
 
@@ -44,6 +44,9 @@ toketsupuurin:
 - Eggwood & bunnycarrot plants
 
 ==========
+
+Version 1.3.1.1
+	*Alice despawns now.
 
 Version 1.3.1
 	* Fixed the pet crafting recipes so that the result actually spawns pets.
