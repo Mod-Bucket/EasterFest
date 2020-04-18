@@ -17,8 +17,9 @@
   ],
   "results": [
     {
-      "kind": "staxel.item.Placer",
+      "kind": "staxel.item.PetTotem",
       "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHouse",
+	  "petType": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbit",
       "quantity": 1
     }
   ],
