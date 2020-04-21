@@ -188,8 +188,10 @@ mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10071500=I have more priz
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072100=Ten eggs? Amazing!
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072200=You wanted a cute pet, didn't you? I have the perfect thing!
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072300=It's a clockwork rabbit made by the best fairy filligree smiths! It's so lifelike!
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072400=Filligree needs magic ore to power it! Here's the recipe for the food and a chunk of ore to get you going until you can get more from the mining island.
-mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072500=Bring me ten more eggs for another prize!
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072400=Filligree needs magic ore to power it! 
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072500=Here's the recipe for the food and a chunk of ore to craft it.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072600=This will keep you going until you can get more from the mining island.
+mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10072700=Bring me ten more eggs for another prize!
 
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10073100=hmm? Oh dear...
 mods.mb.EasterFest.markgrant.dialogue.EasterBunny.line:10073200=You appear to only have ^c:1486b0;{0-itemCount}^c:pop; decorative eggs.
