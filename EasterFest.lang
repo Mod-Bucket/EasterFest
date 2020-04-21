@@ -1,6 +1,8 @@
 language.code=en-GB
 language=English
 
+crafting.action.keyword.Paint Egg=Decorate
+
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.name=Easter Bunny Bobblehead
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.description=A Bunny Bobblehead from Easter.
 
