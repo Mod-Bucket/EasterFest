@@ -501,31 +501,15 @@
   {
     "title": "Trade3Eggs",
     "body": [
-      "<<loadIfPlayerLearntRecipe mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg $has>>",
-      "",
-      "",
-      "",
-      "",
       "Three eggs! Great! Ok. Here's your decorating station! And some recipes to get you started! #line:10022000",
       "",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.lydocia.machine.EggPainter>>",
       "<<removePlayerItem staxel.item.crafting.Egg 3>>",
       "<<set $EggPainter to 1>>",
       "",
-      "<<loadIfPlayerLearntRecipe mods.mb.EasterFest.crafting.recipes.RedEgg $has>>",
-      "<<if not $has>>",
       "<<giveItemToPlayerIfDoesntHave recipe mods.mb.EasterFest.crafting.recipes.RedEgg>>",
-      "<<endif>>",
-      "",
-      "<<loadIfPlayerLearntRecipe mods.mb.EasterFest.crafting.recipes.ChocolateEgg $has>>",
-      "<<if not $has>>",
       "<<giveItemToPlayerIfDoesntHave recipe mods.mb.EasterFest.crafting.recipes.ChocolateEgg>>",
-      "<<endif>>",
-      "",
-      "<<loadIfPlayerLearntRecipe mods.mb.EasterFest.crafting.recipes.April1Egg $has>>",
-      "<<if not $has>>",
       "<<giveItemToPlayerIfDoesntHave recipe mods.mb.EasterFest.crafting.recipes.April1Egg>>",
-      "<<endif>>",
       "",
       "WAIT! Don't run off yet! #line:10022100",
       "THIS. #line:10022200",
@@ -547,7 +531,7 @@
     "colorID": 0,
     "position": {
       "x": 1495,
-      "y": -430
+      "y": -431
     }
   },
   {
@@ -902,10 +886,7 @@
       "<<removePlayerItemWithCategory MBCollectEgg 1>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate 1 false>>",
       "",
-      "//<<loadIfPlayerLearntRecipe mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg $has>>",
-      "//<<if not $has>>",
       "<<giveItemToPlayerIfDoesntHave recipe mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg>>",
-      "//<<endif>>",
       "<<set $CollectEgg to 1>>",
       "He's convinced he's a chicken! Just humor him and give him chicken feed. #line:10071300",
       "He'll leave you chocolate eggs! #line:10071400 ",
@@ -922,7 +903,7 @@
     "colorID": 0,
     "position": {
       "x": 1756,
-      "y": -172
+      "y": -173
     }
   },
   {
@@ -973,10 +954,7 @@
       "Here's the recipe for the food and a chunk of ore to craft it. #line:10072500 ",
       "This will keep you going until you can get more from the mining island. #line:10072600",
       "<<giveItemToPlayer item staxel.item.Ore1>>",
-      "//<<loadIfPlayerLearntRecipe mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg $has>>",
-      "//<<if not $has>>",
       "<<giveItemToPlayerIfDoesntHave recipe mods.mb.EasterFest.toketsupuurin.crafting.recipes.CarveFilligreeFood>>",
-      "//<<endif>>",
       "<<set $CollectEgg to 1>>",
       "Bring me ten more eggs for another prize! #line:10072700",
       "<<set $CollectEgg to 0>>",
