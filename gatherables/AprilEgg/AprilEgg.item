@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "market",
+    "Mod Bucket",
+    "Easter",
+	"easterfest",
+	"MBCollectEgg",
+	"egg",
+	"gatherable",
+    "bug",
+    "beetle"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg",
+  "gatherable": {
+    "catchable": {
+      "leaveDuringOffWeather": true,
+      "spawnWeathers": [
+        "mods.mb.EasterFest.markgrant.festival.EasterFest"
+      ],
+      "spawnChance": 100,
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg",
+      "catchTreasure": "staxel.treasure.AprilEggs"
+    },
+    "isCatchable": true
+  },
+  "icon": "staxel/gatherables/catchables/event/AprilEggItem.qb",
+  "inHand": "staxel/gatherables/catchables/event/AprilEggItem.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.2,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.5399999618530273,
+    "z": -1.5399999618530273
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 30,
+    "value": 50
+  },
+  "renderHeight": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

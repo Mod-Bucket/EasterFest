@@ -1,0 +1,59 @@
+{
+  "__inherits": "staxel/gatherables/catchables/catchableWithNet.config",
+  "attachToSide": true,
+  "autoTileInfo": [
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "down",
+          "tileCategoriesToLookFor": [
+            "grass"
+          ],
+          "tileCategoriesToReject": [
+            "plant",
+            "weed"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "tileToPlace": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "bug",
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"egg",
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg",
+  "floats": true,
+  "frameAnimatedTile": {
+    "frameTime": 0.13,
+    "lockedFrame": true
+  },
+  "interactActionTrigger": "staxel.entityAction.HandCatchAction",
+  "interactVerb": "controlHint.verb.Catch",
+  "placementDirections": [
+    "yn"
+  ],
+  "prefetchTileState": true,
+  "searchable": false,
+  "tileStateKind": "staxel.tileState.Catchable",
+  "prefetchTileState": true,
+  "randomizePosition": true,
+  "searchable": false,
+  "tileStateKind": "staxel.tileState.Catchable",
+  "useCustomRendering": true,
+  "variants": [
+    "staxel/gatherables/catchables/event/AprilEgg.qb?size={16,16,16}?offset={0,0,0}",
+    "staxel/gatherables/catchables/event/AprilEgg.qb?size={16,16,16}?offset={16,0,0}",
+    "staxel/gatherables/catchables/event/AprilEgg.qb?size={16,16,16}?offset={32,0,0}",
+    "staxel/gatherables/catchables/event/AprilEgg.qb?size={16,16,16}?offset={48,0,0}",
+    "staxel/gatherables/catchables/event/AprilEgg.qb?size={16,16,16}?offset={64,0,0}"
+  ],
+  "voxels": "staxel/gatherables/catchables/event/AprilEggItem.qb"
+}
