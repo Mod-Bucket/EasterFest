@@ -1,6 +1,6 @@
 {
   "__inherits": "staxel/crafting/reactions/crafting/craft.config",
-  "code": "staxel.crafting.reaction.CombineCrystalEgg3",
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CombineCrystalEgg3",
   "recipeStep": "combine",
   "tools": [
   ],

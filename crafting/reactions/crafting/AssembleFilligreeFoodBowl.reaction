@@ -1,0 +1,23 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.AssembleFilligreeFoodBowl",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.MetalBands",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.MagicMainspring",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

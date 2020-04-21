@@ -1,6 +1,6 @@
 {
   "__inherits": "staxel/crafting/reactions/crafting/craft.config",
-  "code": "staxel.crafting.reaction.CombineWonderEgg",
+  "code": "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CombineWonderEgg",
   "recipeStep": "combine",
   "tools": [
   ],

@@ -1,0 +1,40 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.EasterBunny",
+  "grouping": "metal",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.farmAnimals.ChickenFood",
+      "quantity": 1
+    },
+	{
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+	  "quantity": 1
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 50,
+    "value": 100,
+    "buyable": false,
+  },
+  "questItem": {},
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate",
+    }
+  },
+  "searchable": true,
+  "steps": [
+	"mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg.reaction",
+    "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CombineWonderEgg"
+  ],
+  "canBeGifted": false
+}

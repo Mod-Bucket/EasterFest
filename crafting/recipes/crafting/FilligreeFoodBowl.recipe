@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.FilligreeFoodBowl",
+  "grouping": "metal",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.MetalBands",
+      "quantity": 6
+    },
+    {
+      "code": "staxel.item.gatherable.StarJelly",
+      "quantity": 2
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 50,
+    "value": 100,
+    "buyable": false,
+  },
+  "questItem": {},
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty"
+    }
+  },
+  "searchable": true,
+  "steps": [
+    "staxel.crafting.reaction.AssembleMagicMainspring",
+	"mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.AssembleFilligreeFoodBowl"
+  ],
+  "canBeGifted": false
+}

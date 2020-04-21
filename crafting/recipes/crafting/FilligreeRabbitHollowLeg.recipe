@@ -1,0 +1,45 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.FilligreeRabbitHollowLeg",
+  "grouping": "metal",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.Egg",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.Ore1",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.Ore3",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.MetalBands",
+      "quantity": 2
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 50,
+    "value": 100,
+    "buyable": false,
+  },
+  "questItem": {},
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.PetTotem",
+      "tile": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowLegHouse",
+	  "petType": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeRabbitHollowLeg",
+    }
+  },
+  "searchable": true,
+  "steps": [
+	"mods.mb.EasterFest.toketsupuurin.furniture.Crystal3Egg.reaction",
+	"mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CarveFilligreeFood",
+    "mods.mb.EasterFest.toketsupuurin.pets.crafting.reaction.CombineCrystalEgg3"
+  ],
+  "canBeGifted": false
+}

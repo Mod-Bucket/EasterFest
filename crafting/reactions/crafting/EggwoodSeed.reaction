@@ -1,6 +1,6 @@
 {
   "name": "Make Eggwood Seeds",
-  "code": "staxel.crafting.reaction.MakeEggwoodSeed",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.MakeEggwoodSeed",
   "recipeStep": "reap",
   "moveResultsToSite": "seedSite",
   "anyTool": true,

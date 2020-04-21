@@ -21,7 +21,7 @@
     }
   },
   "searchable": true,
-  "starter": false,
+  "starter": true,
   "steps": [
     "mods.mb.EasterFest.toketsupuurin.crafting.reaction.ChocolateEgg"
   ]
