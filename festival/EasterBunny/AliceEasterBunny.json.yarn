@@ -27,7 +27,7 @@ Oh dear, oh dear... #line:10000100
     <<set $GEgg to 0>>
     <<set $REgg to 0>>
     <<set $CollectEgg to 0>>
-Oh! Hello, I'm Alice! Oh dear... #line:10000200
+Oh! Hello, I'm ^c:1486b0;Alice^c:pop;! Oh dear... #line:10000200
 <<emote staxel.emote.Fidget>>
 Welcome to the EasterFest! The greatest and bestest festival of the year. #line:10000300
 <<emote staxel.emote.Satisfied>>
@@ -45,9 +45,9 @@ position: 1686,-893
 ---
 <<if $EggPainter is 0>>
 Oh! Well, there's a special station that will let you make some of the eggs for the collection! #line:10013100
-If you bring me 3 ^c:d03e37;regular chicken eggs^c:pop I'll give it to you and show you how it works! #line:10013200
+If you bring me ^c:d03e37;3 regular chicken eggs^c:pop I'll give it to you and show you how it works! #line:10013200
 <<else>>
-There are lots and lots of eggs you can make with the egg painter station! #line:10013300 
+There are lots and lots of eggs you can make with the ^c:d03e37;egg painter station^c:pop;! #line:10013300 
 But most of them are a secret! #line:10013400
 You'll have to experiment! There are no recipes written down for you! #line:10013500
 Don't just try petals either! Try fruit or starbits, anything you can think of that might make a pretty egg! #line:10013600 
@@ -56,18 +56,19 @@ How exciting! #line:10013800
 <<endif>>
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
+
 ===
 title: Collection
 tags: 
 colorID: 0
-position: 1693,-669
+position: 1693,-670
 ---
 There's a whole new collection for you! #line:10014100
-And special prizes if you bring me decorated eggs. #line:10014200
+And special prizes if you bring me uniquely decorated eggs. #line:10014200
 There are bugs and fossils to find. #line:10014300
 Plus all sorts of unique eggs scattered in the maze. #line:10014400
 There may even be a fish or two "well" hidden. #line:10014500 
-For every 10 eggs you bring me I'll give you a prize! #line:10014600
+For every 10 unique eggs you bring me I'll give you a prize! #line:10014600
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
 ===
@@ -76,9 +77,17 @@ tags:
 colorID: 0
 position: 1674,-1363
 ---
-Well it was supposed to happen soon, but I've managed to break my tea set! Can you find me another one? #line:10011000 
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
+<<if $TeaSet is 0>>
+Well it was supposed to happen soon, but I've managed to break my ^c:d03e37;tea set^c:pop;! Can you find me another one? #line:10011000 
+<<endif>>
+<<if $Basket is 0>>
+Well it was supposed to happen soon, but I've managed to misplace my ^c:d03e37;easter basket^c:pop;! Can you find me another one? #line:10011200 
+<<endif>>
+<<if $EggFish is 0>>
+Well it was supposed to happen soon, but someone ate my ^c:d03e37;egg fish^c:pop;! Can you find me another one? #line:10011300 
+<<endif>>
 ===
 title: Quit
 tags: 
@@ -104,7 +113,7 @@ tags:
 colorID: 0
 position: 1986,59
 ---
-Ew! You found a Rotten Egg? #line:10034100
+Ew! You found a ^c:d03e37;Rotten Egg^c:pop;? #line:10034100
 Gross! #line:10034200
 That must have been leftover from last year. #line:10034300
 I thought I smelled something funky.... #line:10034400
@@ -116,18 +125,20 @@ tags:
 colorID: 0
 position: 1495,67
 ---
-Oh! You found the Giant Golden Egg? #line:10032100
+Oh! You found the ^c:d03e37;Giant Golden Egg^c:pop;? #line:10032100
 Yay! Congratulations! #line:10032200
-Wasn't the maze fun? You can keep that for decoration around your house, or sell it. #line:10032300
+Your reward is the fun you had along the way.#line:10032300
+You can also keep that for decoration around your house, or sell it. #line:10032400
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
+
 ===
 title: LittleGoldenEgg
 tags: 
 colorID: 0
 position: 1749,63
 ---
-Oh! You painted a Golden Egg? #line:10033100
+Oh! You painted a ^c:d03e37;Golden Egg^c:pop;? #line:10033100
 It's pretty! #line:10033200
 But that's not the real prize. #line:10033300
 Try searching the maze. #line:10033400
@@ -137,12 +148,29 @@ Try searching the maze. #line:10033400
 title: TeaSetFound
 tags: 
 colorID: 0
-position: 1242,294
+position: 1242,292
 ---
 Oh, thank you! #line:10041100
 <<removePlayerItem mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset>>
 <<set $TeaSet to 1>>
 <<set $Basket to 0>>
+<<loadRandomNumber 5 $random>>
+<<if  $random = 0>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>
+<<endif>>
+<<if  $random = 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.PastelBrickBlock 30>>
+<<endif>>
+<<if  $random = 2>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.path.PastelBrickPath 30>>
+<<endif>>
+<<if  $random = 3>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.BunnyWallClock 1>>
+<<endif>>
+<<if  $random = 4>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>
+<<endif>>
 But... It's just... Oh dear... #line:10041200
 [[What's wrong now? |FindEasterBasket]] #line:10041300
 ===
@@ -151,7 +179,7 @@ tags:
 colorID: 0
 position: 1499,296
 ---
-I managed to lose my Easter Basket! #line:10042100
+I managed to lose my ^c:d03e37;Easter Basket^c:pop;! #line:10042100
 I know I had it when I went into the maze. #line:10042200
 Oh dear... #line:10042300
 <<emote staxel.emote.Fidget>>
@@ -164,10 +192,27 @@ tags:
 colorID: 0
 position: 1247,548
 ---
-It really is my Basket. Thank you! #line:10051100
+It really is my ^c:d03e37;Easter Basket^c:pop;. Thank you! #line:10051100
 <<set $Basket to 1>>
 <<set $EggFish to 0>>
 <<removePlayerItem mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket>>
+<<loadRandomNumber 5 $random>>
+<<if  $random = 0>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>
+<<endif>>
+<<if  $random = 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.PastelBrickBlock 30>>
+<<endif>>
+<<if  $random = 2>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.path.PastelBrickPath 30>>
+<<endif>>
+<<if  $random = 3>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.BunnyWallClock 1>>
+<<endif>>
+<<if  $random = 4>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>
+<<endif>>
 But.. It's just.. Oh dear... #line:10051200
 [[What's wrong now? |FindEggFish]] #line:10051300
 ===
@@ -233,7 +278,7 @@ colorID: 0
 position: 969,-173
 ---
 <<branchPlayerDoesntHaveItemOfCategory MBCollectEgg NotCollectEggs>>
-Can you bring me 10 decorated eggs?#line:11005910
+Can you bring me 10 unique decorated eggs?#line:11005910
 If you give me 10, I have a special reward for you.#line:11005920
 [[Sure!|ScanForCollectEggs]] #line:11005930
 [[Nah...|CancelCollectEggs]] #line:11005940
@@ -253,7 +298,7 @@ colorID: 0
 position: 980,292
 ---
 <<branchPlayerDoesntHaveEnoughOfItem mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset 1 NotTeaSetFound>>
-You found my Tea Set? #line:10005610
+You found my ^c:d03e37;Tea Set^c:pop;? #line:10005610
 Can I have it? #line:10005620
 [[Sure!|TeaSetFound]] #line:10005630
 [[Nah...|CancelTeaSet]] #line:10005640
@@ -264,7 +309,7 @@ colorID: 0
 position: 986,552
 ---
 <<branchPlayerDoesntHaveEnoughOfItem mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket 1 NotEasterBasketFound>>
-You found my basket? #line:10005710
+You found my ^c:d03e37;Easter Basket^c:pop;? #line:10005710
 Marvellous! You're a lifesaver! #line:10005720
 Do you mind giving it back to me? #line:10005730
 [[Here you go!|EasterBasketFound]] #line:10005740
@@ -277,7 +322,7 @@ colorID: 0
 position: 991,810
 ---
 <<branchPlayerDoesntHaveItemOfCategory MBFishEgg NotEggFishFound>>
-You caught an Egg Fish? #line:10005810
+You caught an ? #line:10005810
 Wow! They're so hard to catch! #line:10005820
 Can I have it? #line:10005830
 [[Sure!|EggFishFound]] #line:10005840
@@ -307,9 +352,10 @@ position: 1243,-430
 Oh dear.... #line:10021100
 <<emote staxel.emote.Fidget>>
 You don't appear to have enough eggs. #line:10021200
-Try raising some well-fed chickens and they may lay you some. #line:10021300
+Try raising some well-fed ^c:d03e37;chickens^c:pop; and they may lay you some. #line:10021300
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
+
 ===
 title: Why
 tags: 
@@ -325,7 +371,7 @@ tags:
 colorID: 0
 position: 1493,544
 ---
-I can't find my egg fish. #line:10052100 
+I can't find my ^c:d03e37;Egg Fish^c:pop;. #line:10052100 
 I think a stray cat must have gotten hungry. #line:10052200
 Could you go into the maze and catch me one? #line:10052300
 <<typewriterMode off True True>>
@@ -336,10 +382,27 @@ tags:
 colorID: 0
 position: 1247,801
 ---
-An egg fish! I love it. #line:10061100
+An ^c:d03e37;Egg Fish^c:pop;! I love it. #line:10061100
 <<set $TeaSet to 0>>
 <<set $EggFish to 1>>
 <<removePlayerItemWithCategory MBFishEgg>>
+<<loadRandomNumber 5 $random>>
+<<if  $random = 0>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>
+<<endif>>
+<<if  $random = 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.PastelBrickBlock 30>>
+<<endif>>
+<<if  $random = 2>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.path.PastelBrickPath 30>>
+<<endif>>
+<<if  $random = 3>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.BunnyWallClock 1>>
+<<endif>>
+<<if  $random = 4>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>
+<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>
+<<endif>>
 ...um... I hate to say it... #line:10061200
 [[What is it this time? |FindTeaSetAgain]] #line:10061300
 ===
@@ -348,7 +411,7 @@ tags:
 colorID: 0
 position: 1494,801
 ---
-I broke the tea set again... It wasn't my fault this time! #line:10062100 
+I broke the ^c:d03e37;Tea Set^c:pop; again... It wasn't my fault this time! #line:10062100 
 [[RandomVillager]] 
 ===
 title: Trade3Eggs
@@ -356,7 +419,7 @@ tags:
 colorID: 0
 position: 1495,-431
 ---
-Three eggs! Great! Ok. Here's your decorating station! And some recipes to get you started! #line:10022000
+Three eggs! Great! Ok. Here's your ^c:d03e37;decorating station^c:pop;! And some recipes to get you started! #line:10022000
 
 <<giveItemToPlayer tilePlacer mods.mb.EasterFest.lydocia.machine.EggPainter>>
 <<removePlayerItem staxel.item.crafting.Egg 3>>
@@ -436,7 +499,7 @@ tags:
 colorID: 0
 position: 1753,288
 ---
-You don't appear to have found my Tea Set. #line:10043100
+You don't appear to have found my ^c:d03e37;Tea Set^c:pop;. #line:10043100
 Try looking in the maze once more. #line:10043200
 Or...... Ordering one from the catalogue. #line:10043300
 <<typewriterMode off True True>>
@@ -447,7 +510,7 @@ tags:
 colorID: 0
 position: 1752,539
 ---
-You don't appear to have found my Easter Basket. #line:10053100
+You don't appear to have found my ^c:d03e37;Easter Basket^c:pop;. #line:10053100
 Try looking in the maze once more. #line:10053200
 Or...... Ordering one from the catalogue. #line:10053300
 <<typewriterMode off True True>>
@@ -496,7 +559,7 @@ tags:
 colorID: 0
 position: 2217,799
 ---
-You don't appear to have found an Egg Fish. #line:10064100
+You don't appear to have found an ^c:d03e37;Egg Fish^c:pop;. #line:10064100
 Try looking in the maze once more. #line:10064200
 Or...... Ordering one from the catalogue. #line:10064300
 <<typewriterMode off True True>>
@@ -604,7 +667,7 @@ position: 2446,-172
 ---
 hmm? Oh dear... #line:10074100
 <<emote staxel.emote.Fidget>>
-You don't appear to have any decorative eggs. #line:10074200
+You don't appear to have any ^c:d03e37;decorative eggs^c:pop;. #line:10074200
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
 ===
@@ -623,7 +686,7 @@ tags:
 colorID: 0
 position: 1756,-173
 ---
-Ten eggs already? Wow! #line:10071100
+Ten unique eggs already? Wow! #line:10071100
 You've definitely earned a reward! #line:10071200
 <<removePlayerItemWithCategory MBCollectEgg 1>>
 <<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate 1 false>>
@@ -658,7 +721,7 @@ tags:
 colorID: 0
 position: 1990,-173
 ---
-Ten eggs? Amazing! #line:10072100
+Ten unique eggs? Amazing! #line:10072100
 You wanted a cute pet, didn't you? I have the perfect thing! #line:10072200
 <<removePlayerItemWithCategory MBCollectEgg 10>>
 
@@ -680,7 +743,7 @@ You wanted a cute pet, didn't you? I have the perfect thing! #line:10072200
     <<endif>>
 <<endif>>
 
-It's a clockwork rabbit made by the best fairy filligree smiths! It's so lifelike! #line:10072300 
+It's a ^c:d03e37;clockwork rabbit^c:pop; made by the best fairy filligree smiths! It's so lifelike! #line:10072300 
 Filligree needs magic ore to power it! #line:10072400 
 Here's the recipe for the food and a chunk of ore to craft it. #line:10072500 
 This will keep you going until you can get more from the mining island. #line:10072600
@@ -702,9 +765,10 @@ position: 2232,-177
 ---
 hmm? Oh dear... #line:10073100
 <<emote staxel.emote.Fidget>>
-You appear to only have $itemCount; decorative eggs. #line:10073200
+You appear to only have ^c:d03e37;$itemCount; unique decorative eggs^c:pop;. #line:10073200
 <<set $itemLeft = 10 - $itemCount>>
-You need $itemLeft; more eggs before you receive your reward. #line:10073300
+You need ^c:d03e37;$itemLeft; more eggs^c:pop; before you receive your reward. #line:10073300
 <<typewriterMode off True True>>
 <<releasePlayerFromConversation>>
+
 ===
