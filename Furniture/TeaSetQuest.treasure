@@ -7,7 +7,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight"
+			"tile": "mods.mb.EasterFest.markgrant.misc.BunnyWallClock"
 		},
 
       ]
@@ -17,7 +17,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass"
+			"tile": "mods.mb.EasterFest.markgrant.block.EasterBrickBlock"
 		},
 
       ]
@@ -27,7 +27,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass"
+			"tile": "mods.mb.EasterFest.markgrant.misc.EggBalloonLeft"
 		},
 
       ]
@@ -37,7 +37,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.festival.PawPrint"
+			"tile": "mods.mb.EasterFest.markgrant.misc.EggBalloonRight"
 		},
 
       ]
@@ -47,7 +47,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Red"
+			"tile": "mods.mb.EasterFest.markgrant.block.PastelBrickBlock"
 		},
 
       ]
@@ -57,7 +57,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Purple"
+			"tile": "mods.mb.EasterFest.markgrant.path.PastelBrickPath"
 		},
 
       ]
@@ -67,214 +67,9 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Pink"
+			"tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg"
 		},
 
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Orange"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Red"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Purple"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Pink"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.flowerbed.EasterLongPottedPlant_Orange"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.festival.EasterFountain"
-		},
-
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.markgrant.festival.EasterEggBannerRight"
-		},
-
-      ]
-    },
-{
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.AnotherCastleSign"
-		},
-      ]
-    },
-    {
-      "weight": 10.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGardenArch"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboBack"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboDiagonal"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboFront"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCenter"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofCorner"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboRoofSide"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterGazeboSide"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Left"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Right"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterWallLampBasketLeft"
-		},
-      ]
-    },
-    {
-      "weight": 1.0,
-      "items": [
-		{
-			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterWallLampBasketRight"
-		},
       ]
     },
   ]

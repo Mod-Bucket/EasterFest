@@ -3,7 +3,7 @@
   "categories": [
     "decoration",
     "Mod Bucket",
-	"MBTeaset",
+    "MBTeaset",
     "Easter",
     "EasterFest",
 	"egg",
@@ -13,7 +13,7 @@
   "placementDirections": [
     "all"
   ],
-  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2",
   "compound": {
     "size": {
       "x": 2,
@@ -25,9 +25,9 @@
   "pricing": {
     "buyable": true,
     "catalogueUnlockedFromStart": false,
-    "sellPrice": 40,
-    "value": 100
+    "sellPrice": 400,
+    "value": 1000
   },
   "searchable": true,
-  "voxels": "mods/EasterFest/Furniture/EggTeaset.qb"
+  "voxels": "mods/EasterFest/TeaPartyPrizes/EggTeaset2.qb"
 }

@@ -1,0 +1,51 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.treasure.MayEgg",
+  "entries": [
+    {
+      "weight": 19,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg",
+		  "quantity": 3
+        }
+      ]
+    },
+    {
+      "weight": 60,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
+        }
+      ]
+    },
+    {
+      "weight": 60,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
+        }
+      ]
+    },
+    {
+      "weight": 20,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2",
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3",
+        }
+      ]
+    },
+  ]
+}

@@ -9,21 +9,21 @@
     "bug",
     "beetle"
   ],
-  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg",
+  "code": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg",
   "gatherable": {
     "catchable": {
       "leaveDuringOffWeather": true,
       "spawnWeathers": [
         "mods.mb.EasterFest.markgrant.festival.EasterFest"
       ],
-      "spawnChance": 100,
-      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg",
-      "catchTreasure": "staxel.treasure.AprilEggs"
+      "spawnChance": 10,
+      "tile": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg",
+      "catchTreasure": "mods.mb.EasterFest.toketsupuurin.treasure.MayEgg"
     },
     "isCatchable": true
   },
-  "icon": "staxel/gatherables/catchables/event/AprilEggItem.qb",
-  "inHand": "staxel/gatherables/catchables/event/AprilEggItem.qb",
+  "icon": "mods/EasterFest/gatherables/AprilEgg/MayEggItem.qb",
+  "inHand": "mods/EasterFest/gatherables/AprilEgg/MayEggItem.qb",
   "inHandOffset": {
     "x": 0.0,
     "y": -0.2,

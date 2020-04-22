@@ -246,6 +246,12 @@ mods.mb.EasterFest.toketsupuurin.furniture.EggTableLarge.description=A really bi
 mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset.name=Egg Teaset
 mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset.description=A lovely egg teaset. Alice needs one...
 
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.name=Dainty Egg Teaset
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.description=A dainty egg teaset. Alice needs one...
+
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.name=Elegant Egg Teaset
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.description=An elegant egg teaset. Alice needs one...
+
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.name=Egg TV Stand
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.description=An egg TV stand.
 
@@ -806,6 +812,9 @@ mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBox.description=Food for fill
 
 mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.name=April Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.description=I hope there's something good inside!
+
+mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.name=May Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.description=Wait...this one seems different...
 
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.description=How did it float? Can I use it as a real bee?

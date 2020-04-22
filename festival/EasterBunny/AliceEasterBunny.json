@@ -50,14 +50,14 @@
     "body": [
       "<<if $EggPainter is 0>>",
       "Oh! Well, there's a special station that will let you make some of the eggs for the collection! #line:10013100",
-      "If you bring me ^c:d03e37;3 regular chicken eggs^c:pop I'll give it to you and show you how it works! #line:10013200",
+      "If you bring me ^c:d03e37;3 regular chicken eggs^c:pop; I'll give it to you and show you how it works! #line:10013200",
       "<<else>>",
       "There are lots and lots of eggs you can make with the ^c:d03e37;egg painter station^c:pop;! #line:10013300 ",
       "But most of them are a secret! #line:10013400",
       "You'll have to experiment! There are no recipes written down for you! #line:10013500",
       "Don't just try petals either! Try fruit or starbits, anything you can think of that might make a pretty egg! #line:10013600 ",
       "If it's an ingredient to make other things it might help you make a decorated egg! #line:10013700",
-      "How exciting! #line:10013800",
+      "Isn't that exciting? #line:10013800",
       "<<endif>>",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
@@ -67,16 +67,17 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1686,
-      "y": -893
+      "x": 1687,
+      "y": -894
     }
   },
   {
     "title": "Collection",
     "body": [
-      "There's a whole new collection for you! #line:10014100",
-      "And special prizes if you bring me uniquely decorated eggs. #line:10014200",
-      "There are bugs and fossils to find. #line:10014300",
+      "There's a whole new collection for you so you can keep track of all the eggs! #line:10014100",
+      "And I have special prizes if you bring me enough uniquely decorated eggs. #line:10014200",
+      "There are egg bugs to find, #line:10014300",
+      "Hidden eggs to decorate, #line:10014700",
       "Plus all sorts of unique eggs scattered in the maze. #line:10014400",
       "There may even be a fish or two \"well\" hidden. #line:10014500 ",
       "For every 10 unique eggs you bring me I'll give you a prize! #line:10014600",
@@ -87,7 +88,7 @@
     "colorID": 0,
     "position": {
       "x": 1693,
-      "y": -670
+      "y": -676
     }
   },
   {
@@ -96,20 +97,20 @@
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
       "<<if $TeaSet is 0>>",
-      "Well it was supposed to happen soon, but I've managed to break my ^c:d03e37;tea set^c:pop;! Can you find me another one? #line:10011000 ",
+      "Well the tea party was supposed to happen soon, but I've managed to break my ^c:d03e37;tea set^c:pop;! Can you find me another one? #line:10011000 ",
       "<<endif>>",
       "<<if $Basket is 0>>",
-      "Well it was supposed to happen soon, but I've managed to misplace my ^c:d03e37;easter basket^c:pop;! Can you find me another one? #line:10011200 ",
+      "I've managed to misplace my ^c:d03e37;easter basket^c:pop;! It has all the eggs for the tea party! Can you find me one? #line:10011200 ",
       "<<endif>>",
       "<<if $EggFish is 0>>",
-      "Well it was supposed to happen soon, but someone ate my ^c:d03e37;egg fish^c:pop;! Can you find me another one? #line:10011300 ",
+      "Someone ate my ^c:d03e37;egg fish^c:pop;. You can't have a tea party without an egg fish! Can you fish one up? #line:10011300 ",
       "<<endif>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1674,
-      "y": -1363
+      "x": 1672,
+      "y": -1364
     }
   },
   {
@@ -155,8 +156,8 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1986,
-      "y": 59
+      "x": 1984,
+      "y": 57
     }
   },
   {
@@ -164,8 +165,8 @@
     "body": [
       "Oh! You found the ^c:d03e37;Giant Golden Egg^c:pop;? #line:10032100",
       "Yay! Congratulations! #line:10032200",
-      "Your reward is the fun you had along the way.#line:10032300",
-      "You can also keep that for decoration around your house, or sell it. #line:10032400",
+      "Oh, no. I don't want it. That egg is the prize!#line:10032300",
+      "You can keep it for decoration around your house, or sell it. #line:10032400",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
       "",
@@ -181,7 +182,7 @@
   {
     "title": "LittleGoldenEgg",
     "body": [
-      "Oh! You painted a ^c:d03e37;Golden Egg^c:pop;? #line:10033100",
+      "Oh! You have a ^c:d03e37;Decorated Golden Egg^c:pop;? #line:10033100",
       "It's pretty! #line:10033200",
       "But that's not the real prize. #line:10033300",
       "Try searching the maze. #line:10033400",
@@ -192,17 +193,17 @@
     "colorID": 0,
     "position": {
       "x": 1749,
-      "y": 63
+      "y": 64
     }
   },
   {
     "title": "TeaSetFound",
     "body": [
       "Oh, thank you! #line:10041100",
-      "<<removePlayerItem mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset>>",
+      "<<removePlayerItemWithCategory MBTeaset>>",
       "<<set $TeaSet to 1>>",
       "<<set $Basket to 0>>",
-      "<<loadRandomNumber 5 $random>>",
+      "<<loadRandomNumber 6 $random>>",
       "<<if  $random = 0>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>",
       "<<endif>>",
@@ -218,15 +219,19 @@
       "<<if  $random = 4>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>",
+      "<<if  $random = 5>>",
+      "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg 1>>",
       "<<endif>>",
       "But... It's just... Oh dear... #line:10041200",
-      "[[What's wrong now? |FindEasterBasket]] #line:10041300"
+      "[[What's wrong now? |FindEasterBasket]] #line:10041300",
+      "",
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
       "x": 1242,
-      "y": 292
+      "y": 288
     }
   },
   {
@@ -254,8 +259,7 @@
       "It really is my ^c:d03e37;Easter Basket^c:pop;. Thank you! #line:10051100",
       "<<set $Basket to 1>>",
       "<<set $EggFish to 0>>",
-      "<<removePlayerItem mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket>>",
-      "<<loadRandomNumber 5 $random>>",
+      "<<loadRandomNumber 6 $random>>",
       "<<if  $random = 0>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>",
       "<<endif>>",
@@ -271,6 +275,8 @@
       "<<if  $random = 4>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>",
+      "<<if  $random = 5>>",
+      "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg 1>>",
       "<<endif>>",
       "But.. It's just.. Oh dear... #line:10051200",
       "[[What's wrong now? |FindEggFish]] #line:10051300",
@@ -303,25 +309,26 @@
     "title": "Hello",
     "body": [
       "<<emote staxel.emote.Fidget>>",
-      "Hi again! Oh dear... #line:10006100",
+      "Oh dear, Oh dear... Oh! Hi. #line:10006100",
       "[[OptionSelect]]",
       ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 460,
+      "x": 462,
       "y": -983
     }
   },
   {
     "title": "OptionSelect",
     "body": [
-      "How can I help you? #line:10005100",
-      "[[What is Easter Fest?|Why]] #line:10005200 ",
+      "Did you want to know something? #line:10005100",
+      "[[What's going on?|Why]] #line:10005200 ",
       "[[What should I do?|Explain]] #line:10005300",
-      "[[I have some eggs!|CollectEggs]] #line:10005400",
+      "[[I have some decorated eggs!|CollectEggs]] #line:10005400",
       "[[I found a maze prize!|MazeQuest]] #line:10005500",
+      "[[What's wrong?|TeaParty]] #line:10005510",
       "<<if $TeaSet is 0>>",
       "[[I found your tea set!|TeaSet]] #line:10005600",
       "<<endif>>",
@@ -342,7 +349,7 @@
     "colorID": 0,
     "position": {
       "x": 979,
-      "y": -671
+      "y": -672
     }
   },
   {
@@ -357,8 +364,8 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1255,
-      "y": -661
+      "x": 1274,
+      "y": -680
     }
   },
   {
@@ -366,7 +373,7 @@
     "body": [
       "<<branchPlayerDoesntHaveItemOfCategory MBCollectEgg NotCollectEggs>>",
       "Can you bring me 10 unique decorated eggs?#line:11005910",
-      "If you give me 10, I have a special reward for you.#line:11005920",
+      "For every 10 you give me I'll give you something special!#line:11005920",
       "[[Sure!|ScanForCollectEggs]] #line:11005930",
       "[[Nah...|CancelCollectEggs]] #line:11005940"
     ],
@@ -389,7 +396,7 @@
     "colorID": 0,
     "position": {
       "x": 976,
-      "y": 69
+      "y": 70
     }
   },
   {
@@ -399,7 +406,7 @@
       "You found my ^c:d03e37;Tea Set^c:pop;? #line:10005610",
       "Can I have it? #line:10005620",
       "[[Sure!|TeaSetFound]] #line:10005630",
-      "[[Nah...|CancelTeaSet]] #line:10005640"
+      "[[Nope.|CancelTeaSet]] #line:10005640"
     ],
     "tags": "",
     "colorID": 0,
@@ -431,11 +438,11 @@
     "title": "EggFish",
     "body": [
       "<<branchPlayerDoesntHaveItemOfCategory MBFishEgg NotEggFishFound>>",
-      "You caught an ? #line:10005810",
+      "You caught an ^c:d03e37;Egg Fish^c:pop;? #line:10005810",
       "Wow! They're so hard to catch! #line:10005820",
       "Can I have it? #line:10005830",
-      "[[Sure!|EggFishFound]] #line:10005840",
-      "[[Nah...|CancelEggFish]] #line:10005850",
+      "[[Ok.|EggFishFound]] #line:10005840",
+      "[[It's mine.|CancelEggFish]] #line:10005850",
       ""
     ],
     "tags": "",
@@ -463,8 +470,8 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 976,
-      "y": -435
+      "x": 985,
+      "y": -434
     }
   },
   {
@@ -483,21 +490,26 @@
     "colorID": 0,
     "position": {
       "x": 1243,
-      "y": -430
+      "y": -429
     }
   },
   {
     "title": "Why",
     "body": [
       "What's going on? Oh, lots of stuff! We're celebrating Easter!#line:10005210 ",
-      "There's egg collecting and decorating, a maze, and there was supposed to be a tea party.#line:10005220 ",
-      "[[OptionSelect]]"
+      "There's egg collecting and decorating, a maze, and there was supposed to be a tea party...#line:10005220 ",
+      "[[Egg Collecting?|Collection]] #line:10005310",
+      "[[How do you do Egg Decorating?|Decoration]] #line:10005320  ",
+      "[[What's up with the Maze?|Maze]] #line:10005330",
+      "[[What's wrong with the Tea Party?|TeaParty]] #line:10005340",
+      "[[I need to ask about something else.|OptionSelect]] #line:10005350",
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1226,
-      "y": -1206
+      "x": 1227,
+      "y": -1205
     }
   },
   {
@@ -519,11 +531,10 @@
   {
     "title": "EggFishFound",
     "body": [
-      "An ^c:d03e37;Egg Fish^c:pop;! I love it. #line:10061100",
+      "An ^c:d03e37;Egg Fish^c:pop;? Marvelous! #line:10061100",
       "<<set $TeaSet to 0>>",
       "<<set $EggFish to 1>>",
-      "<<removePlayerItemWithCategory MBFishEgg>>",
-      "<<loadRandomNumber 5 $random>>",
+      "<<loadRandomNumber 6 $random>>",
       "<<if  $random = 0>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.block.EasterBrickBlock 30>>",
       "<<endif>>",
@@ -539,6 +550,8 @@
       "<<if  $random = 4>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonLeft 1>>",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.markgrant.misc.EggBalloonRight 1>>",
+      "<<if  $random = 5>>",
+      "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg 1>>",
       "<<endif>>",
       "...um... I hate to say it... #line:10061200",
       "[[What is it this time? |FindTeaSetAgain]] #line:10061300"
@@ -596,14 +609,14 @@
     "colorID": 0,
     "position": {
       "x": 1495,
-      "y": -431
+      "y": -430
     }
   },
   {
     "title": "Cancel3Eggs",
     "body": [
-      "Oh dear... #line:10023100",
-      "Feel free to try again later! #line:10023200",
+      "Oh, what a shame... #line:10023100",
+      "Feel free to bring some later! #line:10023200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -651,10 +664,10 @@
   {
     "title": "CancelMazeEgg",
     "body": [
-      "hmm? Oh dear... #line:10035100",
+      "hmm? Odd... #line:10035100",
       "<<emote staxel.emote.Fidget>>",
-      "You don't appear to have the maze prize. #line:10035200",
-      "Try searching in the maze again. #line:10035300",
+      "You don't have anything that looks like the maze prize. #line:10035200",
+      "Try searching the maze some more. #line:10035300",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -670,7 +683,7 @@
     "body": [
       "You don't appear to have found my ^c:d03e37;Tea Set^c:pop;. #line:10043100",
       "Try looking in the maze once more. #line:10043200",
-      "Or...... Ordering one from the catalogue. #line:10043300",
+      "Or... You could try ordering one? I'm not sure how that works. #line:10043300",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -684,9 +697,9 @@
   {
     "title": "NotEasterBasketFound",
     "body": [
-      "You don't appear to have found my ^c:d03e37;Easter Basket^c:pop;. #line:10053100",
-      "Try looking in the maze once more. #line:10053200",
-      "Or...... Ordering one from the catalogue. #line:10053300",
+      "Huh? I don't see an ^c:d03e37;Easter Basket^c:pop;. #line:10053100",
+      "You could check the maze again. #line:10053200",
+      "Or try that catalogue thingy? #line:10053300",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -715,7 +728,7 @@
     "title": "Greetings",
     "body": [
       "<<emote staxel.emote.Fidget>>",
-      "Hi again! Oh dear... #line:10006300",
+      "What should I do? This is awful! Hello... #line:10006300",
       "[[OptionSelect]]"
     ],
     "tags": "",
@@ -729,7 +742,7 @@
     "title": "CancelTeaSet",
     "body": [
       "Oh dear... #line:10044100",
-      "Feel free to try again later! #line:10044200",
+      "Keep looking! We can't have the tea party without one! #line:10044200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -744,7 +757,7 @@
     "title": "CancelEasterBasket",
     "body": [
       "Oh dear... #line:10054100",
-      "Feel free to try again later! #line:10054200",
+      "Keep looking! We can't have the party without eggs to give away! #line:10054200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -758,16 +771,15 @@
   {
     "title": "NotEggFishFound",
     "body": [
-      "You don't appear to have found an ^c:d03e37;Egg Fish^c:pop;. #line:10064100",
-      "Try looking in the maze once more. #line:10064200",
-      "Or...... Ordering one from the catalogue. #line:10064300",
+      "I don't see an ^c:d03e37;Egg Fish^c:pop;. #line:10064100",
+      "Did you go fishing in the maze? Egg fish like the blue grass best. Or the fountain. #line:10064200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 2217,
+      "x": 2215,
       "y": 799
     }
   },
@@ -775,14 +787,14 @@
     "title": "CancelEggFish",
     "body": [
       "Oh dear... #line:10065100",
-      "Feel free to try again later! #line:10065200",
+      "I still really need one! #line:10065200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 2477,
+      "x": 2475,
       "y": 803
     }
   },
@@ -908,14 +920,14 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 1236,
+      "x": 1238,
       "y": -175
     }
   },
   {
     "title": "NotCollectEggs",
     "body": [
-      "hmm? Oh dear... #line:10074100",
+      "Hmm? Oh dear... #line:10074100",
       "<<emote staxel.emote.Fidget>>",
       "You don't appear to have any ^c:d03e37;decorative eggs^c:pop;. #line:10074200",
       "<<typewriterMode off True True>>",
@@ -932,8 +944,8 @@
   {
     "title": "CancelCollectEggs",
     "body": [
-      "Oh dear... #line:10075100",
-      "Feel free to try again later! #line:10075200",
+      "Oh... #line:10075100",
+      "Bring back some more later, I really need some! #line:10075200",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>"
     ],
@@ -956,7 +968,7 @@
       "<<set $CollectEgg to 1>>",
       "He's convinced he's a chicken! Just humor him and give him chicken feed. #line:10071300",
       "He'll leave you chocolate eggs! #line:10071400 ",
-      "I have more prizes if you can bring me another 10 eggs! #line:10071500",
+      "I have more gifts if you can bring me another 10 eggs! #line:10071500",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
       "",
