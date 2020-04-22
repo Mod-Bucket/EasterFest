@@ -1,0 +1,22 @@
+{
+  "__inherits": "staxel/tile/Hammerable.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "block",
+    "brick",
+    "blue"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.block.EasterBrickBlock",
+  "damageSoundGroup": "staxel.sounds.damage.Stone",
+  "placeSoundGroup": "staxel.sounds.place.Stone",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "voxels": "mods/EasterFest/TeaPartyPrizes/EasterBrickBlock.qb"
+}

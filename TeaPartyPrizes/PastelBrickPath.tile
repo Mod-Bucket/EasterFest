@@ -1,0 +1,26 @@
+{
+  "__inherits": "staxel/tile/Hammerable.config",
+  "code": "mods.mb.EasterFest.markgrant.path.PastelBrickPath",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "path",
+    "brick",
+    "pastel"
+  ],
+  "placementDirections": ["all"],
+  "attachmentDirections": ["all"],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 30,
+    "value": 50
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "damageSoundGroup": "staxel.sounds.damage.Stone",
+  "placeSoundGroup": "staxel.sounds.place.Stone",
+  "priority": 950,
+  "pathFindingPenalty": 3,
+  "voxels": "mods/EasterFest/TeaPartyPrizes/PastelBrickPath.qb"
+}

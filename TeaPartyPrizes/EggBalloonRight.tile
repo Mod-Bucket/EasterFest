@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "misc"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.misc.EggBalloonRight",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "interactActionTrigger": "staxel.entityAction.BreakAndPickupAction",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 30,
+    "value": 50
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "tilePlacement": {
+    "inHandRotation": {
+      "x": -1.1,
+      "y": 0,
+      "z": 0
+    },
+    "inHandScale": 3.0
+  },
+  "voxels": "mods/EasterFest/TeaPartyPrizes/EggBalloonRight.qb",
+}
