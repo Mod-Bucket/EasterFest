@@ -188,12 +188,6 @@
       "requireEmpty": false,
       "rotation": 3
     },
-    "FF537333": {
-      "matches": false,
-      "material": "staxel.plant.gatherable.Wildberry",
-      "requireEmpty": false,
-      "rotation": 0
-    },
     "FF53CC66": {
       "matches": false,
       "material": "mods.mb.EasterFest.lydocia.egg.toketsu-Ombre3",
@@ -697,12 +691,6 @@
       "material": "mods.mb.EasterFest.toketsupuurin.Fence.EasterHedgeStraight",
       "requireEmpty": false,
       "rotation": 2
-    },
-    "FFD6D95D": {
-      "matches": false,
-      "material": "staxel.plant.gatherable.Creaturebud",
-      "requireEmpty": false,
-      "rotation": 0
     },
     "FFD7972B": {
       "matches": false,
