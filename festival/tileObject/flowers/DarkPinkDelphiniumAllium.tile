@@ -1,6 +1,8 @@
 {
   "__inherits": "staxel/plant/flower/base.config",
   "categories": [
+    "ModBucket",
+    "EasterFest",
     "flower",
     "Delphinium",
     "Allium",

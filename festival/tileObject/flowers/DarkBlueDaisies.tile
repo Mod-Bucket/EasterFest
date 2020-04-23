@@ -1,8 +1,10 @@
 {
   "__inherits": "staxel/plant/flower/pickable.config",
   "categories": [
+    "ModBucket",
+    "EasterFest",
     "flower",
-    "pink"
+    "blue"
   ],
   "code": "mods.mb.EasterFest.markgrant.flower.DarkBlueDaisies",
   "pricing": {

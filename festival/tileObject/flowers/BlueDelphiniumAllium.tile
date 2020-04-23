@@ -1,10 +1,12 @@
 {
   "__inherits": "staxel/plant/flower/base.config",
   "categories": [
+    "ModBucket",
+    "EasterFest",
     "flower",
     "Delphinium",
     "Allium",
-    "pink"
+    "blue"
   ],
   "code": "mods.mb.EasterFest.markgrant.flower.BlueDelphiniumAllium",
   "pricing": {

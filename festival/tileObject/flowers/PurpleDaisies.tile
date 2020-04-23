@@ -1,8 +1,10 @@
 {
   "__inherits": "staxel/plant/flower/pickable.config",
   "categories": [
+    "ModBucket",
+    "EasterFest",
     "flower",
-    "pink"
+    "purple"
   ],
   "code": "mods.mb.EasterFest.markgrant.flower.PurpleDaisies",
   "pricing": {
@@ -12,7 +14,7 @@
     "value": 10
   },
   "scytheable": {
-    "spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsBlue",
+    "spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsBlack",
     "spawnsMixedSeeds": true
   },
   "searchable": true,
