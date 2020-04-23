@@ -1,0 +1,24 @@
+{
+  "__inherits": "staxel/plant/flower/base.config",
+  "attachToBelow": false,
+  "categories": [
+    "ModBucket",
+    "EasterFest",
+    "bush",
+    "shrub",
+    "Yellow"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush",
+  "damageSoundGroup": "staxel.sounds.damage.Plant",
+  "placeSoundGroup": "staxel.sounds.place.Grass",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 12,
+    "value": 20
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Yellow/YellowHomelyFlowerBush.qb"
+}

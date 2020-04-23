@@ -1,12 +1,14 @@
 {
   "__inherits": "staxel/plant/flower/pickable.config",
   "categories": [
-    "flower",
-    "heart",
-    "rose",
-    "red",
-	"valentine"
-  ],
+    "ModBucket",
+    "EasterFest",
+    "grass",
+    "green"
+	],
+  "scytheable": {
+    "spawnsMixedSeeds": true
+  },
   "code": "mods.mb.EasterFest.markgrant.flower.GreenGrass",
   "pricing": {
     "catalogueUnlockedFromStart": false,

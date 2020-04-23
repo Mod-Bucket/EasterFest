@@ -1,18 +1,20 @@
 {
   "__inherits": "staxel/plant/flower/pickable.config",
   "categories": [
-    "plant",
-    "green"
-  ],
+    "ModBucket",
+    "EasterFest",
+    "grass",
+    "blue"
+	],
+  "scytheable": {
+    "spawnsMixedSeeds": true
+  }, 
   "code": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
   "pricing": {
     "buyable": true,
     "catalogueUnlockedFromStart": true,
     "sellPrice": 6,
     "value": 10
-  },
-  "scytheable": {
-    "spawnsMixedSeeds": true
   },
   "searchable": true,
   "voxels": "mods/EasterFest/festival/tileObject/grass/Blue/BlueWildGrass1.qb",
