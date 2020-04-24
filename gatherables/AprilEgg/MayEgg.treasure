@@ -2,7 +2,7 @@
   "code": "mods.mb.EasterFest.toketsupuurin.treasure.MayEgg",
   "entries": [
     {
-      "weight": 19,
+      "weight": 10,
       "items": [
         {
           "kind": "staxel.item.Placer",
@@ -12,17 +12,12 @@
       ]
     },
     {
-      "weight": 60,
+      "weight": 10,
       "items": [
         {
           "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset",
-        }
-      ]
-    },
-    {
-      "weight": 60,
-      "items": [
+        },
         {
           "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket",
@@ -30,7 +25,59 @@
       ]
     },
     {
-      "weight": 20,
+      "weight": 10,
+      "items": [
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.misc.BunnyWallClock",
+		}
+      ]
+    },
+    {
+      "weight": 10,
+      "items": [
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.block.EasterBrickBlock",
+		  "quantity": 30
+		}
+      ]
+    },
+	{
+      "weight": 10,
+      "items": [
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.block.PastelBrickBlock",
+		  "quantity": 30
+		}
+      ]
+    },
+	{
+      "weight": 10,
+      "items": [
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.path.PastelBrickPath",
+		  "quantity": 20
+		}
+      ]
+    },
+	{
+      "weight": 10,
+      "items": [
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.misc.EggBalloonLeft",
+		},
+		{
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.misc.EggBalloonRight",
+		}
+      ]
+    },
+    {
+      "weight": 10,
       "items": [
         {
           "kind": "staxel.item.Placer",
@@ -39,12 +86,113 @@
       ]
     },
     {
-      "weight": 1,
+      "weight": 2,
       "items": [
         {
           "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3",
         }
+      ]
+    },
+    {
+      "weight": 5,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedWildGrass",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedGrass",
+        },
       ]
     },
   ]
