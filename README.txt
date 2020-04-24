@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.4
+Version 1.5
 
 A mod for Staxel.
 
@@ -21,11 +21,7 @@ The only secrets that require being destructive are the Bobbleheads. Hints have 
 
 Nearly every collectable egg can be crafted. One must be grown. Five are furniture you must find.
 
-===========
-
-Known bugs/Dust:
-
-* The Chickens do not deliver all of their dialogue yet. The mod is effectively done except for these! All content is accessible and playable.
+The end of this document has a list of all chicken dialogue in case you missed something. And after that is a cheat sheet for all the secret recipes if you're having trouble.
 
 ===========
 
@@ -55,6 +51,11 @@ toketsupuurin:
 - Eggwood & bunnycarrot plants
 
 ==========
+
+Version 1.5 - GOLD
+	* Fixed bugs in Alice's quests.
+	* Added complete chicken dialogue.
+	* Barring minor fixes this mod is complete for the foreseeable future. Someday we might add more stuff, but nothing major. Enjoy, and thanks for playing!
 
 Version 1.4
 	* All of Alice's quests done.
@@ -100,6 +101,75 @@ Version 1.0
 	* Released! Quests and eggpainter are broken. This is being worked on.
 
 
+=========
+
+Chicken hints:
+
+This is a list of all the chicken lines just in case you missed one or wanted to see the entirety of a run on line.
+
+
+Cottontail: (No apologies for hyper-speak.)
+
+Hi!I'mCottontail!Honk!IloveEaster!DoyoulikeEaster?Cricketsarethebest!Cricketsaresoyummy!Andbunnies!Bunniesaren'ttastybuttheyarepartofEaster!Wait,I'mabunny.Hop!Hop!Do you like my feathers?
+Whowouldwanttomakearottenegg?You'resilly!Hophophop!
+RedSnappergoeswellpetals!Hophophophop!Yummy!
+Youcouldmakeascorpionegg...ifyoucouldfindascorpion.Easiertocatchone!Yupyupyup! Hophophop!
+Youcanfishanywherethat'swetinthemaze.Didyounoticetheblueeastergrassiswet? Yupyupyup!Itdoes!
+Hophophop!RedLobstertastesbestwithbluepetals.Yupyupyup!
+Allbeesgoinapiaries.Eveneggbees.Imgettingoutofhere!Hophophop!
+Mushroomsgowellwitheggs!Mmm-mm!Hophophop!
+NoIdidn'thaveanysugartoday!Theeasterbunnydidn'tlayanyeggsbecauseitneedschickenfeedtohatchfirst!
+Teaisgreat!Iwantitallthetime!Ateaseteggwouldbeawesome!Hophophop!Youcouldhatchitwithchickenfood!
+Hophophophop!Youcandecoratesugarandchocolateeggs!?It'salreadyinyourrecipebook?!Yay!Sugar!!!!
+Canyoubelievethereisgoingtobeateaparty?!Hophophop!I'msoexcited!iwannatrytea!Mopsysaysno.She'smean.
+
+
+Mopsy:
+
+Hello. I'm Mopsy-pyo. I am an Easter bunny-pyo. Hop. Hop. I feel ridiculous...pyo.
+Wood does great things to eggs-pyo. Have you tried it all together-pyo?
+If an egg looks like a thing you probably use that to make it-pyo. That should be obvious-pyo.
+If you don't like breaking decorations, don't worry-pyo. Grow Eggwood-pyo.
+We'll be back next year-pyo. You don't have to finish everything this year-pyo. Relax. Hop some. Hop.
+Hop. One egg you have to grow-pyo. It might take a long time to get it-pyo.
+Changing the number of petals you use can give you a different egg-pyo.
+Things you can gather make interesting eggs-pyo. But you know that because you're smart-pyo.
+Alice will give you three kinds of pets-pyo. But there are ways to make them too-pyo.
+Rotate the Easter hedge to get different shapes-pyo. You can do that with most fences-pyo.
+Set the May or April eggs down and then pick them like a mushroom to open them.
+If you can scavenge it you can probably get an egg out of it-pyo. Hop.
+Pets, Eggwood, and May eggs all give you different gifts-pyo. Get a lot of them if you're smart-pyo.
+Use food on an egg at the combine table to try to hatch it-pyo.
+Do you want to be a bunny person-pyo? Pets will give you a costume-pyo. Not enough-pyo? You can reincarnate as a leoporid in your next life-pyo.
+Hop. Hop. Can I be done now-pyo? Hop.
+I am obligated to hop for you-pyo. Because I am a bunny-pyo. Hop. Hop.
+
+
+Flopsy:
+
+Hiya! Have you found any eggs yet? Squeak! Oh, no I was supposed to introduce myself! Click-click. I'm Flopsy.
+Squeak! The prettiest eggs make petals and leaves. Or was it the other way 'round? Click-click.
+The Great Golden Egg definitely cannot maybe be decorated. I think. Click-click. It's all so confusing.
+Shells are so pretty next to eggs in my nest.
+Easter pillars have a lot of pretty wisteria.
+Chirrup! Basalt and ore are so lovely together! Squeak!
+Purple petals act like eggplant! Click-click something about that seems wrong somehow...
+Churrrrr... Ores and teasets make the prettiest, most useful eggs of all!
+Chirrup! Filligee food thinks Crystal eggs are tasty! Wait... Click-click.
+Pretty things like me! ...wait that's not right... Click-click.
+
+
+Thumper:
+
+Thumpthumpthump! I'm Thumper! Who're you? Could you get this itch on my head? It's very annoying. Oh. Right there! Churrrrr...
+Some eggs like to listen to music! Thumpthumpthump! I love the bass lines, myself!
+Where there's treasure, there's a pirate. Thumpthumpthump! I should get myself a pegleg. Then I'd really thump!
+Thumpthump! X marks the spot. Thump! Did you forget where the pirate was? Maybe next year.
+Thumpthumpthump! Bushes are great places to hide! Underneath stone fences makes a good place for a burrow too. Churrr...
+Princesses are pink and like red and white things. Thumpthumpthump!
+You'll need three sets of three things to make the most magical egg. Thump! Potions are important!
+Thumpthumpthump! It's not a party without magic lights! Chuurup!
+Thumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthumpthump...
 
 
 
