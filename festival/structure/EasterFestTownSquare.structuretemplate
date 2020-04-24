@@ -511,12 +511,6 @@
       "material": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
       "requireEmpty": false,
       "rotation": 1
-    },
-	"FF1E1E1E": {
-      "matches": false,
-      "material": "mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBowlEmpty",
-      "requireEmpty": false,
-      "rotation": 1
-    }	
+    },	
   }
 }
