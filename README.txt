@@ -141,6 +141,7 @@ If you can scavenge it you can probably get an egg out of it-pyo. Hop.
 Pets, Eggwood, and May eggs all give you different gifts-pyo. Get a lot of them if you're smart-pyo.
 Use food on an egg at the combine table to try to hatch it-pyo.
 Do you want to be a bunny person-pyo? Pets will give you a costume-pyo. Not enough-pyo? You can reincarnate as a leoporid in your next life-pyo.
+Some eggs need more power than just a petal-pyo. Use a potion-pyo.
 Hop. Hop. Can I be done now-pyo? Hop.
 I am obligated to hop for you-pyo. Because I am a bunny-pyo. Hop. Hop.
 
