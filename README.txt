@@ -11,6 +11,8 @@ Easterfest is intended to be a multi-year festival. You can enjoy most of it rig
 
 It runs from Spring 6 to whenever you sleep on Spring 9.
 
+May eggs should be placed on the ground and harvested like a mushroom or snail.
+
 There are loads of secrets. Repeating quests give you random rewards, some rewards are very rare. 
 
 Most of the egg decorating recipes are hidden and require experimentation. The chickens will give you advice, talk to them.

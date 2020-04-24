@@ -107,19 +107,11 @@
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.YellowWildGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush",
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.YellowGrass",
-        },
-        {
-          "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleWildGrass",
-        },
-        {
-          "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.YellowHomelyBush",
         },
         {
           "kind": "staxel.item.Placer",
@@ -131,6 +123,14 @@
         },
         {
           "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush",
+        },
+        {
+          "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
         },
         {
@@ -139,11 +139,11 @@
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.PinkWildGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush",
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.PinkGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.PinkHomelyBush",
         },
         {
           "kind": "staxel.item.Placer",
@@ -155,19 +155,11 @@
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.BlueWildGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush",
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.BlueGrass",
-        },
-        {
-          "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
-        },
-        {
-          "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.GreenGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.BlueHomelyBush",
         },
         {
           "kind": "staxel.item.Placer",
@@ -179,6 +171,14 @@
         },
         {
           "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush",
+        },
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.markgrant.flower.GreenHomelyBush",
+        },
+        {
+          "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.markgrant.flower.MixedWildGrass",
         },
         {
@@ -187,11 +187,11 @@
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.MixedWildGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush",
         },
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.markgrant.flower.MixedGrass",
+          "tile": "mods.mb.EasterFest.markgrant.flower.MixedHomelyBush",
         },
       ]
     },
