@@ -1,8 +1,6 @@
 language.code=en-GB
 language=English
 
-crafting.action.keyword.Paint Egg=Decorate
-
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.name=Easter Bunny Bobblehead
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.description=A Bunny Bobblehead from Easter.
 
@@ -241,16 +239,10 @@ mods.mb.EasterFest.toketsupuurin.furniture.EggTable.name=Egg Table
 mods.mb.EasterFest.toketsupuurin.furniture.EggTable.description=An egg table
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggTableLarge.name=Egg Table Large
-mods.mb.EasterFest.toketsupuurin.furniture.EggTableLarge.description=A really bit egg table.
+mods.mb.EasterFest.toketsupuurin.furniture.EggTableLarge.description=A really big egg table.
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset.name=Egg Teaset
 mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset.description=A lovely egg teaset. Alice needs one...
-
-mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.name=Dainty Egg Teaset
-mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.description=A dainty egg teaset. Alice needs one...
-
-mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.name=Elegant Egg Teaset
-mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.description=An elegant egg teaset. Alice needs one...
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.name=Egg TV Stand
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.description=An egg TV stand.
@@ -434,6 +426,30 @@ mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg.description=It's making noi
 
 mods.mb.EasterFest.toketsupuurin.furniture.WoodEgg.name=Wood Egg
 mods.mb.EasterFest.toketsupuurin.furniture.WoodEgg.description=A basic wooden egg.
+
+mods.mb.EasterFest.markgrant.misc.BunnyWallClock.name=Bunny Wall Clock
+mods.mb.EasterFest.markgrant.misc.BunnyWallClock.description=The bunny tells time.
+
+mods.mb.EasterFest.markgrant.block.EasterBrickBlock.name=Easter Brick Block
+mods.mb.EasterFest.markgrant.block.EasterBrickBlock.description=Pretty painted bricks.
+
+mods.mb.EasterFest.markgrant.misc.EggBalloonLeft.name=Balloon Bunch
+mods.mb.EasterFest.markgrant.misc.EggBalloonLeft.description=Festive Easter balloons.
+
+mods.mb.EasterFest.markgrant.misc.EggBalloonRight.name=Balloon Bunch
+mods.mb.EasterFest.markgrant.misc.EggBalloonRight.description=Festive Easter balloons.
+
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.name=Dainty Egg Teaset
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset2.description=A dainty egg teaset. Looks tasty.
+
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.name=Elegant Egg Teaset
+mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset3.description=An elegant egg teaset. Fit for a queen.
+
+mods.mb.EasterFest.markgrant.block.PastelBrickBlock.name=Pastel Brick Block
+mods.mb.EasterFest.markgrant.block.PastelBrickBlock.description=The bricks shimmer.
+
+mods.mb.EasterFest.markgrant.path.PastelBrickPath.name=Pastel Brick Path
+mods.mb.EasterFest.markgrant.path.PastelBrickPath.description=The bricks shimmer.
 
 mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate.name=Easter Bunny
 mods.mb.EasterFest.toketsupuurin.farmAnimals.EasterBunnyCrate.description=An Easter Bunny in a crate!
@@ -660,6 +676,12 @@ mods.mb.EasterFest.markgrant.flowerbed.EasterPottedPlant_Red.description=A speci
 mods.mb.EasterFest.markgrant.festival.PawPrint.name=Pastel Paw Print
 mods.mb.EasterFest.markgrant.festival.PawPrint.description=Following easter bunny tracks might lead to something good!
 
+mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg.name=April Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg.description=I hope there's something good inside!
+
+mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg.name=May Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg.description=Wait...this one seems different...
+
 mods.mb.EasterFest.toketsupuurin.gatherable.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.BeeEgg.description=How did it float? Can I use it as a real bee?
 
@@ -671,9 +693,6 @@ mods.mb.EasterFest.toketsupuurin.gatherable.BrownCicadaEgg.description=It looks 
 
 mods.mb.EasterFest.toketsupuurin.gatherable.CricketEgg.name=Cricket Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.CricketEgg.description=Wow! This was hard to see.
-
-mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg.name=April Egg
-mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestEgg.description=I hope there's something good inside!
 
 mods.mb.EasterFest.toketsupuurin.gatherable.GreenCicadaEgg.name=Green Cicada Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.GreenCicadaEgg.description=It looks just like a cicada!
@@ -771,11 +790,23 @@ mods.mb.EasterFest.markgrant.flower.YellowDelphiniumAllium.description=Flowers.
 mods.mb.EasterFest.markgrant.flower.BlueGrass.name=Blue Easter Grass
 mods.mb.EasterFest.markgrant.flower.BlueGrass.description=It's a little plastic-y ...and wet?
 
+mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.name=BlueHomelyBush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.description=BlueHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.name=BlueHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.description=BlueHomelyFlowerBush
+
 mods.mb.EasterFest.markgrant.flower.BlueWildGrass.name=Long Blue Easter Grass
 mods.mb.EasterFest.markgrant.flower.BlueWildGrass.description=It's a little plastic-y ...and wet?
 
 mods.mb.EasterFest.markgrant.flower.GreenGrass.name=Green Easter Grass
 mods.mb.EasterFest.markgrant.flower.GreenGrass.description=It's a little plastic-y.
+
+mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.name=GreenHomelyBush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.description=GreenHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.name=GreenHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.description=GreenHomelyFlowerBush
 
 mods.mb.EasterFest.markgrant.flower.GreenWildGrass.name=Long Green Easter Grass
 mods.mb.EasterFest.markgrant.flower.GreenWildGrass.description=It's a little plastic-y.
@@ -786,8 +817,20 @@ mods.mb.EasterFest.markgrant.flower.MixedEasterGrass.description=It's a little p
 mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass.name=Long Mixed Easter Grass
 mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass.description=It's a little plastic-y.
 
+mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.name=MixedHomelyBush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.description=MixedHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.name=MixedHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.description=MixedHomelyFlowerBush
+
 mods.mb.EasterFest.markgrant.flower.PinkGrass.name=Pink Easter Grass
 mods.mb.EasterFest.markgrant.flower.PinkGrass.description=It's a little plastic-y.
+
+mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.name=PinkHomelyBush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.description=PinkHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.name=PinkHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.description=PinkHomelyFlowerBush
 
 mods.mb.EasterFest.markgrant.flower.PinkWildGrass.name=Long Pink Easter Grass
 mods.mb.EasterFest.markgrant.flower.PinkWildGrass.description=It's a little plastic-y.
@@ -795,11 +838,23 @@ mods.mb.EasterFest.markgrant.flower.PinkWildGrass.description=It's a little plas
 mods.mb.EasterFest.markgrant.flower.PurpleGrass.name=Purple Easter Grass
 mods.mb.EasterFest.markgrant.flower.PurpleGrass.description=It's a little plastic-y. Is that a black petal?
 
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.name=PurpleHomelyBush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.description=PurpleHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.name=PurpleHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.description=PurpleHomelyFlowerBush
+
 mods.mb.EasterFest.markgrant.flower.PurpleWildGrass.name=Long Purple Easter Grass
 mods.mb.EasterFest.markgrant.flower.PurpleWildGrass.description=It's a little plastic-y. Is that a black petal?
 
 mods.mb.EasterFest.markgrant.flower.YellowGrass.name=Yellow Easter Grass
 mods.mb.EasterFest.markgrant.flower.YellowGrass.description=It's a little plastic-y.
+
+mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.name=YellowHomelyBush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.description=YellowHomelyBush
+
+mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.name=YellowHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.description=YellowHomelyFlowerBush
 
 mods.mb.EasterFest.markgrant.flower.YellowWildGrass.name=Long Yellow Easter Grass
 mods.mb.EasterFest.markgrant.flower.YellowWildGrass.description=It's a little plastic-y.
@@ -813,8 +868,8 @@ mods.mb.EasterFest.toketsupuurin.pets.FilligreeFoodBox.description=Food for fill
 mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.name=April Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.description=I hope there's something good inside!
 
-mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.name=May Egg
-mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestEgg.description=Wait...this one seems different...
+mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg.name=May Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg.description=Wait...this one seems different...
 
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.description=How did it float? Can I use it as a real bee?
@@ -947,21 +1002,3 @@ mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing.description=Hard and b
 
 mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack.name=Black Potion
 mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack.description=Mysterious and a little sinister. 
-
-mods.mb.EasterFest.markgrant.block.EasterBrickBlock.name=Easter Brick Block
-mods.mb.EasterFest.markgrant.block.EasterBrickBlock.description=Pretty painted bricks.
-
-mods.mb.EasterFest.markgrant.block.PastelBrickBlock.name=Pastel Brick Block
-mods.mb.EasterFest.markgrant.block.PastelBrickBlock.description=The bricks shimmer.
-
-mods.mb.EasterFest.markgrant.misc.BunnyWallClock.name=Bunny Wall Clock
-mods.mb.EasterFest.markgrant.misc.BunnyWallClock.description=The bunny tells time.
-
-mods.mb.EasterFest.markgrant.misc.EggBalloonLeft.name=Balloon Bunch
-mods.mb.EasterFest.markgrant.misc.EggBalloonLeft.description=Festive Easter balloons.
-
-mods.mb.EasterFest.markgrant.misc.EggBalloonRight.name=Balloon Bunch
-mods.mb.EasterFest.markgrant.misc.EggBalloonRight.description=Festive Easter balloons.
-
-mods.mb.EasterFest.markgrant.path.PastelBrickPath.name=Pastel Brick Path
-mods.mb.EasterFest.markgrant.path.PastelBrickPath.description=The bricks shimmer.

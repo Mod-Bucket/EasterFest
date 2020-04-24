@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.3.1.1
+Version 1.4
 
 A mod for Staxel.
 
@@ -9,12 +9,21 @@ A mod for Staxel.
 
 Easterfest is intended to be a multi-year festival. You can enjoy most of it right from the beginning, but some aspects of it won't unlock until you've advanced far enough to get high level crafting resources (At least pink tool level).
 
+It runs from Spring 6 to whenever you sleep on Spring 9.
+
+There are loads of secrets. Repeating quests give you random rewards, some rewards are very rare. 
+
 Most of the egg decorating recipes are hidden and require experimentation. The chickens will give you advice, talk to them.
 
-===========
-Known bugs and workarounds:
+The only secrets that require being destructive are the Bobbleheads. Hints have (generally) been given for them, although they might be harder to suss out. If you've finished Farm Fan's bobblehead quest you might have an idea where to find two of them. The third can be found by listening to the chickens. YOU DO NOT HAVE TO DIG.
 
-* Alice and her dialogue isn't working correctly. She'll give you information but quests aren't implemented yet.  The other quest rewards she was intended to give you have been made accessible in other ways. The filligree food bowl has been added to the town square so you can use it. (Please, feel free to take it home with you! It was only put there so you have easy access to it while the quests are broken. Once alice is working it will be removed and you'll have to wait until next year to get one if you didn't get it.)
+Nearly every collectable egg can be crafted. One must be grown. Five are furniture you must find.
+
+===========
+
+Known bugs/Dust:
+
+* The Chickens do not deliver all of their dialogue yet. The mod is effectively done except for these! All content is accessible and playable.
 
 ===========
 
@@ -30,7 +39,7 @@ MarkGrant:
 - Assorted Easter Festival tiles
 - town square
 - NPCs
-- Bunny People
+- Bunny People Race
 
 toketsupuurin:
 - Easter hedge fence
@@ -45,8 +54,15 @@ toketsupuurin:
 
 ==========
 
+Version 1.4
+	* All of Alice's quests done.
+	* Some recipes added to facilitate Alice's quests.
+	* April Eggs now spawn during the festival.
+	* May Eggs and their resulting Tea Party rewards added.
+	* Easter Bushes added.
+
 Version 1.3.1.1
-	*Alice despawns now.
+	* Alice despawns now.
 
 Version 1.3.1
 	* Fixed the pet crafting recipes so that the result actually spawns pets.
