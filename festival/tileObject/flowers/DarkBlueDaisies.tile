@@ -6,6 +6,10 @@
     "flower",
     "blue"
   ],
+  "scytheable": {
+  	"spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsBlue",
+    "spawnsMixedSeeds": true
+  },
   "code": "mods.mb.EasterFest.markgrant.flower.DarkBlueDaisies",
   "pricing": {
     "buyable": true,

@@ -8,6 +8,10 @@
     "Allium",
     "yellow"
   ],
+  "scytheable": {
+  	"spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsYellow",
+    "spawnsMixedSeeds": true
+  },
   "code": "mods.mb.EasterFest.markgrant.flower.YellowDelphiniumAllium",
   "pricing": {
     "catalogueUnlockedFromStart": false,
