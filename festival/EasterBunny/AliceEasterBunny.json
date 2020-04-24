@@ -75,7 +75,7 @@
   {
     "title": "Collection",
     "body": [
-      "There's a whole new collection for you so you can keep track of all the eggs! #line:10014100",
+      "There's a whole new ^c:5f41a0;collection.^c:pop; for you so you can keep track of all the eggs! #line:10014100",
       "And I have special prizes if you bring me enough ^c:d03e37;uniquely decorated eggs^c:pop;. #line:10014200",
       "There are egg bugs to find, #line:10014300",
       "Hidden eggs to decorate, #line:10014400",
@@ -203,9 +203,11 @@
       "<<removePlayerItemWithCategory MBTeaset>>",
       "<<set $TeaSet to 1>>",
       "<<set $Basket to 0>>",
+      "Here's your reward. #line:10041200",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg 1>>",
-      "But... It's just... Oh dear... #line:10041200",
-      "[[What's wrong now? |FindEasterBasket]] #line:10041300",
+      "It's a ^c:d03e37;May Egg^c:pop;. Just place it on the ground and click to loot the goodies inside. #line:10041300",
+      "But... It's just... Oh dear... #line:10041400",
+      "[[What's wrong now? |FindEasterBasket]] #line:10041500",
       "",
       ""
     ],
@@ -238,11 +240,14 @@
     "title": "EasterBasketFound",
     "body": [
       "It really is my ^c:d03e37;Easter Basket^c:pop;. Thank you! #line:10051100",
+      "<<removePlayerItem mods.mb.EasterFest.toketsupuurin.furniture.EasterBasket 1>>",
       "<<set $Basket to 1>>",
       "<<set $EggFish to 0>>",
+      "Here's your thank you gift. #line:10051200",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg 1>>",
-      "But.. It's just.. Oh dear... #line:10051200",
-      "[[What's wrong now? |FindEggFish]] #line:10051300",
+      "It's a ^c:d03e37;May Egg^c:pop;! If you put it on the floor and crack it open you will receive your gift. #line:10051300",
+      "But.. It's just.. Oh dear... #line:10051400",
+      "[[What's wrong now? |FindEggFish]] #line:10051500",
       ""
     ],
     "tags": "",
@@ -374,7 +379,7 @@
   {
     "title": "TeaSet",
     "body": [
-      "<<branchPlayerDoesntHaveEnoughOfItem mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset 1 NotTeaSetFound>>",
+      "<<branchPlayerDoesntHaveItemOfCategory MBTeaset NotTeaSetFound>>",
       "You found my ^c:d03e37;Tea Set^c:pop;? #line:10018610",
       "Can I have it? #line:10018620",
       "[[Sure!|TeaSetFound]] #line:10018630",
@@ -482,27 +487,30 @@
   {
     "title": "FindEggFish",
     "body": [
-      "I can't find my ^c:d03e37;Egg Fish^c:pop;. #line:10052100 ",
-      "I think a stray cat must have gotten hungry. #line:10052200",
-      "Could you go into the maze and catch me one? #line:10052300",
-      "[[OptionSelect]]"
+      "<<pickRandomPath>>",
+      "<<HungryCat>>",
+      "<<HungryRiah>>",
+      "<<flushRandomPath>>"
     ],
     "tags": "",
     "colorID": 6,
     "position": {
       "x": 1493,
-      "y": 544
+      "y": 552
     }
   },
   {
     "title": "EggFishFound",
     "body": [
-      "An ^c:d03e37;Egg Fish^c:pop;? Marvelous! #line:10061100",
+      "An ^c:d03e37;Egg Fish^c:pop;! Marvelous! #line:10061100",
+      "<<removePlayerItemWithCategory MBEggFish>>",
       "<<set $TeaSet to 0>>",
       "<<set $EggFish to 1>>",
+      "Here's your prize. #line:10061200",
       "<<giveItemToPlayer tilePlacer mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg 1>>",
-      "...um... I hate to say it... #line:10061200",
-      "[[What is it this time? |FindTeaSetAgain]] #line:10061300"
+      "It's a ^c:d03e37;May Egg^c:pop;. Just sit it on the ground and click to punder the reward inside. #line:10061300",
+      "...um... I hate to say it... #line:10061400",
+      "[[What is it this time? |FindTeaSetAgain]] #line:10061500"
     ],
     "tags": "",
     "colorID": 1,
@@ -521,7 +529,7 @@
     "colorID": 1,
     "position": {
       "x": 1494,
-      "y": 801
+      "y": 802
     }
   },
   {
@@ -554,7 +562,7 @@
     "colorID": 4,
     "position": {
       "x": 1490,
-      "y": -430
+      "y": -429
     }
   },
   {
@@ -647,8 +655,8 @@
     "tags": "",
     "colorID": 6,
     "position": {
-      "x": 1752,
-      "y": 539
+      "x": 2195,
+      "y": 548
     }
   },
   {
@@ -703,8 +711,8 @@
     "tags": "",
     "colorID": 6,
     "position": {
-      "x": 2000,
-      "y": 538
+      "x": 2504,
+      "y": 550
     }
   },
   {
@@ -738,52 +746,21 @@
   {
     "title": "RandomVillager",
     "body": [
-      "<<loadRandomNumber 6 $V_Num>>",
-      "",
-      "<<if $V_Num is 0>>",
-      "<<loadVillagerName Maximilian $V_Num>>",
-      "<<endif>>",
-      "",
-      "<<if $V_Num is 1>>",
-      "<<loadVillagerName FarmFan $V_Num>>",
-      "<<endif>>",
-      "",
-      "<<if $V_Num is 2>>",
-      "<<loadVillagerName Riah $V_Num>>",
-      "<<endif>>",
-      "",
-      "<<if $V_Num is 3>>",
-      "<<loadVillagerName Aliza $V_Num>>",
-      "<<endif>>",
-      "",
-      "<<if $V_Num is 4>>",
-      "<<loadVillagerName Rowan $V_Num>>",
-      "<<endif>>",
-      "",
-      "<<if $V_Num is 5>>",
-      "<<loadVillagerName Leif $V_Num>>",
-      "<<endif>>",
-      "",
-      "[[VillagerBumped]]"
+      "<<pickRandomPath>>",
+      "<<Max>>",
+      "<<FarmFan>>",
+      "<<Riah>>",
+      "<<Aliza>>",
+      "<<Rowan>>",
+      "<<Leif>>",
+      "<<flushRandomPath>>",
+      ""
     ],
     "tags": "",
     "colorID": 1,
     "position": {
       "x": 1737,
-      "y": 805
-    }
-  },
-  {
-    "title": "VillagerBumped",
-    "body": [
-      "^c:1486b0;$V_Num;^c:pop; bumped into me and well... Could you get me another? #line:10063100",
-      "[[OptionSelect]]"
-    ],
-    "tags": "",
-    "colorID": 1,
-    "position": {
-      "x": 1971,
-      "y": 802
+      "y": 809
     }
   },
   {
@@ -982,6 +959,122 @@
     "position": {
       "x": 1895,
       "y": -1355
+    }
+  },
+  {
+    "title": "Leif",
+    "body": [
+      "<<loadVillagerName Leif $leif>>",
+      "^c:1486b0;$leif;^c:pop; bumped into me and well... Could you get me another? #line:10063610",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1971,
+      "y": 1935
+    }
+  },
+  {
+    "title": "Rowan",
+    "body": [
+      "<<loadVillagerName Rowan $rowan>>",
+      "^c:1486b0;$rowan;^c:pop; bumped into me and well... Could you get me another? #line:10063510",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1975,
+      "y": 1703
+    }
+  },
+  {
+    "title": "Aliza",
+    "body": [
+      "<<loadVillagerName Aliza $aliza>>",
+      "^c:1486b0;$aliza;^c:pop; has hammering the table and well... Could you get me another? #line:10063410",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1973,
+      "y": 1474
+    }
+  },
+  {
+    "title": "Riah",
+    "body": [
+      "<<loadVillagerName Riah $riah>>",
+      "^c:1486b0;$riah;^c:pop; bumped into me and well... Could you get me another? #line:10063310",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1971,
+      "y": 1246
+    }
+  },
+  {
+    "title": "Max",
+    "body": [
+      "<<loadVillagerName Maximilian $max>>",
+      "^c:1486b0;$max;^c:pop; dropped a bag of coins and jewels all over the path! and well... #line:10063110",
+      "Could you get me another? #line:10063120",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1974,
+      "y": 804
+    }
+  },
+  {
+    "title": "FarmFan",
+    "body": [
+      "<<loadVillagerName FarmFan $fan>>",
+      "^c:1486b0;$fan;^c:pop; bumped into me, spilling her ^c:d03e37;Mug O' Sap^c:pop; everywhere and well... Could you get me another? #line:10063210",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1972,
+      "y": 1022
+    }
+  },
+  {
+    "title": "HungryCat",
+    "body": [
+      "I can't find my ^c:d03e37;Egg Fish^c:pop;. #line:10052100 ",
+      "I think a stray cat must have gotten hungry. #line:10052200",
+      "Could you go into the maze and catch me one? #line:10052300",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 6,
+    "position": {
+      "x": 1727,
+      "y": 549
+    }
+  },
+  {
+    "title": "HungryRiah",
+    "body": [
+      "<<loadVillagerName Riah $riah>>",
+      "I can't find my ^c:d03e37;Egg Fish^c:pop;. #line:10052110 ",
+      "I think ^c:d03e37;$riah;^c:pop; must have gotten hungry. #line:10052220",
+      "Could you go into the maze and catch me one? #line:10052330",
+      "[[OptionSelect]]"
+    ],
+    "tags": "",
+    "colorID": 6,
+    "position": {
+      "x": 1962,
+      "y": 549
     }
   }
 ]
