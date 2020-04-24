@@ -8,6 +8,10 @@
     "shrub",
     "Pink"
   ],
+  "scytheable": {
+  	"spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsRed",
+    "spawnsMixedSeeds": true
+  },
   "code": "mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush",
   "damageSoundGroup": "staxel.sounds.damage.Plant",
   "placeSoundGroup": "staxel.sounds.place.Grass",

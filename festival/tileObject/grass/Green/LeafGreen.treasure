@@ -1,0 +1,23 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.treasure.coloredPetals.LeafGreen",
+  "entries": [
+    {
+      "weight": 90.0,
+      "items": [
+        {
+          "code": "staxel.item.crafting.GreenLeaf",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "weight": 10.0,
+      "items": [
+        {
+          "code": "staxel.item.crafting.GreenLeaf",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "yellow"
 	],
   "scytheable": {
-    "spawnsMixedSeeds": true
+    "spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsYellow",
   },  
   "code": "mods.mb.EasterFest.markgrant.flower.YellowGrass",
   "pricing": {

@@ -6,13 +6,13 @@
     "EasterFest",
     "bush",
     "shrub",
-    "Green"
+    "Rainbow"
   ],
   "scytheable": {
-  	"spawnsColoredPetals": "mods.mb.EasterFest.toketsupuurin.treasure.coloredPetals.LeafGreen",
+  	"spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsWhite",
     "spawnsMixedSeeds": true
   },
-  "code": "mods.mb.EasterFest.markgrant.flower.GreenHomelyBush",
+  "code": "mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush",
   "damageSoundGroup": "staxel.sounds.damage.Plant",
   "placeSoundGroup": "staxel.sounds.place.Grass",
   "pricing": {
@@ -24,5 +24,5 @@
   "randomizePosition": false,
   "searchable": true,
   "stepSoundGroup": "staxel.sounds.LongGrassFootSteps",
-  "voxels": "mods/EasterFest/festival/tileObject/grass/Green/GreenHomelyBush.qb"
+  "voxels": "mods/EasterFest/festival/tileObject/grass/Mixed/MixedHomelyFlowerBush.qb"
 }

@@ -7,7 +7,7 @@
     "green"
 	],
   "scytheable": {
-    "spawnsMixedSeeds": true
+  	"spawnsColoredPetals": "mods.mb.EasterFest.toketsupuurin.treasure.coloredPetals.LeafGreen",
   },
   "code": "mods.mb.EasterFest.markgrant.flower.GreenWildGrass",
   "pricing": {

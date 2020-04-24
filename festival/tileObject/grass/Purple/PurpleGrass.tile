@@ -7,7 +7,7 @@
     "purple"
 	],
   "scytheable": {
-    "spawnsMixedSeeds": true
+  	"spawnsColoredPetals": "staxel.treasure.coloredPetals.PetalsBlack",
   },
   "code": "mods.mb.EasterFest.markgrant.flower.PurpleGrass",
   "pricing": {
