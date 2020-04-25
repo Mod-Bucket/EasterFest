@@ -2,44 +2,183 @@
   {
     "title": "Start",
     "body": [
-      "",
       "<<lockPlayerInConversation>>",
       "<<typewriterMode on>>",
-      "<<if $PVcatState > 0 and $PVcatState < 4>>",
-      "    <<branchMeetsFriendshipLevel staxel.reputationLevel.Liked liked>>",
+      "",
+      "<<if $daysSinceLastFest is 0 or $daysSinceLastFest is null>>",
+      "    <<set $said_hello to 0>>",
+      "    <<set $daysSinceLastFest to $day>>",
+      "<<else>>",
+      "    <<if $daysSinceLastFest + 10 < $day>>",
+      "        <<set $said_hello to 0>>",
+      "        <<set $daysSinceLastFest to $day>>",
+      "    <<endif>>",
       "<<endif>>",
-      "... #line:10000010",
-      "... #line:10000020",
-      "<<if $PVcatState < 3>>",
-      "<<set $PVcatState to 2>>",
-      "<<endif>>",
+      "",
+      "<<if $said_hello is 0>>",
+      "Hiya! Have you found any eggs yet? #line:10000100  ",
+      "^c:5f41a0;Squeak!^c:pop; #line:10000200  ",
+      "Oh, no I was supposed to introduce myself! #line:10000300  ",
+      "^c:5f41a0;Click-click.^c:pop; #line:10000400  ",
+      "I'm ^c:1486b0;Flopsy^c:pop;. #line:10000500 ",
+      "<<set $said_hello to 1>>",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
-      "<<runAway>>"
+      "<<else>>",
+      "[[Chat]]",
+      "<<endif>>",
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 484,
-      "y": 189
+      "x": 467,
+      "y": 160
     }
   },
   {
-    "title": "liked",
+    "title": "Chat",
     "body": [
-      "Meow! Meow! #line:10000120",
-      "",
-      "<<setGlobal spawnStrayCat false>>",
-      "<<typewriterMode off True True>>",
-      "<<releasePlayerFromConversation>>",
-      "<<giveItemToPlayerIfDoesntHave item staxel.item.quest.StrayCat>>",
-      "<<despawnSelf>>"
+      "<<pickRandomPath>>",
+      "<<Petals>>",
+      "<<GreatGoldenEgg>>",
+      "<<Pillars>>",
+      "<<Basalt>>",
+      "<<Purple>>",
+      "<<Ores>>",
+      "<<Filligee>>",
+      "<<Pretty>>",
+      "<<flushRandomPath>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 812,
-      "y": 184
+      "x": 727,
+      "y": 159
+    }
+  },
+  {
+    "title": "Petals",
+    "body": [
+      "^c:5f41a0;Squeak!^c:pop; The prettiest eggs make petals and leaves. Or was it the other way 'round? ^c:5f41a0;Click-click.^c:pop; #line:10001100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 996,
+      "y": 162
+    }
+  },
+  {
+    "title": "GreatGoldenEgg",
+    "body": [
+      "The Great Golden Egg definitely cannot maybe be decorated. I think. ^c:5f41a0;Click-click.^c:pop; It's all so confusing. #line:10002100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 998,
+      "y": 401
+    }
+  },
+  {
+    "title": "Pillars",
+    "body": [
+      "Easter pillars have a lot of pretty wisteria. #line:10003100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 992,
+      "y": 635
+    }
+  },
+  {
+    "title": "Basalt",
+    "body": [
+      "^c:5f41a0;Churrrrr!^c:pop; Basalt and ore are so lovely together! ^c:5f41a0;Squeak!^c:pop;#line:10004100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 994,
+      "y": 860
+    }
+  },
+  {
+    "title": "Purple",
+    "body": [
+      "Purple petals act like eggplant! ^c:5f41a0;Click-click.^c:pop; Something about that seems wrong somehow... #line:10005100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 988,
+      "y": 1110
+    }
+  },
+  {
+    "title": "Ores",
+    "body": [
+      "^c:5f41a0;Churrrrr...^c:pop; Ores and teasets make the prettiest, most useful eggs of all! #line:10011100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1222,
+      "y": 155
+    }
+  },
+  {
+    "title": "Filligee",
+    "body": [
+      "^c:5f41a0;Churrrrr!^c:pop; Filligee food thinks Crystal eggs are tasty! Wait... ^c:5f41a0;Click-click.^c:pop; #line:10021100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1230,
+      "y": 400
+    }
+  },
+  {
+    "title": "Pretty",
+    "body": [
+      "Pretty things like me! ...wait that's not right... ^c:5f41a0;Click-click.^c:pop; #line:10031100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1242,
+      "y": 641
+    }
+  },
+  {
+    "title": "Quit",
+    "body": [
+      "<<loadRandomNumber 6 $num>>",
+      "<<if $num is 3>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runaway>>",
+      "<<else>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<endif>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1498,
+      "y": 367
     }
   }
 ]

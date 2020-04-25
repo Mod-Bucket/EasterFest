@@ -4,5 +4,6 @@
   "personality": "mods.mb.EasterFest.markgrant.personality.EasterChickenYellow",
   "initialDesign": "mods.mb.EasterFest.markgrant.design.EasterChickenYellow",
   "initialOutfit": "",
-  "hidefrommap": false
+  "hidefrommap": false,
+  "acceptsGift": false
 }

@@ -2,44 +2,205 @@
   {
     "title": "Start",
     "body": [
-      "",
       "<<lockPlayerInConversation>>",
       "<<typewriterMode on>>",
-      "<<if $PVcatState > 0 and $PVcatState < 4>>",
-      "    <<branchMeetsFriendshipLevel staxel.reputationLevel.Liked liked>>",
+      "",
+      "<<if $daysSinceLastFest is 0 or $daysSinceLastFest is null>>",
+      "    <<set $said_hello to 0>>",
+      "    <<set $daysSinceLastFest to $day>>",
+      "<<else>>",
+      "    <<if $daysSinceLastFest + 10 < $day>>",
+      "        <<set $said_hello to 0>>",
+      "        <<set $daysSinceLastFest to $day>>",
+      "    <<endif>>",
       "<<endif>>",
-      "... #line:10000010",
-      "... #line:10000020",
-      "<<if $PVcatState < 3>>",
-      "<<set $PVcatState to 2>>",
-      "<<endif>>",
+      "",
+      "<<if $said_hello is 0>>",
+      "^c:5f41a0;Thumpthumpthump!^c:pop; I'm ^c:1486b0;Thumper!^c:pop; Who're you? #line:10000100 ",
+      "Could you get this itch on my head? It's very annoying. #line:10000200 ",
+      "Oh. Right there! #line:10000300 ",
+      "^c:5f41a0;Churrrrr...^c:pop; #line:10000400",
+      "<<set $said_hello to 1>>",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
-      "<<runAway>>"
+      "<<else>>",
+      "[[Chat]]",
+      "<<endif>>",
+      "",
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 484,
-      "y": 189
+      "x": 463,
+      "y": 160
     }
   },
   {
-    "title": "liked",
+    "title": "Chat",
     "body": [
-      "Meow! Meow! #line:10000120",
+      "<<pickRandomPath>>",
+      "<<MusicEggs>>",
+      "<<Treasure>>",
+      "<<Pirate>>",
+      "<<Bushes>>",
+      "<<Princess>>",
+      "<<MagicalEgg>>",
+      "<<MagicLights>>",
+      "<<Thump>>",
+      "<<flushRandomPath>>",
       "",
-      "<<setGlobal spawnStrayCat false>>",
-      "<<typewriterMode off True True>>",
-      "<<releasePlayerFromConversation>>",
-      "<<giveItemToPlayerIfDoesntHave item staxel.item.quest.StrayCat>>",
-      "<<despawnSelf>>"
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 812,
-      "y": 184
+      "x": 726,
+      "y": 161
+    }
+  },
+  {
+    "title": "MusicEggs",
+    "body": [
+      "Some eggs like to listen to music! ^c:5f41a0;Thumpthumpthump!^c:pop; I love the bass lines, myself! #line:10001100",
+      "[[Quit]]",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 987,
+      "y": 155
+    }
+  },
+  {
+    "title": "Treasure",
+    "body": [
+      "Where there's treasure, there's a pirate. ^c:5f41a0;Thumpthumpthump!^c:pop;  #line:10002100",
+      "I should get myself a pegleg. Then I'd really thump! #line:10002200",
+      "[[Quit]]",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 995,
+      "y": 400
+    }
+  },
+  {
+    "title": "Pirate",
+    "body": [
+      "^c:5f41a0;Thumpthump!^c:pop; X marks the spot. #line:10003100",
+      "^c:5f41a0;Thump!^c:pop; Did you forget where the pirate was? Maybe next year. #line:10003200",
+      "[[Quit]]",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 992,
+      "y": 634
+    }
+  },
+  {
+    "title": "Bushes",
+    "body": [
+      "^c:5f41a0;Thumpthumpthump!^c:pop; Bushes are great places to hide! #line:10004100",
+      "Underneath stone fences makes a good place for a burrow too. ^c:5f41a0;Churrr...^c:pop; #line:10004200",
+      "[[Quit]]",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 993,
+      "y": 866
+    }
+  },
+  {
+    "title": "Princess",
+    "body": [
+      "Princesses are pink and like red and white things. #line:10005100 ",
+      "^c:5f41a0;Thumpthumpthump!^c:pop; #line:10005200",
+      "[[Quit]]",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 988,
+      "y": 1110
+    }
+  },
+  {
+    "title": "MagicalEgg",
+    "body": [
+      "You'll need three sets of three things to make the most magical egg.  #line:10011100",
+      "^c:5f41a0;Thump!^c:pop; #line:10011200 ",
+      "Potions are important! #line:10011300",
+      "[[Quit]]",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1222,
+      "y": 157
+    }
+  },
+  {
+    "title": "MagicLights",
+    "body": [
+      "^c:5f41a0;Thumpthumpthump!^c:pop; It's not a party without magic lights! #line:10021100 ",
+      "^c:5f41a0;Chuurup!^c:pop; #line:10021200",
+      "[[Quit]]",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1230,
+      "y": 400
+    }
+  },
+  {
+    "title": "Thump",
+    "body": [
+      "^c:5f41a0;Thumpthumpthumpthumpthumpthumpthumpthumpthumpthump thumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthump thumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthump thumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthump thumpthumpthumphumpthumpthumpthumpthumpthumpthumpthumpthump...^c:pop; #line:10031100",
+      "[[Quit]]",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1235,
+      "y": 643
+    }
+  },
+  {
+    "title": "Quit",
+    "body": [
+      "<<loadRandomNumber 6 $num>>",
+      "<<if $num is 3>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runaway>>",
+      "<<else>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<endif>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1624,
+      "y": 219
     }
   }
 ]

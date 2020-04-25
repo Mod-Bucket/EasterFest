@@ -2,17 +2,67 @@
   {
     "title": "Start",
     "body": [
-      "",
       "<<lockPlayerInConversation>>",
       "<<typewriterMode on>>",
-      "<<if $PVcatState > 0 and $PVcatState < 4>>",
-      "    <<branchMeetsFriendshipLevel staxel.reputationLevel.Liked liked>>",
+      "",
+      "<<if $daysSinceLastFest is 0 or $daysSinceLastFest is null>>",
+      "    <<set $said_hello to 0>>",
+      "    <<set $daysSinceLastFest to $day>>",
+      "<<else>>",
+      "    <<if $daysSinceLastFest + 10 < $day>>",
+      "        <<set $said_hello to 0>>",
+      "        <<set $daysSinceLastFest to $day>>",
+      "    <<endif>>",
       "<<endif>>",
-      "... #line:10000010",
-      "... #line:10000020",
-      "<<if $PVcatState < 3>>",
-      "<<set $PVcatState to 2>>",
+      "",
+      "<<if $said_hello is 0>>",
+      "Hi!I'm^c:1486b0;Cottontail!^c:pop;Honk! IloveEaster!DoyoulikeEaster? #line:10000100 ",
+      "Cricketsarethebest!Cricketsare soyummy!Andbunnies!Bunnies aren'ttastybuttheyare partofEaster!Wait,I'mabunny. ^c:5f41a0;Hop!Hop!^c:pop;Do you like my feathers? #line:10000200",
+      "<<set $said_hello to 1>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<else>>",
+      "[[Chat]]",
       "<<endif>>",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 464,
+      "y": 160
+    }
+  },
+  {
+    "title": "Chat",
+    "body": [
+      "<<pickRandomPath>>",
+      "<<RottenEgg>>",
+      "<<RedSnapper>>",
+      "<<Scorpion>>",
+      "<<Fish>>",
+      "<<BlueLobster>>",
+      "<<Bees>>",
+      "<<Mushrooms>>",
+      "<<Sugar>>",
+      "<<ChickenFood>>",
+      "<<ChocolateEggs>>",
+      "<<TeaParty>>",
+      "<<flushRandomPath>>",
+      "",
+      ""
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 725,
+      "y": 161
+    }
+  },
+  {
+    "title": "RottenEgg",
+    "body": [
+      "Whowouldwanttomakearotten egg?You'resilly!^c:5f41a0;Hophophop!^c:pop; #line:10001100",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
       "<<runAway>>"
@@ -20,26 +70,158 @@
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 484,
-      "y": 189
+      "x": 989,
+      "y": 155
     }
   },
   {
-    "title": "liked",
+    "title": "RedSnapper",
     "body": [
-      "Meow! Meow! #line:10000120",
-      "",
-      "<<setGlobal spawnStrayCat false>>",
+      "RedSnappergoeswellwithpetals. ^c:5f41a0;Hophophop!^c:pop;Yummy! #line:10002100",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
-      "<<giveItemToPlayerIfDoesntHave item staxel.item.quest.StrayCat>>",
-      "<<despawnSelf>>"
+      "<<runAway>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 812,
-      "y": 184
+      "x": 995,
+      "y": 400
+    }
+  },
+  {
+    "title": "Scorpion",
+    "body": [
+      "Youcouldmakeascorpionegg... ifyoucouldfindascorpion. Easiertocatchone!^c:5f41a0;Yupyupyup!^c:pop; ^c:5f41a0;Hophophop!^c:pop; #line:10003100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 992,
+      "y": 634
+    }
+  },
+  {
+    "title": "Fish",
+    "body": [
+      "Youcanfishanywherethat's wetinthemaze.Didyounotice theblueeastergrassiswet? Yupyupyup!Itdoes! #line:10004100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 994,
+      "y": 862
+    }
+  },
+  {
+    "title": "BlueLobster",
+    "body": [
+      "^c:5f41a0;Hophophop!^c:pop;RedLobstertastes bestwithbluepetals.^c:5f41a0;Yupyupyup!^c:pop; #line:10005100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 988,
+      "y": 1110
+    }
+  },
+  {
+    "title": "Bees",
+    "body": [
+      "Allbeesgoinapiaries.Eveneggbees.Imgettingoutofhere!^c:5f41a0;Hophophop!^c:pop; #line:10011100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1222,
+      "y": 157
+    }
+  },
+  {
+    "title": "Mushrooms",
+    "body": [
+      "Mushroomsgowellwitheggs!Mmm-mm! ^c:5f41a0;Hophophop!^c:pop; #line:10021100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1230,
+      "y": 400
+    }
+  },
+  {
+    "title": "Sugar",
+    "body": [
+      "NoIdidn'thaveanysugartoday! Theeasterbunnydidn'tlayany eggsbecauseitneedschickenfeed tohatchfirst! #line:10031100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1242,
+      "y": 641
+    }
+  },
+  {
+    "title": "ChickenFood",
+    "body": [
+      "Teaisgreat!Iwantitallthetime! Ateaseteggwouldbeawesome! ^c:5f41a0;Hophophop!^c:pop;Youcould hatchitwithchickenfood! #line:10041100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1247,
+      "y": 864
+    }
+  },
+  {
+    "title": "ChocolateEggs",
+    "body": [
+      "^c:5f41a0;Hophophophop!^c:pop;Youcandecorate sugarandchocolateeggs!? It'salreadyinyourrecipebook?! Yay!Sugar!!!! #line:10051100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1265,
+      "y": 1108
+    }
+  },
+  {
+    "title": "TeaParty",
+    "body": [
+      "Canyoubelievethereisgoingtobeatea party?!^c:5f41a0;Hophophop!^c:pop; I'msoexcited!iwannatrytea! Mopsysaysno.She'smean. #line:10111100",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runAway>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1462,
+      "y": 159
     }
   }
 ]

@@ -3,5 +3,6 @@
   "idleScript": "staxel.script.StrayCatIdle",
   "primaryDialogue": "mods.mb.EasterFest.markgrant.dialogue.EasterChickenWhite",
   "suppressGeneralDialogue": true,
-  "canLeaveTown": true
+  "canLeaveTown": true,
+  "canGiveQuests": false
 }

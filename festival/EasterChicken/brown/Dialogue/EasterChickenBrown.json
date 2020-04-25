@@ -2,44 +2,316 @@
   {
     "title": "Start",
     "body": [
-      "",
       "<<lockPlayerInConversation>>",
       "<<typewriterMode on>>",
-      "<<if $PVcatState > 0 and $PVcatState < 4>>",
-      "    <<branchMeetsFriendshipLevel staxel.reputationLevel.Liked liked>>",
+      "",
+      "<<if $daysSinceLastFest is 0 or $daysSinceLastFest is null>>",
+      "    <<set $said_hello to 0>>",
+      "    <<set $daysSinceLastFest to $day>>",
+      "<<else>>",
+      "    <<if $daysSinceLastFest + 10 < $day>>",
+      "        <<set $said_hello to 0>>",
+      "        <<set $daysSinceLastFest to $day>>",
+      "    <<endif>>",
       "<<endif>>",
-      "... #line:10000010",
-      "... #line:10000020",
-      "<<if $PVcatState < 3>>",
-      "<<set $PVcatState to 2>>",
-      "<<endif>>",
+      "",
+      "<<if $said_hello is 0>>",
+      "Hello. I'm ^c:1486b0;Mopsy...^c:5f41a0;pyo^c:pop;. #line:10000100 ",
+      "I am an Easter bunny-^c:5f41a0;pyo^c:pop;. #line:10000200 ",
+      "^c:5f41a0;Hop. Hop.^c:pop; #line:10000300",
+      "I feel ridiculous...^c:5f41a0;pyo^c:pop;.#line:10000400",
+      "<<set $said_hello to 1>>",
       "<<typewriterMode off True True>>",
       "<<releasePlayerFromConversation>>",
-      "<<runAway>>"
+      "<<else>>",
+      "[[Chat]]",
+      "<<endif>>",
+      ""
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 484,
-      "y": 189
+      "x": 466,
+      "y": 160
     }
   },
   {
-    "title": "liked",
+    "title": "Chat",
     "body": [
-      "Meow! Meow! #line:10000120",
-      "",
-      "<<setGlobal spawnStrayCat false>>",
-      "<<typewriterMode off True True>>",
-      "<<releasePlayerFromConversation>>",
-      "<<giveItemToPlayerIfDoesntHave item staxel.item.quest.StrayCat>>",
-      "<<despawnSelf>>"
+      "<<pickRandomPath>>",
+      "<<WoodEgg>>",
+      "<<MakeEgg>>",
+      "<<EggWood>>",
+      "<<NextYear>>",
+      "<<GrowEgg>>",
+      "<<HopBunny>>",
+      "<<ChangePetals>>",
+      "<<ScavengeEgg>>",
+      "<<Done>>",
+      "<<GatherEgg>>",
+      "<<GiftsEgg>>",
+      "<<3Pets>>",
+      "<<FoodEgg>>",
+      "<<RotateHedge>>",
+      "<<BunnyPerson>>",
+      "<<AprilEgg>>",
+      "<<PotionEgg>>",
+      "<<flushRandomPath>>"
     ],
     "tags": "",
     "colorID": 0,
     "position": {
-      "x": 812,
-      "y": 184
+      "x": 727,
+      "y": 159
+    }
+  },
+  {
+    "title": "WoodEgg",
+    "body": [
+      "Wood does great things to eggs-^c:5f41a0;pyo^c:pop;. Have you tried it all together-^c:5f41a0;pyo^c:pop;? #line:10001100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 996,
+      "y": 162
+    }
+  },
+  {
+    "title": "MakeEgg",
+    "body": [
+      "If an egg looks like a thing you probably use that to make it-^c:5f41a0;pyo^c:pop;. That should be obvious-^c:5f41a0;pyo^c:pop;. #line:10002100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 995,
+      "y": 400
+    }
+  },
+  {
+    "title": "EggWood",
+    "body": [
+      "If you don't like breaking decorations, don't worry-^c:5f41a0;pyo^c:pop;. Grow Eggwood-^c:5f41a0;pyo^c:pop;. #line:10003100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 992,
+      "y": 634
+    }
+  },
+  {
+    "title": "NextYear",
+    "body": [
+      "We'll be back next year-^c:5f41a0;pyo^c:pop;. You don't have to finish everything this year-^c:5f41a0;pyo^c:pop;. #line:10004100",
+      "Relax. Hop some. #line:10004200",
+      "^c:5f41a0;Hop^c:pop;. #line:10004300",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 994,
+      "y": 862
+    }
+  },
+  {
+    "title": "GrowEgg",
+    "body": [
+      "^c:5f41a0;Hop^c:pop;. #line:10005100 ",
+      "One egg you have to grow-^c:5f41a0;pyo^c:pop;. It might take a long time to get it-^c:5f41a0;pyo^c:pop;. #line:10005200",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 988,
+      "y": 1110
+    }
+  },
+  {
+    "title": "HopBunny",
+    "body": [
+      "I am obligated to hop for you-^c:5f41a0;pyo^c:pop;. Because I am a bunny-^c:5f41a0;pyo^c:pop;. ^c:5f41a0;Hop. Hop.^c:pop; #line:12111100 ",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1707,
+      "y": 399
+    }
+  },
+  {
+    "title": "ChangePetals",
+    "body": [
+      "Changing the number of petals you use can give you a different egg-^c:5f41a0;pyo^c:pop;. #line:10011100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1222,
+      "y": 157
+    }
+  },
+  {
+    "title": "GatherEgg",
+    "body": [
+      "Things you can gather make interesting eggs-^c:5f41a0;pyo^c:pop;. #line:10021100",
+      "But you know that because you're smart-^c:5f41a0;pyo^c:pop;. #line:10021200",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1230,
+      "y": 400
+    }
+  },
+  {
+    "title": "3Pets",
+    "body": [
+      "Alice will give you three kinds of pets-^c:5f41a0;pyo^c:pop;. But there are ways to make them too-^c:5f41a0;pyo^c:pop;. #line:10031100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1242,
+      "y": 641
+    }
+  },
+  {
+    "title": "RotateHedge",
+    "body": [
+      "Rotate the Easter hedge to get different shapes-^c:5f41a0;pyo^c:pop;. You can do that with most fences-^c:5f41a0;pyo^c:pop;. #line:10041100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1247,
+      "y": 866
+    }
+  },
+  {
+    "title": "AprilEgg",
+    "body": [
+      "Set the May or April eggs down and then pick them like a mushroom to open them. #line:10051100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1265,
+      "y": 1108
+    }
+  },
+  {
+    "title": "ScavengeEgg",
+    "body": [
+      "If you can scavenge it you can probably get an egg out of it-^c:5f41a0;pyo^c:pop;. #line:10111100 ",
+      "^c:5f41a0;Hop^c:pop;. #line:10111200",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1462,
+      "y": 161
+    }
+  },
+  {
+    "title": "GiftsEgg",
+    "body": [
+      "Pets, Eggwood, and May eggs all give you different gifts-^c:5f41a0;pyo^c:pop;. #line:10211100 ",
+      "Get a lot of them if you're smart-^c:5f41a0;pyo^c:pop;. #line:10211200",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1471,
+      "y": 397
+    }
+  },
+  {
+    "title": "FoodEgg",
+    "body": [
+      "Use food on an egg at the combine table to try to hatch it-^c:5f41a0;pyo^c:pop;. #line:10311100",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1483,
+      "y": 650
+    }
+  },
+  {
+    "title": "BunnyPerson",
+    "body": [
+      "Do you want to be a bunny person-^c:5f41a0;pyo^c:pop;? Pets will give you a costume-^c:5f41a0;pyo^c:pop;. #line:10411100 ",
+      "Not enough-^c:5f41a0;pyo^c:pop;? You can reincarnate as a leoporid in your next life-^c:5f41a0;pyo^c:pop;. #line:10411200 ",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1484,
+      "y": 871
+    }
+  },
+  {
+    "title": "PotionEgg",
+    "body": [
+      "Some eggs need more power than just a petal-^c:5f41a0;pyo^c:pop;. Use a potion-^c:5f41a0;pyo^c:pop;. #line:10511100 ",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1501,
+      "y": 1116
+    }
+  },
+  {
+    "title": "Done",
+    "body": [
+      "^c:5f41a0;Hop^c:pop;. ^c:5f41a0;Hop^c:pop;. Can I be done now-^c:5f41a0;pyo^c:pop;? #line:11111100  ",
+      "^c:5f41a0;Hop^c:pop;..... #line:11111200 ",
+      "[[Quit]]"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 1697,
+      "y": 166
+    }
+  },
+  {
+    "title": "Quit",
+    "body": [
+      "<<loadRandomNumber 6 $num>>",
+      "<<if $num is 3>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<runaway>>",
+      "<<else>>",
+      "<<typewriterMode off True True>>",
+      "<<releasePlayerFromConversation>>",
+      "<<endif>>"
+    ],
+    "tags": "",
+    "colorID": 0,
+    "position": {
+      "x": 2057,
+      "y": 491
     }
   }
 ]
