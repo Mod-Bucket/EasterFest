@@ -38,6 +38,7 @@ MarkGrant:
 - town square
 - NPCs
 - Bunny People Race
+- Some villager costumes
 
 toketsupuurin:
 - Easter hedge fence
@@ -49,6 +50,7 @@ toketsupuurin:
 - Egg fish, bugs, and some decorated eggs
 - Easter Bunny farm animal, chocolate and sugar eggs.
 - Eggwood & bunnycarrot plants
+- Some villager costumes
 
 ==========
 
@@ -56,6 +58,7 @@ Version 1.5 - GOLD
 	* Fixed bugs in Alice's quests.
 	* Added complete chicken dialogue.
 	* Barring minor fixes this mod is complete for the foreseeable future. Someday we might add more stuff, but nothing major. Enjoy, and thanks for playing!
+	* Special Bonus: Villager Easter Costumes! Because we love you.
 
 Version 1.4
 	* All of Alice's quests done.
