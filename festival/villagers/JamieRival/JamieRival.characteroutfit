@@ -1,0 +1,31 @@
+{
+  "code": "mods.mb.EasterFest.markgrant.outfit.JamieRival",
+  "outfit": {
+    "0": {
+      "code": "",
+      "kind": "staxel.item.Clothing",
+      "accessory": "mods.mb.EasterFest.markgrant.accessories.fullBodyOutfits.JamieRival",
+      "palette": ""
+    },
+    "1": {
+      "kind": "staxel.item.Null",
+      "code": "",
+      "accessory": ""
+    },
+    "2": {
+      "kind": "staxel.item.Null",
+      "code": "",
+      "accessory": ""
+    },
+    "3": {
+      "kind": "staxel.item.Null",
+      "code": "",
+      "accessory": ""
+    },
+    "4": {
+      "kind": "staxel.item.Null",
+      "code": "",
+      "accessory": ""
+    }
+  }
+}

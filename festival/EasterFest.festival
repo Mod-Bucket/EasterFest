@@ -16,8 +16,106 @@
       "structure": "mods.mb.EasterFest.toketsupuurin.structure.EasterFestMaze"
     }
   ],
+  "villagerOverrides": [
+	  {  
+        "villager": "Aliza",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Aliza"
+      },
+      {  
+        "villager": "Cecile",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Cecile"
+      },
+      {  
+        "villager": "Cirahna",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Cirahna"
+      },
+      {  
+        "villager": "Emilia",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Emilia"
+      },	
+      {  
+        "villager": "Eris",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Eris"
+      },	
+      {  
+        "villager": "FarmFan",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.FarmFan"
+      },	
+      {  
+        "villager": "Jamie",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Jamie"
+      },	
+      {  
+        "villager": "JamieRival",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.JamieRival"
+      },
+      {  
+        "villager": "Leif",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Leif"
+      },
+      {  
+        "villager": "Maximilian",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Max"
+      },
+      {  
+        "villager": "Morel",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Morel"
+      },
+      {  
+        "villager": "Oscar",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Oscar"
+      },
+      {  
+        "villager": "Rosemary",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Rosemary"
+      },
+      {  
+        "villager": "Riah",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Riah"
+      },
+      {  
+        "villager": "Rowan",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Rowan"
+      },	
+      {  
+        "villager": "Vorlen",
+        "suppressJob": false,
+        "suppressPersonality": false,
+        "outfit": "mods.mb.EasterFest.markgrant.outfit.Vorlen"
+      }	
+    ],
   "hosts": [
-    {
+      {
       "name": "Alice",
       "code": "mods.mb.EasterFest.markgrant.character.festival.EasterBunny",
 	  "festivalBehaviour": [
@@ -42,7 +140,7 @@
   {
     "name" : "Thumper",
     "code" : "mods.mb.EasterFest.markgrant.character.EasterChickenYellow"
-  },
+  }
   ]
 }
 

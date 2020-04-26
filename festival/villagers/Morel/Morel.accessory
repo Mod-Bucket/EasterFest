@@ -1,0 +1,13 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.fullBodyOutfits.Morel",
+  "kind": "Shirt",
+  "model": "mods/EasterFest/festival/villagers/Morel/Morel.qb",
+  "palettes": [
+    "staxel.palette.grey"
+  ],
+  "searchable": false,
+  "subcategory": "tshirt"
+}

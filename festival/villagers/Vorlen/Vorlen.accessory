@@ -1,0 +1,13 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.fullBodyOutfits.Vorlen",
+  "kind": "Shirt",
+  "model": "mods/EasterFest/festival/villagers/Vorlen/Vorlen.qb",
+  "palettes": [
+    "staxel.palette.grey"
+  ],
+  "searchable": false,
+  "subcategory": "tshirt"
+}

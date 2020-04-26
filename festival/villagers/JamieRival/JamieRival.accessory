@@ -1,0 +1,13 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale"
+  ],
+  "code": "mods.mb.EasterFest.markgrant.accessories.fullBodyOutfits.JamieRival",
+  "kind": "Shirt",
+  "model": "mods/EasterFest/festival/villagers/JamieRival/JamieRival.qb",
+  "palettes": [
+    "staxel.palette.grey"
+  ],
+  "searchable": false,
+  "subcategory": "tshirt"
+}
