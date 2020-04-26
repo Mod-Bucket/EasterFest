@@ -57,6 +57,7 @@ toketsupuurin:
 Version 1.5 - GOLD
 	* Fixed bugs in Alice's quests.
 	* Added complete chicken dialogue.
+	* Gave Cottontail a cotton tail.
 	* Barring minor fixes this mod is complete for the foreseeable future. Someday we might add more stuff, but nothing major. Enjoy, and thanks for playing!
 	* Special Bonus: Villager Easter Costumes! Because we love you.
 
