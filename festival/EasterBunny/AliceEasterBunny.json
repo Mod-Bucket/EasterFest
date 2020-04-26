@@ -200,7 +200,7 @@
     "title": "TeaSetFound",
     "body": [
       "Oh, thank you! #line:10041100",
-      "<<removePlayerItemWithCategory MBTeaset>>",
+      "<<removePlayerItemWithCategory MBTeaset 1>>",
       "<<set $TeaSet to 1>>",
       "<<set $Basket to 0>>",
       "Here's your reward. #line:10041200",
@@ -503,7 +503,7 @@
     "title": "EggFishFound",
     "body": [
       "An ^c:d03e37;Egg Fish^c:pop;! Marvelous! #line:10061100",
-      "<<removePlayerItemWithCategory MBEggFish>>",
+      "<<removePlayerItemWithCategory MBFishEgg 1>>",
       "<<set $TeaSet to 0>>",
       "<<set $EggFish to 1>>",
       "Here's your prize. #line:10061200",
