@@ -1,4 +1,4 @@
 Remove these files from distributable:
 Supplemental folder
 This File
-
+THE GIT FOLDER CANNOT BE IN THE DISTRIBUTABLE!!!!

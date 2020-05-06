@@ -55,7 +55,8 @@ toketsupuurin:
 ==========
 
 Version 1.5.01
-	*Fixed Paw Vanity's missing mirror.
+	* Fixed Paw Vanity's missing mirror.
+	* Removed the git folder so the mod is actually a reasonable size again! Yay!
 
 Version 1.5 - GOLD
 	* Fixed bugs in Alice's quests.
