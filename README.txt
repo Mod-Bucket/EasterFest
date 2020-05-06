@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5
+Version 1.5.01
 
 A mod for Staxel.
 
@@ -53,6 +53,9 @@ toketsupuurin:
 - Some villager costumes
 
 ==========
+
+Version 1.5.01
+	*Fixed Paw Vanity's missing mirror.
 
 Version 1.5 - GOLD
 	* Fixed bugs in Alice's quests.
