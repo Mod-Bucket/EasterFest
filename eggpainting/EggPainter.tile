@@ -16,7 +16,7 @@
       "z": 1
     }
   },
-  "descriptionImage": "mods/EasterFest/icons/EggPaint.png",
+  "descriptionImage": "mods/EasterFest/eggpainting/EggPaintingIcon.png",
   "dockDefinition": "mods.mb.EasterFest.lydocia.machine.EggPainter.dock",
   "pricing": {
     "buyable": true,
