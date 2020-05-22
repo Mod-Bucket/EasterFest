@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.02
+Version 1.5.03
 
 A mod for Staxel.
 
@@ -53,6 +53,9 @@ toketsupuurin:
 - Some villager costumes
 
 ==========
+
+Version 1.5.03
+	* Added a separate lang file for the action keywords so they don't vanish again.
 
 Version 1.5.02
 	* Added Egg Decorating Icon.
