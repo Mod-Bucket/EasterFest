@@ -54,6 +54,10 @@ toketsupuurin:
 
 ==========
 
+Version 1.5.04
+	* Made bunny carrots reapable.
+	* Added Egg Rod.
+
 Version 1.5.03
 	* Added a separate lang file for the action keywords so they don't vanish again.
 

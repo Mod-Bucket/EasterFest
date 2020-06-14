@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+	"easterfest",
+    "tool",
+    "rod",
+    "fishing"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.item.tool.EggRod",
+  "canBeGifted": false,
+  "fishing": {
+    "castEffect": "staxel.particle.fishing.RodPull",
+    "castSoundGroup": "staxel.sounds.gatherables.Bobber.splash",
+    "catchEffect": "staxel.particle.fishing.RodPull",
+    "catchSoundGroup": "staxel.sounds.gatherables.Rod.hook",
+    "indicator": "mods/EasterFest/gatherables/EggBobber.qb",
+    "reelEffect": "staxel.particle.fishing.RodCatching",
+    "reelSoundGroup": "staxel.sounds.gatherables.Reeling.splash",
+    "fishingSpeed": 1.15,
+    "successTranslations": [
+      "fishing.success1",
+      "fishing.success2",
+      "fishing.success3"
+    ]
+  },
+  "icon": "mods/EasterFest/gatherables/EggRod.qb",
+  "iconScale": 0.5,
+  "inHand": "mods/EasterFest/gatherables/EggRod.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.2,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": -1.5,
+    "z": -1.54
+  },
+  "interactVerb": "controlHint.verb.Cast",
+  "kind": "staxel.item.Rod",
+  "paramAnimator": "staxel.paramAnimation.FishingRod",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "appearsInCatalogue": false,
+    "buyable": true,
+    "sellPrice": 30,
+    "value": 50
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "useBoxCollider": true
+}

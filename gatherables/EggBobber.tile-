@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "attachToBelow": true,
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+	"easterfest",
+    "fishing",
+    "rod",
+    "misc"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber",
+  "collision": false,
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "specification": "X"
+  },
+  "randomizePosition": true,
+  "searchable": false,
+  "voxels": "mods/EasterFest/gatherables/EggBobber.qb"
+}
