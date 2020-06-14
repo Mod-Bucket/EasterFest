@@ -39,6 +39,8 @@ MarkGrant:
 - NPCs
 - Bunny People Race
 - Some villager costumes
+- getting the fishing rod working.
+- lots of the teaset rewards.
 
 toketsupuurin:
 - Easter hedge fence
@@ -51,6 +53,7 @@ toketsupuurin:
 - Easter Bunny farm animal, chocolate and sugar eggs.
 - Eggwood & bunnycarrot plants
 - Some villager costumes
+- fishing rod
 
 ==========
 
