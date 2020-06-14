@@ -1,0 +1,35 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.treasure.seeds.BunnyCarrotSeeds",
+  "entries": [
+    {
+      "weight": 79.0,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.BunnyCarrot",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "weight": 20.0,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.BunnyCarrot",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "weight": 1.0,
+      "items": [
+        {
+          "kind": "staxel.item.Seed",
+          "plant": "mods.mb.EasterFest.toketsupuurin.crop.BunnyCarrot",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+}

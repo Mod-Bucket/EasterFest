@@ -1,0 +1,26 @@
+{
+  "name": "Make BunnyCarrot Seeds",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.ReapBunnyCarrotSeed",
+  "recipeStep": "reap",
+  "moveResultsToSite": "seedSite",
+  "anyTool": true,
+  "automated": true,
+  "automationDelay": 3,
+  "docks": [
+    "staxel.tileObject.serverVillage.SeedMaker"
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.items.crops.BunnyCarrot",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "reactionTreasure": "mods.mb.EasterFest.toketsupuurin.treasure.seeds.BunnyCarrotSeeds",
+    }
+  ],
+  "duration": 4/* seconds*/,
+  "effect": "staxel.effect.crafting.SeedMaker"/*only valid with duration*/,
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}
