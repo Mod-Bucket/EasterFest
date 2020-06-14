@@ -1,6 +1,12 @@
 language.code=en-GB
 language=English
 
+mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.name=Egg Bobber
+mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.description=It's a fishing bobber.
+
+mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.name=Egg Rod
+mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.description=It's so pretty and pastel! Perfect for catching eggfish.
+
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.name=Easter Bunny Bobblehead
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.description=A Bunny Bobblehead from Easter.
 
