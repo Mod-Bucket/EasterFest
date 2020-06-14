@@ -1,8 +1,16 @@
 {
   "code": "mods.mb.EasterFest.toketsupuurin.treasure.TeaSetQuest",
   "entries": [
-
-{
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "mods.mb.EasterFest.toketsupuurin.item.tool.EggRod",
+          "kind": "staxel.item.Rod"
+        }
+      ]
+    },
+	{
       "weight": 1.0,
       "items": [
 		{

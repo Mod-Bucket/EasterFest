@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.03
+Version 1.5.04
 
 A mod for Staxel.
 
@@ -56,7 +56,7 @@ toketsupuurin:
 
 Version 1.5.04
 	* Made bunny carrots reapable.
-	* Added Egg Rod.
+	* Added Egg Rod. It can be obtained via the teaset/fishing questline.
 
 Version 1.5.03
 	* Added a separate lang file for the action keywords so they don't vanish again.
