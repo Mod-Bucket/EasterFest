@@ -1,0 +1,14 @@
+{
+  "code": "aaa.mods.mb.BasicStaples.treasure.Cornucopia",
+  "additive": true,
+  "entries": [
+	{
+      "weight": 1.0,
+      "items": [
+        {
+          "code": "aaa.mods.mb.BasicStaples.item.crafting.EasterFest.ChocolateEgg",
+        }
+      ]
+    },
+  ]
+}

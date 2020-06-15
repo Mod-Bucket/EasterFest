@@ -1,0 +1,15 @@
+{
+    "file": "mods/Basic-Staples/item/crafting/EasterFest/GiantChocolateEgg.item",
+    "priority": 990, 
+    "mergeLists": true,
+    "patch": {
+	
+  "pricing": {
+
+	    "appearsInCatalogue": true, 
+	    "buyable": true, 
+  },
+	    "searchable": true, 
+	    "canBeEarntFromLuckyBox": true,
+    }
+}
