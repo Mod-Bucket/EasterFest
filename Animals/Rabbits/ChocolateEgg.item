@@ -14,10 +14,10 @@
     "food"
   ],
   "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
-  "collectable": {
-    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
-    "priority": 20
-  },
+//  "collectable": {
+//    "grouping": "mods.mb.EasterFest.markgrant.collections.EasterEggs",
+//    "priority": 20
+//  }, //removed to for compatability with basic staples.
   "icon": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
   "inHand": "mods/EasterFest/Animals/Rabbits/ChocolateEgg.qb",
   "inHandOffset": {

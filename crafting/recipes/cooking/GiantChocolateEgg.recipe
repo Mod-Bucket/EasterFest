@@ -1,0 +1,36 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEgg",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.Egg",
+	  "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.Lumber",
+      "quantity": 5
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+      "quantity": 10
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 1000,
+    "value": 2000
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantChocolateEgg"
+    }
+  },
+  "searchable": true,
+  "steps": [
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.CarveCheapEggMould",
+    "mods.mb.EasterFest.toketsupuurin.crafting.reaction.crafting.reaction.BoilGiantChocolateEgg",
+  ]
+}

@@ -33,5 +33,6 @@
   "triggerDockAction": "staxel.entityAction.ToggleMixerAction",
   "triggerDockActionOnCompletion": "staxel.entityAction.ToggleMixerAction",
   "effect": "staxel.effect.cooking.Mixer",
-  "processDrawable": "sludge"
+  "processDrawable": "sludge",
+  "hidden": true
 }

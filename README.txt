@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.04
+Version 1.5.05
 
 A mod for Staxel.
 
@@ -54,8 +54,14 @@ toketsupuurin:
 - Eggwood & bunnycarrot plants
 - Some villager costumes
 - fishing rod
+- Cookbook and a few more recipes.
 
 ==========
+
+Version 1.5.05
+	* Removed the chocolate egg (produce) from the collection for better compatability. You still have to have it to make other eggs.
+	* Added recipes for Cheap Egg Mould, Giant Chocolate Egg, Giant Sugar Egg.
+	* Added cookbook. It doesn't contain the secret recipes.
 
 Version 1.5.04
 	* Made bunny carrots reapable.

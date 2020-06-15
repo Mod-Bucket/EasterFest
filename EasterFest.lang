@@ -1,6 +1,9 @@
 language.code=en-GB
 language=English
 
+mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.name=Easter v1
+mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.description=A cookbook with Easter Recipes.
+
 mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.name=Egg Bobber
 mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.description=It's a fishing bobber.
 
@@ -721,7 +724,7 @@ mods.mb.EasterFest.toketsupuurin.gatherable.SnailEgg.description=Painted up like
 mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedDark.name=Dark Chocolate Decorated Giant Egg
 mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedDark.description=Solid Chocolate with darc chocolate accents.
 
-mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedMono.name=Rainbow of Chocolate Decorated Giant Egg
+mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedMono.name=Monochrome Chocolate Decorated Giant Egg
 mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedMono.description=All three kinds of chocolate!
 
 mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedWhite.name=White Chocolate Decorated Giant Egg

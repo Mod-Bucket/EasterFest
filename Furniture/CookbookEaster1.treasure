@@ -1,0 +1,74 @@
+{
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.treasure.CookbookEaster1",
+  "entries": [
+    {
+      "weight": 1.0,
+      "items": [
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggYellow",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggBlue",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggGreen",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggBlack",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggMulti",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggPurple",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEggRed",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEggWhite",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEggMono",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEggDark",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.recipes.ChocolateEgg",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.CarveFilligreeFood",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.FilligreeFoodBowl",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantChocolateEgg",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.CheapEggMould",
+        },
+		{
+          "kind": "staxel.item.Recipe",
+          "recipe": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.GiantSugarEgg",
+        },
+      ]
+    },
+  ]
+}

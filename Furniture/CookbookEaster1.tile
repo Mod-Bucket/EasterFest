@@ -1,0 +1,51 @@
+{
+  "anchorHelper": {
+    "direction": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    }
+  },
+  "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+    "book",
+	"cook",
+	"recipe",
+	"recipes",
+	"cookbook"
+  ],
+  "code": "mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1",
+  "collision": true,
+  "damageSoundGroup": "staxel.sounds.damage.Plant",
+  "kind": "object",
+  "axeable": {},
+  "lootable": {
+    "petals": 0,
+    "singleUse": true,
+    "treasure": "mods.mb.EasterFest.toketsupuurin.furniture.treasure.CookbookEaster1",
+  },
+  "open": false,
+  "nametagTranslation": "Read",
+  "placeSoundGroup": "staxel.sounds.place.Wood",
+  "placementDirections": [
+    "yn"
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 5000,
+    "value": 10000
+  },
+  "searchable": true,
+  "priority": 32,
+  "bouncyness": 0.1,
+  "randomizePosition": true,
+  "randomizeVerticalPosition": false,
+  "solid": false,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "tileStateKind": "staxel.tileState.Lootable",
+  "unbreakable": false,
+  "voxels": "mods/EasterFest/Furniture/CookbookEaster1.qb"
+}

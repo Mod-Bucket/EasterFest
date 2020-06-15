@@ -19,5 +19,6 @@
       "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack"
     }
   ],
-  "effectTrigger": "staxel.effect.cooking.Combine"
+  "effectTrigger": "staxel.effect.cooking.Combine",
+  "hidden": true
 }
