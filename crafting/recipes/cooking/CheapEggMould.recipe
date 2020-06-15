@@ -1,7 +1,7 @@
 {
   "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
   "code": "mods.mb.EasterFest.toketsupuurin.crafting.recipes.CheapEggMould",
-  "grouping": "desserts",
+  "grouping": "wood",
   "ingredients": [
     {
       "code": "staxel.item.crafting.Egg",
