@@ -1,0 +1,26 @@
+{
+  "name": "ChocolateBar",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.Auto20ChocolateEgg",
+  "recipeStep": "autoBoil",
+      "triggerDurationCraftManually": true,
+      "automated": true,
+  "tools": [],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg",
+	  "quantity": 4
+    }
+  ],
+  "results": [
+    {
+      "code": "staxel.item.crafting.CandyChocolateBar"
+    }
+  ],
+  "duration": 5,
+  "moveResultsToSite": "results",
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "action": "staxel.entityAction.Stir",
+  "effect": "staxel.effect.cooking.Boil",
+  "processDrawable": "syrup"
+}

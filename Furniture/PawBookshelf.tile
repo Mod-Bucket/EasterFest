@@ -1,6 +1,10 @@
 {
   "__inherits": "staxel/docks/dockBase.config",
   "categories": [
+    "Mod Bucket",
+    "Easter",
+    "EasterFest",
+	"Bookshelf",
     "container",
     "storage",
     "pet",

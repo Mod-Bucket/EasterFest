@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.AutoCombineGiantChocolateEggMono",
+  "recipeStep": "Auto Combine",
+      "triggerDurationCraftManually": true,
+      "duration": 5,
+      "automated": true,
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantChocolateEgg",
+      "quantity": 1
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing",
+      "quantity": 2
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantChocolateEggDecoratedMono"
+    }
+  ],
+  "effectTrigger": "staxel.effect.cooking.Combine"
+}

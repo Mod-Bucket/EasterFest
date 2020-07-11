@@ -1,0 +1,19 @@
+{
+    "file": "mods/Wedding/WeddingHeels.accessory",
+    "priority": 999, 
+    "mergeLists": true, 
+    "patch" : {
+
+  "altModels": [
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
+      "model": "mods/Wedding/WeddingHeels.qb",
+    },
+    {
+      "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
+      "model": "mods/Wedding/WeddingHeels.qb",
+    },
+  ],
+
+    }
+}

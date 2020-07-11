@@ -1,0 +1,35 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.AutoCombineGiantSugarEggPurple",
+  "recipeStep": "Auto Combine",
+      "triggerDurationCraftManually": true,
+      "duration": 5,
+      "automated": true,
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.GiantSugarEgg",
+      "quantity": 1
+    },
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.VialRed",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.VialBlue",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile":  "mods.mb.EasterFest.toketsupuurin.furniture.GiantSugarEggPurple"
+    }
+  ],
+  "effectTrigger": "staxel.effect.cooking.Combine"
+}

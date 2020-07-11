@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.05
+Version 1.5.07
 
 A mod for Staxel.
 
@@ -57,6 +57,16 @@ toketsupuurin:
 - Cookbook and a few more recipes.
 
 ==========
+
+Version 1.5.07
+	* Fixed dock for Egg Shelf.
+	* Fixed Egg Futon Dock.
+	* Added patches for the wedding mod so the Leoporid race can use the clothes.
+	* Added automated recipes for Auto Kitchen and Auto 2.0 mods. (Experimental.)
+	* Creating the cheap egg mould is now naturally AUTOMATED.
+
+Version 1.5.06
+	* Added proper tags to the bookshelves so they play nice with expanded furniture's totem system.
 
 Version 1.5.05
 	* Removed the chocolate egg (produce) from the collection for better compatability. You still have to have it to make other eggs.

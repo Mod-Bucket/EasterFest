@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.mb.EasterFest.toketsupuurin.crafting.reaction.AutoCombineVialBlack",
+  "recipeStep": "Auto Combine",
+      "triggerDurationCraftManually": true,
+      "duration": 5,
+      "automated": true,
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.WaterJar",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.BlackPetal",
+      "quantity": 2
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack"
+    }
+  ],
+  "effectTrigger": "staxel.effect.cooking.Combine",
+  "hidden": true
+}

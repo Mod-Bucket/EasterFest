@@ -1,5 +1,5 @@
 {
-  "__inherits": "staxel/docks/WallMountedShelf.config",
+  "__inherits": "mods/EasterFest/Furniture/EggWallMountedShelf.config",
   "categories": [
     "container",
     "storage",
