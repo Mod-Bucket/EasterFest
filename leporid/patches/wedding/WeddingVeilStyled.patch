@@ -1,5 +1,5 @@
 {
-    "file": "mods/Wedding/TuxShoes.accessory",
+    "file": "mods/Wedding/WeddingVeilStyled.accessory",
     "priority": 999, 
     "mergeLists": true, 
     "patch" : {
@@ -7,11 +7,11 @@
   "altModels": [
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
-      "model": "mods/Wedding/TuxShoes.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingVeilLeoporid.qb",
     },
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
-      "model": "mods/Wedding/TuxShoes.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingVeilLeoporid.qb",
     },
   ],
 

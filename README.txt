@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.07
+Version 1.5.08
 
 A mod for Staxel.
 
@@ -55,8 +55,13 @@ toketsupuurin:
 - Some villager costumes
 - fishing rod
 - Cookbook and a few more recipes.
+- wedding stuff for Leoporids.
 
 ==========
+
+Version 1.5.08
+	* Leoporid Race now has properly patched rings, hair, and dresses for the wedding mod.
+	* Made leoporid ears longer and more varied.
 
 Version 1.5.07
 	* Fixed dock for Egg Shelf.

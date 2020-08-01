@@ -1,5 +1,5 @@
 {
-    "file": "mods/Wedding/TuxPants.accessory",
+    "file": "mods/Wedding/TuxedoCoat.accessory",
     "priority": 999, 
     "mergeLists": true, 
     "patch" : {
@@ -7,11 +7,11 @@
   "altModels": [
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
-      "model": "mods/Wedding/TuxPantsFemale.qb",
+      "model": "mods/Wedding/TuxedoFemale.qb",
     },
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
-      "model": "mods/Wedding/TuxPants.qb",
+      "model": "mods/Wedding/TuxedoMale.qb",
     },
   ],
 

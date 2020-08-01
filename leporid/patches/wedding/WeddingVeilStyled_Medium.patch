@@ -1,5 +1,5 @@
 {
-    "file": "mods/Wedding/EngagementRingFemale.accessory",
+    "file": "mods/Wedding/HairReplacers/WeddingVeilStyled_Medium.accessory",
     "priority": 999, 
     "mergeLists": true, 
     "patch" : {
@@ -7,11 +7,11 @@
   "altModels": [
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
-      "model": "mods/EasterFest/leporid/patches/Wedding/EngagementRingFemaleLeoporid.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingVeilStyledLeoporid_Medium.qb",
     },
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
-      "model": "mods/EasterFest/leporid/patches/Wedding/EngagementRingFemaleLeoporid.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingVeilStyledLeoporid_Medium.qb",
     },
   ],
 

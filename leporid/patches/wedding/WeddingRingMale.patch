@@ -7,11 +7,11 @@
   "altModels": [
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidFemale",
-      "model": "mods/Wedding/WeddingRingMaleCaith.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingRingMaleLeoporid.qb",
     },
     {
       "bodyType": "mods.mb.EasterFest.markgrant.bodyType.leporidMale",
-      "model": "mods/Wedding/WeddingRingMaleCaith.qb",
+      "model": "mods/EasterFest/leporid/patches/Wedding/WeddingRingMaleLeoporid.qb",
     },
   ],
 
