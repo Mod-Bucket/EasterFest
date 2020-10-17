@@ -1,0 +1,20 @@
+{
+	"patchIfFileExists": "mods/Basic-Staples/treasure/Cornucopia.treasure",
+    "file": "mods/Basic-Staples/treasure/Cornucopia.treasure",
+    "priority": 30, 
+    "mergeLists": true,
+    "patch" : {
+
+  "entries": [
+	{
+      "weight": 1.0,
+      "items": [
+        {
+          "code": "aaa.mods.mb.BasicStaples.item.crafting.EasterFest.ChocolateEgg",
+        }
+      ]
+    },
+  ]
+
+    }
+}

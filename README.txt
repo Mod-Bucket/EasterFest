@@ -1,7 +1,7 @@
 Modbucket presents:
 
 EasterFest
-Version 1.5.09
+Version 1.5.1
 
 A mod for Staxel.
 
@@ -58,6 +58,12 @@ toketsupuurin:
 - wedding stuff for Leoporids.
 
 ==========
+
+Version 1.5.1
+	* Fixed some treasure file errors. 
+	* Fixed an error in the Veil patches.
+	* Changed Cornucopia.treasure to a patch file.
+	To Do: Gate patches behind file checks.
 
 Version 1.5.09
 	* gave leoporid wedding dresses fixes so that there are no bare knees when sitting.

@@ -41,11 +41,11 @@
     "yn"
   ],
   "prefetchTileState": true,
-  "searchable": false,
+  "searchable": true,
   "tileStateKind": "staxel.tileState.Catchable",
   "prefetchTileState": true,
   "randomizePosition": true,
-  "searchable": false,
+  "searchable": true,
   "tileStateKind": "staxel.tileState.Catchable",
   "useCustomRendering": true,
   "variants": [

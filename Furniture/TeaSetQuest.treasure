@@ -75,7 +75,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg"
+			"tile": "mods.mb.EasterFest.toketsupuurin.gatherable.EasterfestMayEgg"
 		},
 
       ]

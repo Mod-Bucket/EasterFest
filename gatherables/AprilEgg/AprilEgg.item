@@ -47,7 +47,7 @@
     "y": 0.0,
     "z": 0.0
   },
-  "searchable": true,
+  "searchable": false,
   "usageOffset": {
     "x": 0.0,
     "y": 0.0,
