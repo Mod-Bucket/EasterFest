@@ -669,7 +669,7 @@
       "items": [
 		{
 			"kind": "staxel.item.Placer",
-			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTable(NoDock)"
+			"tile": "mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTableLoveseat"
 		},
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "__inherits": "staxel/tileObject/noDock.config",
+  "__inherits": "staxel/docks/CoffeeTable.config",
   "categories": [
     "furniture",
     "yellow",
@@ -12,21 +12,21 @@
     "low",
     "short"
   ],
-  "code": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable(NoDock)",
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTableLoveseat",
   "compound": {
     "size": {
-      "x": 2,
-      "y": 1,
-      "z": 2
+      "x": 3,
+      "y": 3,
+      "z": 1
     }
   },
   "pricing": {
-    "catalogueUnlockedFromStart": false,
+    "catalogueUnlockedFromStart": true,
     "buyable": true,
     "sellPrice": 10,
     "value": 2500
   },
-  "searchable": false,
+  "searchable": true,
   "stepSoundGroup": "staxel.sounds.WoodFootSteps",
   "voxels": "mods/EasterFest/Furniture/PawCoffeeTable.qb"
 }

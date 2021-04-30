@@ -150,7 +150,7 @@
       "items": [
         {
           "kind": "staxel.item.Placer",
-          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable(NoDock)"
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTableLoveseat"
         }
       ]
     },
@@ -340,6 +340,78 @@
         {
           "kind": "staxel.item.Placer",
           "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Lamp2"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon9"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon8"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon7"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon6"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon5"
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.mb.EasterFest.lydocia.furniture.paw.Futon4"
         }
       ]
     },

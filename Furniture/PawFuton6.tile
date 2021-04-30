@@ -1,0 +1,34 @@
+{
+  "__inherits": "mods/EasterFest/Furniture/PawFuton.config",
+  "categories": [
+    "furniture",
+    "yellow",
+    "brown",
+    "pet",
+	"pillow",
+    "set",
+    "chair",
+    "seat",
+    "sit",
+    "futon",
+    "sofa",
+    "couch",
+	"strawberry",
+    "love",
+    "loveseat",
+	"chaise",
+	"chaise longue",
+	"chaise lounge",
+	"lounge",
+    "settee"
+  ],
+  "code": "mods.mb.EasterFest.lydocia.furniture.paw.Futon6",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 10,
+    "value": 2500
+  },
+  "searchable": true,
+  "voxels": "mods/EasterFest/Furniture/PawFuton6.qb"
+}

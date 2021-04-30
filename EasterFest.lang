@@ -1,15 +1,6 @@
 language.code=en-GB
 language=English
 
-mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.name=Easter v1
-mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.description=A cookbook with Easter Recipes.
-
-mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.name=Egg Bobber
-mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.description=It's a fishing bobber.
-
-mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.name=Egg Rod
-mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.description=It's so pretty and pastel! Perfect for catching eggfish.
-
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.name=Easter Bunny Bobblehead
 mods.mb.EasterFest.toketsupuurin.bobbleheads.EasterBunnyBobblehead.description=A Bunny Bobblehead from Easter.
 
@@ -54,6 +45,9 @@ mods.mb.EasterFest.toketsupuurin.furniture.AnotherCastleSign.description=How dis
 
 mods.mb.EasterFest.toketsupuurin.furniture.BasaltEgg.name=Basalt Egg
 mods.mb.EasterFest.toketsupuurin.furniture.BasaltEgg.description=An egg carved from basalt.
+
+mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.name=Easter v1
+mods.mb.EasterFest.toketsupuurin.furniture.CookbookEaster1.description=A cookbook with Easter Recipes.
 
 mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg.name=Crystal Egg
 mods.mb.EasterFest.toketsupuurin.furniture.Crystal1Egg.description=There's something inside this. Maybe I can tempt it out.
@@ -154,7 +148,7 @@ mods.mb.EasterFest.toketsupuurin.furniture.EasterPillar.description=A pillar cov
 mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Left.name=Easter Basket Street Lamp Left
 mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Left.description=An easter basket street lamp.
 
-mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Right.name=Easter Basket Street Lamp Left
+mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Right.name=Easter Basket Street Lamp Right
 mods.mb.EasterFest.toketsupuurin.furniture.EasterStreetlampBasket_Right.description=An easter basket street lamp.
 
 mods.mb.EasterFest.toketsupuurin.furniture.EasterWallLamp01.name=Egg Wall Lamp 1
@@ -198,6 +192,9 @@ mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTable(NoDock).description=An
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTable.name=Egg Coffee Table
 mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTable.description=An egg coffee table.
+
+mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTableLoveseat.name=Egg Coffee Table for Loveseats
+mods.mb.EasterFest.toketsupuurin.furniture.EggCoffeeTableLoveseat.description=An egg coffee table for loveseats.
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggCredenza.name=Egg Credenza
 mods.mb.EasterFest.toketsupuurin.furniture.EggCredenza.description=An egg credenza.
@@ -256,7 +253,7 @@ mods.mb.EasterFest.toketsupuurin.furniture.EggTeaset.description=A lovely egg te
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.name=Egg TV Stand
 mods.mb.EasterFest.toketsupuurin.furniture.EggTVStand.description=An egg TV stand.
 
-mods.mb.EasterFest.toketsupuurin.furniture.EggVanity.name=EggVanity
+mods.mb.EasterFest.toketsupuurin.furniture.EggVanity.name=Egg Vanity
 mods.mb.EasterFest.toketsupuurin.furniture.EggVanity.description=An egg vanity.
 
 mods.mb.EasterFest.toketsupuurin.furniture.EggWallShelf.name=Egg Shelf
@@ -334,6 +331,9 @@ mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable(NoDock).description=A paste
 mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable.name=Pastel Paw Coffee Table
 mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTable.description=A pastel paw coffee table.
 
+mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTableLoveseat.name=Pastel Paw Coffee Table for Loveseats
+mods.mb.EasterFest.lydocia.furniture.paw.CoffeeTableLoveseat.description=A pastel paw coffee table for loveseats.
+
 mods.mb.EasterFest.lydocia.furniture.paw.Credenza.name=Pastel Paw Credenza
 mods.mb.EasterFest.lydocia.furniture.paw.Credenza.description=A pastel paw credenza.
 
@@ -355,7 +355,7 @@ mods.mb.EasterFest.lydocia.furniture.paw.Dresser.description=A pastel paw dresse
 mods.mb.EasterFest.lydocia.furniture.paw.FootLamp.name=Pastel Paw Foot Lamp 1
 mods.mb.EasterFest.lydocia.furniture.paw.FootLamp.description=A pastel paw foot lamp.
 
-mods.mb.EasterFest.lydocia.furniture.paw.FootLamp2.name=Pastel PawFootLamp2
+mods.mb.EasterFest.lydocia.furniture.paw.FootLamp2.name=Pastel Paw Foot Lamp 2
 mods.mb.EasterFest.lydocia.furniture.paw.FootLamp2.description=A pastel paw foot lamp.
 
 mods.mb.EasterFest.lydocia.furniture.paw.Futon.name=Pastel Paw Futon Bone
@@ -366,6 +366,24 @@ mods.mb.EasterFest.lydocia.furniture.paw.Futon2.description=A cat lover's pastel
 
 mods.mb.EasterFest.lydocia.furniture.paw.Futon3.name=Pastel Paw Futon Carrot
 mods.mb.EasterFest.lydocia.furniture.paw.Futon3.description=A rabbit lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon4.name=Pastel Paw Futon Rainbow Trout
+mods.mb.EasterFest.lydocia.furniture.paw.Futon4.description=A unicorn kitty lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon5.name=Pastel Paw Futon Drumstick
+mods.mb.EasterFest.lydocia.furniture.paw.Futon5.description=A fox lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon6.name=Pastel Paw Futon Strawberry
+mods.mb.EasterFest.lydocia.furniture.paw.Futon6.description=A parrot lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon7.name=Pastel Paw Futon Lettuce
+mods.mb.EasterFest.lydocia.furniture.paw.Futon7.description=A tortoise lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon8.name=Pastel Paw Futon Shrimp
+mods.mb.EasterFest.lydocia.furniture.paw.Futon8.description=A penguin lover's pastel paw futon.
+
+mods.mb.EasterFest.lydocia.furniture.paw.Futon9.name=Pastel Paw Futon Ladybug
+mods.mb.EasterFest.lydocia.furniture.paw.Futon9.description=A hedgie lover's pastel paw futon.
 
 mods.mb.EasterFest.lydocia.furniture.paw.lamp.name=Pastel Paw Lamp 1
 mods.mb.EasterFest.lydocia.furniture.paw.lamp.description=A pastel paw lamp.
@@ -409,7 +427,7 @@ mods.mb.EasterFest.lydocia.furniture.paw.Vanity.description=A pastel paw vanity.
 mods.mb.EasterFest.lydocia.furniture.paw.WallLamp.name=Pastel Paw Wall Lamp 1
 mods.mb.EasterFest.lydocia.furniture.paw.WallLamp.description=A pastel paw wall lamp.
 
-mods.mb.EasterFest.lydocia.furniture.paw.WallLamp2.name=Pastel PawWallLamp 2
+mods.mb.EasterFest.lydocia.furniture.paw.WallLamp2.name=Pastel Paw Wall Lamp 2
 mods.mb.EasterFest.lydocia.furniture.paw.WallLamp2.description=A pastel paw wall lamp.
 
 mods.mb.EasterFest.lydocia.furniture.paw.WallShelf.name=Pastel Paw Shelf
@@ -435,6 +453,9 @@ mods.mb.EasterFest.toketsupuurin.furniture.WonderEgg.description=It's making noi
 
 mods.mb.EasterFest.toketsupuurin.furniture.WoodEgg.name=Wood Egg
 mods.mb.EasterFest.toketsupuurin.furniture.WoodEgg.description=A basic wooden egg.
+
+mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.name=Egg Bobber
+mods.mb.EasterFest.toketsupuurin.tileObject.gatherable.EggBobber.description=It's a fishing bobber.
 
 mods.mb.EasterFest.markgrant.misc.BunnyWallClock.name=Bunny Wall Clock
 mods.mb.EasterFest.markgrant.misc.BunnyWallClock.description=The bunny tells time.
@@ -538,50 +559,50 @@ mods.mb.EasterFest.lydocia.egg.lydocia-Yellow.description=A yellow dyed egg.
 mods.mb.EasterFest.lydocia.egg.lydocia-Yoshi.name=Yoshi Egg
 mods.mb.EasterFest.lydocia.egg.lydocia-Yoshi.description=Is Yoshi a girl or boy?
 
-mods.mb.EasterFest.lydocia.egg.toketsu-AcornEgg.name=Acorn Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-AcornEgg.description=Is that really an egg?
+mods.mb.EasterFest.toketsu.egg.toketsu-AcornEgg.name=Acorn Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-AcornEgg.description=Is that really an egg?
 
-mods.mb.EasterFest.lydocia.egg.toketsu-Basket.name=Easter Basket Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-Basket.description=It's so tiny!
+mods.mb.EasterFest.toketsu.egg.toketsu-Basket.name=Easter Basket Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-Basket.description=It's so tiny!
 
-mods.mb.EasterFest.lydocia.egg.toketsu-BrownMushroomEgg.name=Brown Mushroom Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-BrownMushroomEgg.description=It doesn't look much like a mushroom...
+mods.mb.EasterFest.toketsu.egg.toketsu-BrownMushroomEgg.name=Brown Mushroom Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-BrownMushroomEgg.description=It doesn't look much like a mushroom...
 
-mods.mb.EasterFest.lydocia.egg.toketsu-CoolSplotchy.name=Cool Splotchy Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-CoolSplotchy.description=A batik dyed egg with a cool palette.
+mods.mb.EasterFest.toketsu.egg.toketsu-CoolSplotchy.name=Cool Splotchy Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-CoolSplotchy.description=A batik dyed egg with a cool palette.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-CreatureBellEgg.name=Creature Bud Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-CreatureBellEgg.description=It doesn't work like a creature bug.
+mods.mb.EasterFest.toketsu.egg.toketsu-CreatureBellEgg.name=Creature Bud Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-CreatureBellEgg.description=It doesn't work like a creature bug.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-Discoball.name=Discoball Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-Discoball.description=Groovy.
+mods.mb.EasterFest.toketsu.egg.toketsu-Discoball.name=Discoball Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-Discoball.description=Groovy.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-FairyEgg.name=Fairy Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-FairyEgg.description=No fairies were harmed.
+mods.mb.EasterFest.toketsu.egg.toketsu-FairyEgg.name=Fairy Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-FairyEgg.description=No fairies were harmed.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-HeartEgg1.name=Heart Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-HeartEgg1.description=An egg painted with little hearts.
+mods.mb.EasterFest.toketsu.egg.toketsu-HeartEgg1.name=Heart Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-HeartEgg1.description=An egg painted with little hearts.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-HermitShellEgg.name=Hermit Shell Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-HermitShellEgg.description=It's painted like a little hermit shell!
+mods.mb.EasterFest.toketsu.egg.toketsu-HermitShellEgg.name=Hermit Shell Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-HermitShellEgg.description=It's painted like a little hermit shell!
 
 mods.mb.EasterFest.lydocia.egg.toketsu-Leaf.name=Leaf Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-Leaf.description=Painted with the brightest spring leaves.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-MalevolentFairyEgg.name=Malevolent Fairy Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-MalevolentFairyEgg.description=No fairies were harmed, but you can't say the same for your fingers.
+mods.mb.EasterFest.toketsu.egg.toketsu-MalevolentFairyEgg.name=Malevolent Fairy Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-MalevolentFairyEgg.description=No fairies were harmed, but you can't say the same for your fingers.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-MintSpeckled.name=Mint Speckled Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-MintSpeckled.description=A polka-dotted egg.
+mods.mb.EasterFest.toketsu.egg.toketsu-MintSpeckled.name=Mint Speckled Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-MintSpeckled.description=A polka-dotted egg.
 
 mods.mb.EasterFest.lydocia.egg.toketsu-MintStripe.name=Mint Stripe Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-MintStripe.description=An egg with little green pinstripes.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-Ombre1.name=Purple to Blue Ombre Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-Ombre1.description=The color gradient took a lot of effort.
+mods.mb.EasterFest.toketsu.egg.toketsu-Ombre1.name=Purple to Blue Ombre Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-Ombre1.description=The color gradient took a lot of effort.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-Ombre2.name=Purple to Lavender Ombre Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-Ombre2.description=The color gradient took a lot of effort.
+mods.mb.EasterFest.toketsu.egg.toketsu-Ombre2.name=Purple to Lavender Ombre Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-Ombre2.description=The color gradient took a lot of effort.
 
 mods.mb.EasterFest.lydocia.egg.toketsu-Ombre3.name=Mint to Green Ombre Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-Ombre3.description=The color gradient took a lot of effort.
@@ -589,11 +610,11 @@ mods.mb.EasterFest.lydocia.egg.toketsu-Ombre3.description=The color gradient too
 mods.mb.EasterFest.lydocia.egg.toketsu-OmbreSpiral.name=Blue Ombre Spiral Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-OmbreSpiral.description=How did they manage this?
 
-mods.mb.EasterFest.lydocia.egg.toketsu-PawShellEgg.name=Paw Shell Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-PawShellEgg.description=It's painted to look like a paw shell?
+mods.mb.EasterFest.toketsu.egg.toketsu-PawShellEgg.name=Paw Shell Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-PawShellEgg.description=It's painted to look like a paw shell?
 
-mods.mb.EasterFest.lydocia.egg.toketsu-PearlShellEgg.name=Pearl Shell Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-PearlShellEgg.description=It was carefully chopped in half and the yolk was dyed.
+mods.mb.EasterFest.toketsu.egg.toketsu-PearlShellEgg.name=Pearl Shell Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-PearlShellEgg.description=It was carefully chopped in half and the yolk was dyed.
 
 mods.mb.EasterFest.lydocia.egg.toketsu-Pine.name=Pine Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-Pine.description=And egg decorated with pine needles.
@@ -607,47 +628,44 @@ mods.mb.EasterFest.lydocia.egg.toketsu-Princess.description=She's in another cas
 mods.mb.EasterFest.lydocia.egg.toketsu-Rainbow.name=Rainbow Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-Rainbow.description=A very bright rainbow.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-RareMushroomEgg.name=Rare Mushroom Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-RareMushroomEgg.description=It doesn't look like a mushroom...
+mods.mb.EasterFest.toketsu.egg.toketsu-RareMushroomEgg.name=Rare Mushroom Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-RareMushroomEgg.description=It doesn't look like a mushroom...
 
-mods.mb.EasterFest.lydocia.egg.toketsu-RedCoralEgg.name=Red Coral Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-RedCoralEgg.description=It has bits of red coral glued to it.
+mods.mb.EasterFest.toketsu.egg.toketsu-RedCoralEgg.name=Red Coral Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-RedCoralEgg.description=It has bits of red coral glued to it.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-RedWhiteMushroomEgg.name=Red and White Mushroom Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-RedWhiteMushroomEgg.description=1UP!
+mods.mb.EasterFest.toketsu.egg.toketsu-RedWhiteMushroomEgg.name=Red and White Mushroom Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-RedWhiteMushroomEgg.description=1UP!
 
-mods.mb.EasterFest.lydocia.egg.toketsu-SeaweedEgg.name=Seaweed Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-SeaweedEgg.description=Rolled in sand with seaweed glued to it. It smells a little funny.
+mods.mb.EasterFest.toketsu.egg.toketsu-SeaweedEgg.name=Seaweed Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-SeaweedEgg.description=Rolled in sand with seaweed glued to it. It smells a little funny.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-StarBit.name=Star Bit
-mods.mb.EasterFest.lydocia.egg.toketsu-StarBit.description=The most magical egg.
+mods.mb.EasterFest.toketsu.egg.toketsu-StarBit.name=Star Bit
+mods.mb.EasterFest.toketsu.egg.toketsu-StarBit.description=The most magical egg.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-StarfishEgg.name=Starfish Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-StarfishEgg.description=It has a starfish painted on it.
+mods.mb.EasterFest.toketsu.egg.toketsu-StarfishEgg.name=Starfish Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-StarfishEgg.description=It has a starfish painted on it.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-StarJellyEgg.name=Star Jelly Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-StarJellyEgg.description=An egg infused with the essence of star jelly. It's a little transparent.
+mods.mb.EasterFest.toketsu.egg.toketsu-StarJellyEgg.name=Star Jelly Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-StarJellyEgg.description=An egg infused with the essence of star jelly. It's a little transparent.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-SwirlyShellEgg.name=Swirly Shell Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-SwirlyShellEgg.description=It's decorated like a swirly shell. I can't tell the difference.
+mods.mb.EasterFest.toketsu.egg.toketsu-SwirlyShellEgg.name=Swirly Shell Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-SwirlyShellEgg.description=It's decorated like a swirly shell. I can't tell the difference.
 
 mods.mb.EasterFest.toketsu.egg.toketsu-Triforce.name=Triforce Egg
 mods.mb.EasterFest.toketsu.egg.toketsu-Triforce.description=Will it give you godlike power? No.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-WarmSplotchy.name=Warm Splotchy Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-WarmSplotchy.description=A batik dyed egg with a warm palette.
+mods.mb.EasterFest.toketsu.egg.toketsu-WarmSplotchy.name=Warm Splotchy Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-WarmSplotchy.description=A batik dyed egg with a warm palette.
 
-mods.mb.EasterFest.lydocia.egg.toketsu-WhiteMushroomEgg.name=White Mushroom Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-WhiteMushroomEgg.description=It doesn't look like a mushroom...
+mods.mb.EasterFest.toketsu.egg.toketsu-WhiteMushroomEgg.name=White Mushroom Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-WhiteMushroomEgg.description=It doesn't look like a mushroom...
 
-mods.mb.EasterFest.lydocia.egg.toketsu-Wildberry.name=Wildberry Egg
-mods.mb.EasterFest.lydocia.egg.toketsu-Wildberry.description=Eggs decorated like wildberries. Looks tasty!
+mods.mb.EasterFest.toketsu.egg.toketsu-Wildberry.name=Wildberry Egg
+mods.mb.EasterFest.toketsu.egg.toketsu-Wildberry.description=Eggs decorated like wildberries. Looks tasty!
 
 mods.mb.EasterFest.lydocia.egg.toketsu-Wisteria.name=Wisteria Egg
 mods.mb.EasterFest.lydocia.egg.toketsu-Wisteria.description=It looks like a bunch of wisteria.
-
-mods.mb.EasterFest.markgrant.EasterBunnySpawner.name=Easter Bunny Alice
-mods.mb.EasterFest.markgrant.EasterBunnySpawner.description=It's Alice!
 
 mods.mb.EasterFest.markgrant.EasterBench.name=Easter Bench
 mods.mb.EasterFest.markgrant.EasterBench.description=A bench painted for Easter. Will Oscar have to peel the paint off later?
@@ -757,18 +775,6 @@ mods.mb.EasterFest.toketsupuurin.plant.crop.BunnyCarrot.description=They grow fu
 mods.mb.EasterFest.toketsupuurin.plant.crop.Eggwood.name=Eggwood Seeds
 mods.mb.EasterFest.toketsupuurin.plant.crop.Eggwood.description=Eggwood are strange and magical plants.
 
-mods.mb.EasterFest.markgrant.EasterChickenBlackSpawnwer.name=Easter Chicken Black
-mods.mb.EasterFest.markgrant.EasterChickenBlackSpawnwer.description=Easter Chicken Black Spawner
-
-mods.mb.EasterFest.markgrant.EasterChickenBrownSpawnwer.name=Easter Chicken Brown
-mods.mb.EasterFest.markgrant.EasterChickenBrownSpawnwer.description=Easter Chicken Brown Spawner
-
-mods.mb.EasterFest.markgrant.EasterChickenWhiteSpawnwer.name=Easter Chicken White Spawner
-mods.mb.EasterFest.markgrant.EasterChickenWhiteSpawnwer.description=Easter Chicken White Spawner
-
-mods.mb.EasterFest.markgrant.EasterChickenYellowSpawnwer.name=Easter Chicken Yellow Spawner
-mods.mb.EasterFest.markgrant.EasterChickenYellowSpawnwer.description=Easter Chicken Yellow Spawner
-
 mods.mb.EasterFest.markgrant.flower.BlueDaisies.name=Blue Daisies
 mods.mb.EasterFest.markgrant.flower.BlueDaisies.description=Flowers.
 
@@ -799,11 +805,11 @@ mods.mb.EasterFest.markgrant.flower.YellowDelphiniumAllium.description=Flowers.
 mods.mb.EasterFest.markgrant.flower.BlueGrass.name=Blue Easter Grass
 mods.mb.EasterFest.markgrant.flower.BlueGrass.description=It's a little plastic-y ...and wet?
 
-mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.name=BlueHomelyBush
-mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.description=BlueHomelyBush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.name=Blue Bush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.name=BlueHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.description=BlueHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.name=Blue Flower Bush
+mods.mb.EasterFest.markgrant.flower.BlueHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.BlueWildGrass.name=Long Blue Easter Grass
 mods.mb.EasterFest.markgrant.flower.BlueWildGrass.description=It's a little plastic-y ...and wet?
@@ -811,11 +817,11 @@ mods.mb.EasterFest.markgrant.flower.BlueWildGrass.description=It's a little plas
 mods.mb.EasterFest.markgrant.flower.GreenGrass.name=Green Easter Grass
 mods.mb.EasterFest.markgrant.flower.GreenGrass.description=It's a little plastic-y.
 
-mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.name=GreenHomelyBush
-mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.description=GreenHomelyBush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.name=Green Bush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.name=GreenHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.description=GreenHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.name=Green Flower Bush
+mods.mb.EasterFest.markgrant.flower.GreenHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.GreenWildGrass.name=Long Green Easter Grass
 mods.mb.EasterFest.markgrant.flower.GreenWildGrass.description=It's a little plastic-y.
@@ -826,20 +832,20 @@ mods.mb.EasterFest.markgrant.flower.MixedEasterGrass.description=It's a little p
 mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass.name=Long Mixed Easter Grass
 mods.mb.EasterFest.markgrant.flower.MixedEasterWildGrass.description=It's a little plastic-y.
 
-mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.name=MixedHomelyBush
-mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.description=MixedHomelyBush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.name=Mixed Bush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.name=MixedHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.description=MixedHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.name=Mixed Flower Bush
+mods.mb.EasterFest.markgrant.flower.MixedHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.PinkGrass.name=Pink Easter Grass
 mods.mb.EasterFest.markgrant.flower.PinkGrass.description=It's a little plastic-y.
 
-mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.name=PinkHomelyBush
-mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.description=PinkHomelyBush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.name=Pink Bush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.name=PinkHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.description=PinkHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.name=Pink Flower Bush
+mods.mb.EasterFest.markgrant.flower.PinkHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.PinkWildGrass.name=Long Pink Easter Grass
 mods.mb.EasterFest.markgrant.flower.PinkWildGrass.description=It's a little plastic-y.
@@ -847,11 +853,11 @@ mods.mb.EasterFest.markgrant.flower.PinkWildGrass.description=It's a little plas
 mods.mb.EasterFest.markgrant.flower.PurpleGrass.name=Purple Easter Grass
 mods.mb.EasterFest.markgrant.flower.PurpleGrass.description=It's a little plastic-y. Is that a black petal?
 
-mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.name=PurpleHomelyBush
-mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.description=PurpleHomelyBush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.name=Purple Bush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.name=PurpleHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.description=PurpleHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.name=Purple Flower Bush
+mods.mb.EasterFest.markgrant.flower.PurpleHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.PurpleWildGrass.name=Long Purple Easter Grass
 mods.mb.EasterFest.markgrant.flower.PurpleWildGrass.description=It's a little plastic-y. Is that a black petal?
@@ -859,14 +865,17 @@ mods.mb.EasterFest.markgrant.flower.PurpleWildGrass.description=It's a little pl
 mods.mb.EasterFest.markgrant.flower.YellowGrass.name=Yellow Easter Grass
 mods.mb.EasterFest.markgrant.flower.YellowGrass.description=It's a little plastic-y.
 
-mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.name=YellowHomelyBush
-mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.description=YellowHomelyBush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.name=Yellow Bush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyBush.description=Very homey.
 
-mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.name=YellowHomelyFlowerBush
-mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.description=YellowHomelyFlowerBush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.name=Yellow Flower Bush
+mods.mb.EasterFest.markgrant.flower.YellowHomelyFlowerBush.description=Very homey.
 
 mods.mb.EasterFest.markgrant.flower.YellowWildGrass.name=Long Yellow Easter Grass
 mods.mb.EasterFest.markgrant.flower.YellowWildGrass.description=It's a little plastic-y.
+
+mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.name=Egg Rod
+mods.mb.EasterFest.toketsupuurin.item.tool.EggRod.description=It's so pretty and pastel! Perfect for catching eggfish.
 
 mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg.name=Chocolate Egg
 mods.mb.EasterFest.toketsupuurin.item.ChocolateEgg.description=It's an egg. Not a pellet.
@@ -883,7 +892,7 @@ mods.mb.EasterFest.toketsupuurin.gatherable.item.EasterfestMayEgg.description=Wa
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.name=Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeEgg.description=How did it float? Can I use it as a real bee?
 
-mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeQueenEgg.name=Bee Queen Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeQueenEgg.name=Queen Bee Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BeeQueenEgg.description=How did it float? Can I use it as a real queen bee?
 
 mods.mb.EasterFest.toketsupuurin.gatherable.item.BrownCicadaEgg.name=Brown Cicada Egg
@@ -949,7 +958,7 @@ mods.mb.EasterFest.toketsupuurin.gatherable.FrogEgg.description=Ribbit!
 mods.mb.EasterFest.toketsupuurin.gatherable.GoldfishEgg.name=Goldfish Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.GoldfishEgg.description=It has such pretty tails.
 
-mods.mb.EasterFest.toketsupuurin.gatherable.JellyfishEgg.name=Jelly fish Egg
+mods.mb.EasterFest.toketsupuurin.gatherable.JellyfishEgg.name=Jellyfish Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.JellyfishEgg.description=It's a tiny jellyfish!
 
 mods.mb.EasterFest.toketsupuurin.gatherable.JokerAngelFishEgg.name=Joker Fish Egg
@@ -991,7 +1000,7 @@ mods.mb.EasterFest.toketsupuurin.gatherable.RainbowTroutEgg.description=It's shi
 mods.mb.EasterFest.toketsupuurin.gatherable.SeahorseEgg.name=Seahorse Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.SeahorseEgg.description=What an odd little thing.
 
-mods.mb.EasterFest.toketsupuurin.gatherable.SunnyFishEgg.name=SunnyFishEgg
+mods.mb.EasterFest.toketsupuurin.gatherable.SunnyFishEgg.name=Sunny Fish Egg
 mods.mb.EasterFest.toketsupuurin.gatherable.SunnyFishEgg.description=It's so bright!
 
 mods.mb.EasterFest.toketsupuurin.items.crops.BunnyCarrot.name=Bunny Carrot
@@ -1011,3 +1020,18 @@ mods.mb.EasterFest.toketsupuurin.item.crafting.RoyalIcing.description=Hard and b
 
 mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack.name=Black Potion
 mods.mb.EasterFest.toketsupuurin.item.crafting.VialBlack.description=Mysterious and a little sinister. 
+
+mods.mb.EasterFest.markgrant.EasterBunnySpawner.name=Easter Bunny Alice
+mods.mb.EasterFest.markgrant.EasterBunnySpawner.description=It's Alice!
+
+mods.mb.EasterFest.markgrant.EasterChickenBlackSpawnwer.name=Easter Chicken Black
+mods.mb.EasterFest.markgrant.EasterChickenBlackSpawnwer.description=Easter Chicken Black Spawner
+
+mods.mb.EasterFest.markgrant.EasterChickenBrownSpawnwer.name=Easter Chicken Brown
+mods.mb.EasterFest.markgrant.EasterChickenBrownSpawnwer.description=Easter Chicken Brown Spawner
+
+mods.mb.EasterFest.markgrant.EasterChickenWhiteSpawnwer.name=Easter Chicken White Spawner
+mods.mb.EasterFest.markgrant.EasterChickenWhiteSpawnwer.description=Easter Chicken White Spawner
+
+mods.mb.EasterFest.markgrant.EasterChickenYellowSpawnwer.name=Easter Chicken Yellow Spawner
+mods.mb.EasterFest.markgrant.EasterChickenYellowSpawnwer.description=Easter Chicken Yellow Spawner
