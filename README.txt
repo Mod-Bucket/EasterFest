@@ -64,6 +64,8 @@ Version 1.5.2
 	* Deprecated the dockless coffee tables. They still exist but the game won't drop them anymore and they aren't searchable. You can still sell them, and if you did have them they might still be in your catalog.
 	* Added loveseat centered coffee tables in addition to the normal ones.
 	* Added futons for the hideaway hollow pets in the pastel set.
+	* Tweaked collection icon.
+	* Tweaked the egg banner.
 
 Version 1.5.1
 	* Fixed some treasure file errors. 
